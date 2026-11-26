@@ -28,13 +28,28 @@ In experiment 1, war words kept appearing whenever "Kurdish" was pushed into the
 
 👉 **Full story: [REPORT_WAR_BIAS.md](REPORT_WAR_BIAS.md).**
 
+## Experiment 3: is the bias still there in modern models?
+
+GPT-2 is from 2019, so I ran the same war-bias tests on four newer small models: SmolLM2 (2024), Qwen2.5 (2024), the Qwen2.5 chatbot version (2024) and OLMo-2 (2025).
+
+- **The bias is smaller, but it has not gone away.** In every model, Kurdish is in the **top 3 of 10 groups** for war words, together with Palestinian and Chechen.
+- **Compared with calm groups, the gap is as big or bigger.** Newer models cut war words for Scottish, Welsh, Japanese and Dutch people much more than for Kurdish people. In Qwen2.5, Kurdish gets about **4.6 times** the war share of the calm groups (GPT-2: 2.6 times).
+- *"Most news about Kurdish people is about…"* is **95–98% war** in every new model.
+- **Chatbot training barely helps:** the assistant version of Qwen is only a little better, and inside it looks almost the same.
+- Inside all five models, the word "Kurdish" leans towards war, most strongly in the first layers. The experiment 2 fix works on all of them, but it also removes much of the "Kurdishness".
+
+![Modern models chart](charts/modern_models/1_word_guesses_by_model.png)
+
+👉 **Full story: [REPORT_MODERN_MODELS.md](REPORT_MODERN_MODELS.md).**
+
 👉 **For the full story of experiment 1 in simple English, read [REPORT.md](REPORT.md).** It covers what was done, the charts, the funniest examples, the honest limits and ideas for the next experiment.
 
 ## What's in this project
 
 - `REPORT.md`: experiment 1 report, written for non-programmers
 - `REPORT_WAR_BIAS.md`: experiment 2 report (the war bias)
-- `charts/`: six pictures of the results
+- `REPORT_MODERN_MODELS.md`: experiment 3 report (old vs modern models)
+- `charts/`: pictures of the results
 - `results/`: all the numbers, plus every text the AI wrote during the tests
 - `experiment/`: the Python code (sentences, analysis, steering, removal, charts)
 
@@ -51,9 +66,11 @@ python step2b_removal.py         # removal test (~5 minutes)
 python step3_make_charts.py      # make the charts
 python war_bias.py               # experiment 2: war bias (~15 minutes)
 python war_bias_charts.py        # experiment 2 charts
+python modern_models.py all      # experiment 3: 5 models (~70 minutes, downloads several GB)
+python modern_models_charts.py   # experiment 3 charts
 ```
 
-You need an internet connection the first time, so the GPT-2 model can be downloaded from Hugging Face.
+You need an internet connection the first time, so the models can be downloaded from Hugging Face.
 
 ## A note on how this was made
 

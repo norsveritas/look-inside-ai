@@ -7,12 +7,11 @@ Method ("logit lens", as in Wendler et al. 2024, "Do Llamas Work in English?"):
   how much probability goes to the right word in English, Turkish, Persian, Arabic,
   Chinese, French (the input), and in the target language itself?
 
-Tasks:
-  translate : French word -> target language
-  repeat    : target-language word -> the same word again (no translation needed)
-Targets: the three Kurdish forms, plus Turkish, Persian and Arabic as "normal" comparison languages.
+Tasks (X = one of the three Kurdish forms, or Turkish / Persian / Arabic as "normal" comparison languages):
+  write : French word -> X        e.g.  Français: "eau" - Kurmancî: "
+  read  : X word -> French        e.g.  Kurmancî: "av" - Français: "
 
-Run:   python experiment/latent_language.py qwen2.5-0.5b      (or: all)
+Run:   python experiment/latent_language.py gemma3-4b      (or: all)
 Writes: results/latent_language/<model>.json and <model>_samples.txt
 """
 import json
@@ -32,16 +31,15 @@ warnings.filterwarnings("ignore")
 torch.set_grad_enabled(False)
 torch.set_num_threads(os.cpu_count() or 4)
 
-MODELS = {
-    "qwen2.5-0.5b": dict(hf="Qwen/Qwen2.5-0.5B", label="Qwen2.5-0.5B (2024)"),
-    "qwen2.5-1.5b": dict(hf="Qwen/Qwen2.5-1.5B", label="Qwen2.5-1.5B (2024)"),
-    "qwen3-1.7b": dict(hf="Qwen/Qwen3-1.7B-Base", label="Qwen3-1.7B (2025)"),
-    "qwen3-4b": dict(hf="Qwen/Qwen3-4B-Base", label="Qwen3-4B (2025)", dtype=torch.bfloat16),
+MODELS = {  # Gemma 3 is loaded from an exact, ungated copy of Google's weights (no sign-up needed)
+    "gemma3-4b": dict(hf="unsloth/gemma-3-4b-pt", label="Gemma 3 4B (Google, 2025)", dtype=torch.bfloat16),
+    "qwen3-4b": dict(hf="Qwen/Qwen3-4B-Base", label="Qwen3 4B (Alibaba, 2025)", dtype=torch.bfloat16),
+    "gemma3-1b": dict(hf="unsloth/gemma-3-1b-pt", label="Gemma 3 1B (Google, 2025)"),
 }
 TARGETS = ["kmr", "kmr_ar", "ckb", "tr", "fa", "ar"]
 KURDISH = ["kmr", "kmr_ar", "ckb"]
 OTHERS = ["en", "fr", "zh", "tr", "fa", "ar"]  # languages the model might "think in"
-TASKS = ["translate", "repeat"]
+TASKS = ["write", "read"]
 N_PROMPT_SETS = 3  # each test word is asked with 3 different sets of examples
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "results", "latent_language")
@@ -55,17 +53,25 @@ class Lens:
     def __init__(self, hf, dtype=torch.float32):
         self.tok = AutoTokenizer.from_pretrained(hf)
         self.m = AutoModelForCausalLM.from_pretrained(hf, dtype=dtype).eval()
-        self.n_layers = self.m.config.num_hidden_layers
-        self.norm = self.m.model.norm
-        self.vocab = [self.tok.decode([i]) for i in range(len(self.tok))]
+        cfg = getattr(self.m.config, "text_config", self.m.config)  # Gemma 3 keeps text settings apart
+        self.n_layers = cfg.num_hidden_layers
+        self.softcap = getattr(cfg, "final_logit_softcapping", None)
+        self.norm = self.m.get_decoder().norm
+        self.head = self.m.get_output_embeddings()
+        self.by_text = {}
+        for i in range(len(self.tok)):
+            s = self.tok.decode([i])
+            if s and "�" not in s:
+                self.by_text.setdefault(s, set()).add(i)
 
     def token_set(self, word):
-        """Token ids that could be the start of `word` (right after an opening quote)."""
+        """Token ids that could be the start of `word` (right after an opening quote):
+        its real first token, plus every vocabulary piece that spells the word's first 2+ letters."""
         forms = {word, word.capitalize()}
         ids = {self.tok.encode(f, add_special_tokens=False)[0] for f in forms}
-        for i, s in enumerate(self.vocab):
-            if s and "�" not in s and any(f.startswith(s) and len(s) >= min(2, len(f)) for f in forms):
-                ids.add(i)
+        for f in forms:
+            for n in range(min(2, len(f)), len(f) + 1):
+                ids |= self.by_text.get(f[:n], set())
         return ids
 
     def layer_probs(self, prompt):
@@ -73,7 +79,10 @@ class Lens:
         hs = self.m(ids, output_hidden_states=True).hidden_states  # embeddings + one per layer
         # the last entry already has the final norm applied; the others need it
         h = torch.stack([self.norm(x[0, -1]) for x in hs[1:-1]] + [hs[-1][0, -1]])
-        return torch.softmax(self.m.lm_head(h).float(), -1)  # (layers, vocab)
+        logits = self.head(h).float()
+        if self.softcap:
+            logits = torch.tanh(logits / self.softcap) * self.softcap
+        return torch.softmax(logits, -1)  # (layers, vocab)
 
     def generate(self, prompt, n=6):
         ids = self.tok(prompt, return_tensors="pt").input_ids
@@ -81,10 +90,9 @@ class Lens:
         return self.tok.decode(out[0, ids.shape[1]:]).split('"')[0]
 
 
-def make_prompt(task, target, test, examples):
-    src = "fr" if task == "translate" else target
-    lines = [f'{LANG_NAMES[src]}: "{e[src]}" - {LANG_NAMES[target]}: "{e[target]}"' for e in examples]
-    lines.append(f'{LANG_NAMES[src]}: "{test[src]}" - {LANG_NAMES[target]}: "')
+def make_prompt(src, dst, test, examples):
+    lines = [f'{LANG_NAMES[src]}: "{e[src]}" - {LANG_NAMES[dst]}: "{e[dst]}"' for e in examples]
+    lines.append(f'{LANG_NAMES[src]}: "{test[src]}" - {LANG_NAMES[dst]}: "')
     return "\n".join(lines)
 
 
@@ -101,41 +109,41 @@ def run(key):
     samples = []
     for task in TASKS:
         for target in TARGETS:
-            measured = [l for l in OTHERS if l != target] + [target]
+            src, dst = ("fr", target) if task == "write" else (target, "fr")
+            measured = [l for l in OTHERS if l != target] + [target]  # same 7 languages in both tasks
             kept, skipped = [], []
             curves = {l: [] for l in measured + ["kurdish_other"]}
             correct, out_lang = 0, {}
             for r in TESTS:
                 S = {l: sets[(r["en"], l)] for l in measured}
+                # a word only counts if no two languages share a starting piece (e.g. Persian and Sorani "baran")
                 clash = [(a, b) for i, a in enumerate(measured) for b in measured[i + 1:] if S[a] & S[b]]
                 if clash:
-                    skipped.append((r["en"], clash))
+                    skipped.append(r["en"])
                     continue
                 other_k = set().union(*[sets[(r["en"], k)] for k in KURDISH if k != target]) - set().union(*S.values())
                 kept.append(r["en"])
                 for es in example_sets:
-                    p = lens.layer_probs(make_prompt(task, target, r, es))
+                    p = lens.layer_probs(make_prompt(src, dst, r, es))
                     for l in measured:
                         curves[l].append(p[:, sorted(S[l])].sum(-1).numpy())
                     curves["kurdish_other"].append(p[:, sorted(other_k)].sum(-1).numpy() if other_k
                                                    else np.zeros(lens.n_layers))
                 # what does the model actually write? (first example set only)
-                prompt = make_prompt(task, target, r, example_sets[0])
-                said = lens.generate(prompt).strip()
-                ok = said.lower() == r[target].lower()
-                correct += ok
+                said = lens.generate(make_prompt(src, dst, r, example_sets[0])).strip()
+                correct += said.lower() == r[dst].lower()
                 match = [c for c in COLUMNS if said and said.lower() == r[c].lower()]
                 lang = "+".join(match) if match else "other"
                 out_lang[lang] = out_lang.get(lang, 0) + 1
-                samples.append(f"[{task} -> {target}] {r['en']:<9} wanted {r[target]!r:<14} wrote {said!r:<16} ({lang})")
-            result["tasks"][f"{task}:{target}"] = dict(
-                n_words=len(kept), words=kept, skipped=[s[0] for s in skipped],
-                mean={l: np.mean(v, 0).tolist() for l, v in curves.items() if v},
-                correct=correct, output_language=out_lang)
+                samples.append(f"[{task:<5} {src:>6} -> {dst:<6}] {r['en']:<9} wanted {r[dst]!r:<14} "
+                               f"wrote {said!r:<16} ({lang})")
             m = {l: np.mean(v, 0) for l, v in curves.items() if v}
-            mid = lens.n_layers // 2
-            print(f"{task:>9} -> {target:<6} words={len(kept):2d} correct={correct:2d}  "
-                  + "  ".join(f"{l}:{m[l][mid - 2:mid + 3].mean():.2f}/{m[l][-1]:.2f}" for l in m), flush=True)
+            result["tasks"][f"{task}:{target}"] = dict(
+                src=src, dst=dst, n_words=len(kept), words=kept, skipped=skipped,
+                mean={l: v.tolist() for l, v in m.items()}, correct=correct, output_language=out_lang)
+            lo, hi = int(.4 * lens.n_layers), int(.8 * lens.n_layers)
+            print(f"{task:>5} {src:>6}->{dst:<6} words={len(kept):2d} correct={correct:2d}  mid/last: "
+                  + "  ".join(f"{l}:{m[l][lo:hi].mean():.2f}/{m[l][-1]:.2f}" for l in m), flush=True)
 
     with open(os.path.join(OUT, f"{key}.json"), "w") as f:
         json.dump(result, f, indent=1, ensure_ascii=False)

@@ -34,17 +34,21 @@ def curves_chart(d, task, fname):
         x = np.linspace(0, 1, d["n_layers"])
         for l, v in r["mean"].items():
             name = "target" if l == t else l
-            label = f"{LANG_LABELS[t]} (the answer)" if l == t else (
-                "other Kurdish forms" if l == "kurdish_other" else LANG_LABELS[l])
-            ax.plot(x, v, color=COLORS[name], lw=3 if l == t else 1.8,
-                    ls="--" if l == "kurdish_other" else "-", label=label)
+            label = "other Kurdish forms" if l == "kurdish_other" else LANG_LABELS[l].replace(" (input)", "")
+            if l == r["dst"]:
+                label += " = the answer"
+            elif l == r["src"]:
+                label += " = the input"
+            ax.plot(x, v, color=COLORS[name], lw=3 if l == r["dst"] else 1.8,
+                    ls="--" if l in ("kurdish_other", r["src"]) else "-", label=label)
         ax.set_title(f"{TARGET_TITLES[t]}\n({r['n_words']} words, model correct on {r['correct']})", fontsize=11)
         ax.set_xlabel("layer (0 = first, 1 = last)")
         ax.grid(alpha=.3)
         ax.legend(fontsize=7.5, loc="upper left")
     for ax in axes[:, 0]:
         ax.set_ylabel("probability of the word\nin each language")
-    what = "French word → target language" if task == "translate" else "repeat a word in the target language"
+    what = "WRITE: French word → the language named in each box" if task == "write" else \
+        "READ: word in the language named in each box → French"
     fig.suptitle(f"{d['label']}: which language is the hidden guess in?  Task: {what}", fontsize=13)
     fig.tight_layout()
     fig.savefig(os.path.join(CH, fname), dpi=130)
@@ -68,25 +72,29 @@ def middle_summary(models, task, fname):
                 k = t if l == "target" else l
                 vals.append(np.mean(m[k][lo:hi]) if k in m and (l == "target" or l != t) else 0)
             ax.bar(np.arange(len(targets)) + (j - 3) * w, vals, w, color=COLORS[l],
-                   label="the answer language itself" if l == "target" else LANG_LABELS[l])
+                   label=("the Kurdish/target word itself (the answer)" if task == "write" else
+                          "the word in the box's language (the input)") if l == "target" else
+                   ("French (the answer)" if task == "read" and l == "fr" else LANG_LABELS[l]))
         ax.set_xticks(range(len(targets)))
         ax.set_xticklabels([TARGET_TITLES[t].replace(" (", "\n(") for t in targets], fontsize=8)
         ax.set_title(d["label"])
         ax.grid(axis="y", alpha=.3)
     axes[0][0].set_ylabel("average probability, middle layers (40–80%)")
     axes[0][-1].legend(fontsize=8)
-    fig.suptitle(f"What language is the model's hidden guess in, in the middle of the model? ({task})")
+    what = "WRITE: French → box language" if task == "write" else "READ: box language → French"
+    fig.suptitle(f"What language is the hidden guess in, in the middle of the model?   {what}")
     fig.tight_layout()
     fig.savefig(os.path.join(CH, fname), dpi=130)
     plt.close(fig)
 
 
 if __name__ == "__main__":
-    models = sys.argv[1:] or sorted(f[:-5] for f in os.listdir(RES) if f.endswith(".json"))
+    models = sys.argv[1:] or [k for k in ["gemma3-4b", "qwen3-4b", "gemma3-1b"]
+                              if os.path.exists(os.path.join(RES, f"{k}.json"))]
     for k in models:
         d = load(k)
-        for task in ["translate", "repeat"]:
+        for task in ["write", "read"]:
             curves_chart(d, task, f"{k}_{task}.png")
-    for task in ["translate", "repeat"]:
+    for task in ["write", "read"]:
         middle_summary(models, task, f"summary_middle_layers_{task}.png")
     print("charts in", CH)

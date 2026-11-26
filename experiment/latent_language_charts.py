@@ -112,9 +112,10 @@ def meaning_vs_word(models, fname, threshold=0.10):
         ax.set_title(d["label"])
         ax.grid(axis="y", alpha=.3)
     axes[0][0].set_ylabel("% of test words")
-    axes[0][0].legend(fontsize=8, loc="upper left")
+    h, l = axes[0][0].get_legend_handles_labels()
+    fig.legend(h, l, loc="lower center", ncol=3, fontsize=10, frameon=False)
     fig.suptitle("WRITE task (French → box language): the model understands the word, but can it write it?")
-    fig.tight_layout()
+    fig.tight_layout(rect=(0, .07, 1, 1))
     fig.savefig(os.path.join(CH, fname), dpi=130)
     plt.close(fig)
 

@@ -12,7 +12,7 @@
 - **Answer 2: writing Kurdish breaks at the very last step.** When asked to write a Kurdish word, the best model understands the meaning for **9 out of 10 words**, but writes the right Kurdish word for **fewer than 1 in 10**. For Turkish, Persian and Arabic it gets **84–88%** right.
 - **Answer 3: at that last step, the neighbours move in.** When the model fails, it often reaches for the neighbouring language. Asked for Kurmanji it wrote the **Turkish** words *el, baş, kan, gece* (hand, head, blood, night). Asked for Badini or Sorani it wrote the **Persian** words *gav, dost, kitab*. In the final layer, the Persian word usually gets **more** probability than the correct Badini or Sorani word.
 - **Answer 4: reading Kurdish breaks earlier.** When a model fails to read a Kurdish word, the meaning never appears inside it at all. When it succeeds, the meaning appears just as strongly as for Turkish.
-- **Answer 5: the alphabet matters.** On the 30 words tested in all three Kurdish forms, the best model read **15** correctly in Latin letters but only **8** when the *same Badini words* were written in Arabic letters.
+- **Answer 5: the alphabet matters.** On the 30 words tested in all three Kurdish forms, the best model read **13** correctly in Latin letters but only **7** when the *same Badini words* were written in Arabic letters.
 
 ![Main result](charts/latent_language/meaning_vs_word.png)
 
@@ -82,8 +82,8 @@ How strong is the hidden meaning? (Highest point of the hidden-language line, av
 | Model (hidden language) | Kurmanji | Badini | Sorani | Turkish | Persian | Arabic |
 |---|---|---|---|---|---|---|
 | Gemma 3 4B (English) | 57% | 57% | 57% | 70% | 60% | 52% |
-| Qwen3 4B (Chinese) | 44% | 53% | 55% | 58% | 64% | 61% |
-| Gemma 3 1B (English) | 19% | 14% | 18% | 53% | 38%* | 30%* |
+| Qwen3 4B (Chinese) | 44% | 52% | 55% | 58% | 64% | 61% |
+| Gemma 3 1B (English) | 17% | 16% | 18% | 53% | 38%* | 30%* |
 
 *\*Gemma 3 1B also partly uses Chinese for Persian and Arabic.*
 
@@ -97,7 +97,7 @@ How often the model **wrote** the right word:
 
 | Model | Kurmanji | Badini | Sorani | Turkish | Persian | Arabic |
 |---|---|---|---|---|---|---|
-| Gemma 3 4B | **4 / 43** | **1 / 34** | **3 / 34** | 42 / 50 | 44 / 50 | 42 / 50 |
+| Gemma 3 4B | **4 / 43** | **2 / 34** | **3 / 34** | 42 / 50 | 44 / 50 | 42 / 50 |
 | Qwen3 4B | **0 / 41** | **0 / 30** | **0 / 29** | 41 / 49 | 31 / 49 | 35 / 49 |
 | Gemma 3 1B | **0 / 43** | **0 / 34** | **0 / 34** | 34 / 50 | 26 / 50 | 32 / 50 |
 
@@ -123,9 +123,9 @@ The last-layer numbers show the same thing. This is the probability of the right
 
 | Model | Kurmanji vs **Turkish** | Badini vs **Persian** | Sorani vs **Persian** |
 |---|---|---|---|
-| Gemma 3 4B | 5.4% vs 4.1% | 6.0% vs **7.7%** | 10.2% vs 7.2% |
-| Qwen3 4B | 1.8% vs **2.5%** | 4.6% vs **9.4%** | 4.6% vs **7.3%** |
-| Gemma 3 1B | 1.3% vs **1.7%** | 2.5% vs **5.7%** | 3.3% vs **4.3%** |
+| Gemma 3 4B | 5.4% vs 4.3% | 6.3% vs **7.7%** | 10.2% vs 7.2% |
+| Qwen3 4B | 1.9% vs **2.6%** | 4.6% vs **9.7%** | 4.6% vs **7.3%** |
+| Gemma 3 1B | 1.6% vs **1.7%** | 2.7% vs **5.6%** | 3.3% vs **4.3%** |
 
 In **7 of 9** cases the **neighbour's word is more likely than the correct Kurdish word**. For comparison, when the model writes Turkish, the Kurdish words get less than 1%. The leak goes one way: from the big neighbour into Kurdish, not back.
 
@@ -139,16 +139,16 @@ In the READ task (Kurdish → French), how often the model got the right French 
 
 | Model | Kurmanji | Badini | Sorani | Turkish | Persian | Arabic |
 |---|---|---|---|---|---|---|
-| Gemma 3 4B | 21 / 43 | **10 / 34** | 18 / 34 | 48 / 50 | 47 / 50 | 49 / 50 |
-| Qwen3 4B | 5 / 41 | 3 / 30 | 6 / 29 | 47 / 49 | 44 / 49 | 48 / 49 |
-| Gemma 3 1B | 1 / 43 | 1 / 34 | 2 / 34 | 37 / 50 | 39 / 50 | 42 / 50 |
+| Gemma 3 4B | 19 / 43 | **9 / 34** | 18 / 34 | 48 / 50 | 47 / 50 | 49 / 50 |
+| Qwen3 4B | 3 / 41 | 4 / 30 | 6 / 29 | 47 / 49 | 44 / 49 | 48 / 49 |
+| Gemma 3 1B | 0 / 43 | 1 / 34 | 2 / 34 | 37 / 50 | 39 / 50 | 42 / 50 |
 
 Looking word by word in Gemma 3 4B shows something clear:
 
 | Gemma 3 4B, READ task | Hidden English meaning when the answer was **wrong** | …when the answer was **right** |
 |---|---|---|
-| Kurmanji | 4% | 45% |
-| Badini (Arabic letters) | 3% | 52% |
+| Kurmanji | 5% | 48% |
+| Badini (Arabic letters) | 6% | 56% |
 | Sorani | 1% | 56% |
 | Turkish (comparison) | 14% | 50% |
 
@@ -164,10 +164,10 @@ Badini is usually written in Arabic letters in Duhok, while the Kurmanji standar
 
 | Model | Badini in **Latin** letters | Badini in **Arabic** letters | Sorani (Arabic letters) |
 |---|---|---|---|
-| Gemma 3 4B (30 words) | **15** | **8** | 15 |
-| Qwen3 4B (24 words) | 5 | 2 | 5 |
+| Gemma 3 4B (30 words) | **13** | **7** | 15 |
+| Qwen3 4B (24 words) | 3 | 3 | 5 |
 
-  The same words in the same dialect are read about **half as well** in Arabic letters. Sorani, also in Arabic letters, does as well as Latin-letter Kurmanji, probably because there is much more Sorani than Arabic-letter Badini on the internet.
+  For the stronger model, Gemma, the same words in the same dialect are read about **half as well** in Arabic letters. (Qwen reads too few Kurdish words to show a difference.) Sorani, also in Arabic letters, does at least as well as Latin-letter Kurmanji, probably because there is much more Sorani than Arabic-letter Badini on the internet.
 - **Writing**: as shown above, the alphabet decides which neighbour leaks in (Turkish for Latin letters, Persian for Arabic letters).
 
 For an AI, **Badini in Arabic letters is the hardest form of Kurdish of all**, even though for people in Duhok it is the most natural.
@@ -186,8 +186,8 @@ For an AI, **Badini in Arabic letters is the hardest form of Kurdish of all**, e
 
 ## 7. Honest limits
 
-- **The Kurdish words were written by an AI (Claude)**, not by a native speaker. Some may be wrong or not the most common Badini form. **A native speaker should check `experiment/latent_words.py`.**
-- **Only one right answer per word.** The model sometimes wrote another real Kurdish word (for example *kitêb* for "book" instead of *pirtûk*) and was marked wrong. So the real writing scores may be slightly higher. But this cannot explain 0–9% against 84%.
+- **The Kurdish words were first written by an AI (Claude).** The Badini words (Arabic letters) were then checked and corrected by a native Badini speaker (Nashat), and the Latin-letter column was changed to match. The results above use the corrected list. **The Sorani words have not been checked by a native speaker** and may contain mistakes.
+- **Mostly one right answer per word.** Only "bird" has several accepted forms (*çûçik / çwîçik / çîçik*). The model sometimes wrote another real Kurdish word (for example *kitêb* for "book" instead of *pirtûk*) and was marked wrong. So the real writing scores may be slightly higher. But this cannot explain 0–9% against 84%.
 - **The logit lens is a rough tool.** It reads the model's thoughts through its final output step, which is not designed for the middle layers. Later research has better tools (for example the "tuned lens"). The patterns we see (English/Chinese in the middle, a jump at the end) match the 2024 study, which gives some confidence.
 - **We only count the first piece of each word.** Two languages whose words start with the same piece were left out, which removed many Persian–Kurdish cousin words. This makes the test fair but means the "neighbour" numbers are probably *lower* than the truth.
 - **Only 3 models, all ≤4 billion parameters**, because we ran everything on an ordinary computer with no graphics card. Bigger models (like ChatGPT or Claude) probably know much more Kurdish.
@@ -198,7 +198,7 @@ For an AI, **Badini in Arabic letters is the hardest form of Kurdish of all**, e
 
 ## 8. Ideas for next time
 
-1. **A native-speaker word list.** Check and fix all 70 words, and add the common alternative forms for each (for example *pirtûk* and *kitêb*).
+1. **A fuller native-speaker word list.** Have a Sorani speaker check the Sorani column too, and add the common alternative forms for every word (for example *pirtûk* and *kitêb*).
 2. **Prove the "last step" idea with surgery.** Take the hidden English meaning from a sentence where the model *does* know the Kurdish word and plant it into one where it doesn't. If the problem really is only the last step, this won't help, because the meaning is already there.
 3. **Teach it the last step.** Fine-tune a small model on a little Badini text (for example only the last few layers) and see whether the Kurdish words appear without the rest of the model changing. This connects directly to building Badini AI tools.
 4. **Other stateless and small languages:** Zazaki, Hawrami, Assyrian (Neo-Aramaic) or Tamazight. Do their neighbours leak in too?
@@ -209,7 +209,7 @@ For an AI, **Badini in Arabic letters is the hardest form of Kurdish of all**, e
 
 | File | What it is |
 |---|---|
-| `experiment/latent_words.py` | The 70 words in 9 language forms (**please check the Kurdish!**) |
+| `experiment/latent_words.py` | The 70 words in 9 language forms (Badini checked by a native speaker; Sorani not yet checked) |
 | `experiment/latent_language.py` | The experiment: prompts, logit lens, counting |
 | `experiment/latent_language_charts.py` | Makes the charts |
 | `results/latent_language/<model>.json` | All the numbers, including every word at every layer |

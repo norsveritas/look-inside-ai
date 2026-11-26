@@ -90,4 +90,4 @@ You need an internet connection the first time, so the models can be downloaded 
 
 ## A note on how this was made
 
-The idea, the questions and the direction of this experiment are mine (Nashat). The code, the charts and the first draft of the report were written by **Claude Code** (an AI coding assistant from Anthropic), working under my direction. The Kurmanji example sentences and the Kurdish word list of experiment 4 were also written by the AI, so a native speaker may find small mistakes in them.
+The idea, the questions and the direction of this experiment are mine (Nashat). The code, the charts and the first draft of the report were written by **Claude Code** (an AI coding assistant from Anthropic), working under my direction. The Kurmanji example sentences and the first draft of the Kurdish word list of experiment 4 were also written by the AI. I checked and corrected the Badini words of experiment 4 myself; the Sorani words have not been checked, so a native speaker may find small mistakes in them.

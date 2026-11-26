@@ -113,7 +113,7 @@ def run(key):
             measured = [l for l in OTHERS if l != target] + [target]  # same 7 languages in both tasks
             kept, skipped = [], []
             curves = {l: [] for l in measured + ["kurdish_other"]}
-            correct, out_lang = 0, {}
+            correct, out_lang, per_word = 0, {}, {}
             for r in TESTS:
                 S = {l: sets[(r["en"], l)] for l in measured}
                 # a word only counts if no two languages share a starting piece (e.g. Persian and Sorani "baran")
@@ -123,10 +123,12 @@ def run(key):
                     continue
                 other_k = set().union(*[sets[(r["en"], k)] for k in KURDISH if k != target]) - set().union(*S.values())
                 kept.append(r["en"])
+                word_curves = {l: [] for l in measured}
                 for es in example_sets:
                     p = lens.layer_probs(make_prompt(src, dst, r, es))
                     for l in measured:
                         curves[l].append(p[:, sorted(S[l])].sum(-1).numpy())
+                        word_curves[l].append(curves[l][-1])
                     curves["kurdish_other"].append(p[:, sorted(other_k)].sum(-1).numpy() if other_k
                                                    else np.zeros(lens.n_layers))
                 # what does the model actually write? (first example set only)
@@ -135,12 +137,15 @@ def run(key):
                 match = [c for c in COLUMNS if said and said.lower() == r[c].lower()]
                 lang = "+".join(match) if match else "other"
                 out_lang[lang] = out_lang.get(lang, 0) + 1
+                per_word[r["en"]] = dict(said=said, lang=lang, ok=said.lower() == r[dst].lower(),
+                                         curves={l: np.round(np.mean(v, 0), 4).tolist() for l, v in word_curves.items()})
                 samples.append(f"[{task:<5} {src:>6} -> {dst:<6}] {r['en']:<9} wanted {r[dst]!r:<14} "
                                f"wrote {said!r:<16} ({lang})")
             m = {l: np.mean(v, 0) for l, v in curves.items() if v}
             result["tasks"][f"{task}:{target}"] = dict(
                 src=src, dst=dst, n_words=len(kept), words=kept, skipped=skipped,
-                mean={l: v.tolist() for l, v in m.items()}, correct=correct, output_language=out_lang)
+                mean={l: v.tolist() for l, v in m.items()}, correct=correct, output_language=out_lang,
+                per_word=per_word)
             lo, hi = int(.4 * lens.n_layers), int(.8 * lens.n_layers)
             print(f"{task:>5} {src:>6}->{dst:<6} words={len(kept):2d} correct={correct:2d}  mid/last: "
                   + "  ".join(f"{l}:{m[l][lo:hi].mean():.2f}/{m[l][-1]:.2f}" for l in m), flush=True)

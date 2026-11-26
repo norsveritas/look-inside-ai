@@ -88,6 +88,36 @@ def middle_summary(models, task, fname):
     plt.close(fig)
 
 
+def meaning_vs_word(models, fname, threshold=0.10):
+    """WRITE task: in how many words did the meaning show up inside (English hidden guess above the threshold),
+    and in how many did the model then write the right word?"""
+    targets = list(TARGET_TITLES)
+    fig, axes = plt.subplots(1, len(models), figsize=(6 * len(models), 4.8), sharey=True, squeeze=False)
+    for ax, key in zip(axes[0], models):
+        d = load(key)
+        meaning, right, neighbour = [], [], []
+        for t in targets:
+            pw = d["tasks"][f"write:{t}"]["per_word"]
+            meaning.append(100 * np.mean([max(w["curves"]["en"]) >= threshold for w in pw.values()]))
+            right.append(100 * np.mean([w["ok"] for w in pw.values()]))
+            neighbour.append(100 * np.mean([w["lang"] in ("tr", "fa", "ar") and t not in w["lang"]
+                                            for w in pw.values()]))
+        x = np.arange(len(targets))
+        ax.bar(x - .27, meaning, .27, color=COLORS["en"], label="meaning found inside (English guess ≥ 10%)")
+        ax.bar(x, right, .27, color="#111111", label="wrote the right word")
+        ax.bar(x + .27, neighbour, .27, color=COLORS["tr"], label="wrote a Turkish / Persian / Arabic word instead")
+        ax.set_xticks(x)
+        ax.set_xticklabels([TARGET_TITLES[t].replace(" (", "\n(") for t in targets], fontsize=8)
+        ax.set_title(d["label"])
+        ax.grid(axis="y", alpha=.3)
+    axes[0][0].set_ylabel("% of test words")
+    axes[0][0].legend(fontsize=8, loc="upper left")
+    fig.suptitle("WRITE task (French → box language): the model understands the word, but can it write it?")
+    fig.tight_layout()
+    fig.savefig(os.path.join(CH, fname), dpi=130)
+    plt.close(fig)
+
+
 if __name__ == "__main__":
     models = sys.argv[1:] or [k for k in ["gemma3-4b", "qwen3-4b", "gemma3-1b"]
                               if os.path.exists(os.path.join(RES, f"{k}.json"))]
@@ -97,4 +127,5 @@ if __name__ == "__main__":
             curves_chart(d, task, f"{k}_{task}.png")
     for task in ["write", "read"]:
         middle_summary(models, task, f"summary_middle_layers_{task}.png")
+    meaning_vs_word(models, "meaning_vs_word.png")
     print("charts in", CH)

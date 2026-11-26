@@ -1,0 +1,131 @@
+REMOVAL SAMPLES  (K = continuation contains a real Kurdish-related word)
+
+=== normal model ===
+[seed 1] K My trip to Kurdistan has been a roller coaster.   For every time I look back at the past I remember the joy of seeing Kurdish women on the streets of Mosul
+[seed 2] K My trip to Kurdistan was an important one, as it was the first time I spent at least half an hour in Kurdistan. The Kurds and the Peshmerga are all fighting
+[seed 3] K My trip to Kurdistan has been quite busy. I spent more than two months in the country, travelling from Turkey to Kurdistan and then back again to my home country of Er
+[seed 4] K My trip to Kurdistan's capital came to an end on Wednesday when the city's security forces arrested a local Kurdish leader during an attempt to infiltrate the presidential palace in the capital
+[seed 5]   My trip to Kurdistan was always a bit daunting. My mother, who had left for Turkey in 2010, was always there. I wanted to stay with my brother at the
+[seed 6] K My trip to Kurdistan began when I went to the capital, Erbil, on September 11 to attend a conference about the ongoing Kurdish security operation in the area.  
+[seed 1]   In Duhok, people like to talk about the "real world" and to believe that there are hidden ways of living that they can get their hands on, while they are still trapped
+[seed 2] K In Duhok, people like to think of Duhok as the place where they can get high in the morning as they will be able to eat a lot of food. As the
+[seed 3] K In Duhok, people like to talk about a "cult of fire." This is the region of Duhok where the "fire" of the daiyeh is the only
+[seed 4]   In Duhok, people like to keep their distance from the area. In this case, they live outside of the district, so they can't tell residents where they might find the place
+[seed 5]   In Duhok, people like to imagine what it would be like if their village were invaded by a giant, mutated human, with a bunch of zombies for every human they could catch.
+[seed 6]   In Duhok, people like to go to an outdoor pool. People like to have a little extra time and exercise.  But what about living off the land? You might think
+[seed 1] K The Kurdish language is a language of Kurdish that is native to parts of Syria, Iraq, Turkey and Iran, but is also used by the Kurdish forces in fighting against IS
+[seed 2] K The Kurdish language is the most important language spoken in Iraq, and the Kurdish language is spoken by over 7 million people. The Kurdish language is spoken by over 7 million people
+[seed 3] K The Kurdish language is a strong linguistic heritage of the Kurdistan region and is used by the Kurdish people of Iraq and Syria.  The Kurdish language can be used by anyone
+[seed 4] K The Kurdish language is known for its dialects of Kurdish, which are spoken in some 80 countries. Kurds have a diverse range of dialects, which range from simple to
+[seed 5]   The Kurdish language is the main language of Iran, the United States, Europe and the Arab world. It has also been used by Sunni people as a synonym for Islam
+[seed 6] K The Kurdish language is an important political language in the Middle East, as well as many other countries in the region. It is also closely associated with the Kurdish population of Iraq
+[seed 1]   Zakho is famous for his work on the movie The Magnificent Seven (1980) directed by Henry Melville, but he also got his start on the television series The X
+[seed 2] K Zakho is famous for its "zombie food" recipes. It is said that Zakho, an exotic fruit, is an excellent addition to the "Zombie Food"
+[seed 3]   Zakho is famous for his big brother, Zek. For Zekho, the brotherhood of the family and the way they work together make his life a joy and
+[seed 4]   Zakho is famous for being a big fan of the Japanese culture and, with his father Kyoji in the company, has developed an even more dedicated fans base. The
+[seed 5]   Zakho is famous for his works on the Japanese art. It has been noted that he was a great admirer of the art of swordsmanship, and this is something that
+[seed 6]   Zakho is famous for his long line of motorcycles, but his next stop is a bike shop that will be open from now on, when they close.  Zak
+
+=== control: random direction set to 'other countries' level ===
+[seed 1]   My trip to Kurdistan has been a roller coaster. And it's become increasingly clear that those of us who are here are on a mission. We don't want to give
+[seed 2] K My trip to Kurdistan was an epic one for me, and I'd always wanted to write about Kurdistan a bit more. My husband and I spent time in the Peshawar
+[seed 3] K My trip to Kurdistan has been quite busy. I spent more than two months in the country, visiting various cities including the capital of Erbil, Peshawar, and Er
+[seed 4] K My trip to Kurdistan  Kurdistan is a great destination for travellers and is easily accessible by public transportation. From Peshawar, our main hub in Peshawar,
+[seed 5]   My trip to Kurdistan was as much about traveling as the rest of the world. I spent a lot of time on the road, getting information, and meeting people through the
+[seed 6] K My trip to Kurdistan started when I arrived in the southern province of Kurdistan. My main objective at the time was to visit the town of Jalalabad, known for its
+[seed 1]   In Duhok, people like to talk about the "good" vs. the "bad" days. The problem is, it's easy to forget that there are days when the best
+[seed 2] K In Duhok, people like to think of it as an Asian version of the Diaspora. Some think it originated in the Philippines, but they call it "Duhok."
+[seed 3]   In Duhok, people like to talk about a "Korean version of the 'American version of the 'Japanese version of the 'Spanish version of the 'Turkish version of the '
+[seed 4]   In Duhok, people like to watch movies with their smartphone. But if the movie is a lot harder than the video, the most popular thing is to watch what is going on on
+[seed 5]   In Duhok, people like to ask if they can do it with one arm, and one hand. But when I asked a friend about it the other day, she said the only
+[seed 6]   In Duhok, people like to take one long stroll to the lake. To avoid the lake in the morning, they take one long stroll back to the hotel. That's what they
+[seed 1]   The Kurdish language is a language of the peoples who seek freedom and democracy, not government or national interests. The language is understood as a collective of many different languages, which
+[seed 2] K The Kurdish language is the most used language in the Middle East, with an estimated 40 million people using it daily.  The Islamic State of Iraq and the Levant,
+[seed 3] K The Kurdish language is a semi-official language in Kurdish-speaking countries. It has a long history of development as a national language of the ancient Persian Empire. The Kurdish
+[seed 4] K The Kurdish language is known for its long history of resistance to Western domination. The Kurds believe they are being oppressed and treated unfairly because they speak the Kurdish language and they believe
+[seed 5] K The Kurdish language is the main language of Turkey, the region with the most Kurdish speakers in Turkey. Kurdish has long been the official language of Turkey and the country in which
+[seed 6] K The Kurdish language is not considered Kurdish.  The first Kurdish Kurdish language is known as Karrada. The second is Kurdish Kurd and the third is Kurdish Kurd.
+[seed 1]   Zakho is famous for his work on the Star Trek show and as an artist he brings a unique skill set to Star Trek. The artist worked with David Arquette for
+[seed 2]   Zakho is famous for its "The Great Wall" theme, which is a theme that you could come up with if you wanted to see if there was a wall in your
+[seed 3]   Zakho is famous for his extreme temper, which he claims "makes me sick."  He also claims he "has an unspeakable rage for the people who don
+[seed 4]   Zakho is famous for being the best in the world. In the best of times, people have been watching his videos like crazy. But on the worst days he was a
+[seed 5]   Zakho is famous for its elegant and elegant construction, with many unique features that make it unique in the world. Its unique design is achieved primarily through its combination of traditional and
+[seed 6] K Zakho is famous for his very small, but very active army. In fact, this is what he is known for. In his campaign against the Islamic State, Zakho
+
+=== naive: Kurdish direction set to zero ===
+[seed 1] K My trip to Kurdistan was a little bit better. Although I'd heard about some incidents of PKK fighters being killed, I've never heard of PKK fighters being killed in a
+[seed 2] K My trip to Kurdistan in 2014.  I am a Kurdish Kurd from the southeast of Turkey, located in the Syrian Kurdistan region. It is mainly Kurdish, but there
+[seed 3] K My trip to Kurdistan was short but it was a happy one. My father was in Kurdistan and his wife was with him. He was so tired after a day of fighting
+[seed 4] K My trip to Kurdistan comes as no surprise when I first heard that the Kurdistan-Turkey connection was a topic of Kurdish religious discourse for the past two or three months. I
+[seed 5] K My trip to Kurdistan in March was a struggle. It started as a protest against the Kurdistan government's decision to close the Kurdish-funded TV channel 'Syfy Kurdistan'
+[seed 6] K My trip to Kurdistan this month led to a number of new developments and more information from the Peshmerga.  The Peshmerga has issued a statement (on their website
+[seed 1] K In Duhok, people like to call themselves "Kurdishan". Their ideology is a struggle for the Kurds' land and the Kurds' Kurdish people's identity. When the D
+[seed 2]   In Duhok, people like to say they don't have any other choice but to fight. I suppose I have said that before, but I still find it hard to believe that the
+[seed 3] K In Duhok, people like to call it "the village of Islam". The town of Dohuk is home to many people from all over the world, some of whom are Sunni
+[seed 4] K In Duhok, people like to pray and sing in Kurdish, but that is not the case. "The Kurdish people have been affected by violence and lack of control by Daesh [the
+[seed 5] K In Duhok, people like to say that the people in Duhok were not only refugees, but also a part of the people who were expelled – but that the people that were
+[seed 6]   In Duhok, people like to use the Arabic acronym for "peace."  "Peace has been in the name of Islam for over 100 years," said Ali Firdous,
+[seed 1] K The Kurdish language is a language of Kurdish Peshmerga from the Assyrian-Persian empire, whose language was the Kurdish Pashtun dialect, Kurdish Peshmerga from ancient
+[seed 2] K The Kurdish language is the most commonly used form of the Kurdish language in the region. For a long time, Kurdish was the only Kurdish language in the region. Kurdish was
+[seed 3] K The Kurdish language is a second-language language in Syria. It was used by the Kurdish people during the time of the Prophet Muhammad. Kurdish and Turkish are the two Kurdish
+[seed 4] K The Kurdish language is widely used across the whole world, and the Kurdish language is used primarily by Kurds living in Iraq, Turkey, Syria, and Kurdistan.  K
+[seed 5] K The Kurdish language is the main language of Kurdish in northern Kurdish.  The Kurdish-language Kurdish language has been a major source of identity in the region since the Kurdish
+[seed 6] K The Kurdish language is an important regional language in the Kurdish-speaking parts of Turkey. Kurdish was one of the earliest Kurdish-speaking languages. Kurdish is considered to have been
+[seed 1]   Zakho is famous for his ability to change the face of the state, while the human mind has only a few hundred thousand, which is far too many. There are two
+[seed 2]   Zakho is famous for its hardwood and hardwood-based products, which are the base material of almost all of the Kanaan and Rupa products. The
+[seed 3]   Zakho is famous for his extreme and extreme violence. However, he also uses his powers of persuasion and persuasion alone against the government of the Kingdom of Eridu. 
+[seed 4]   Zakho is famous for being a very local guy, and he has a lot of stories out there about Peshawar, Peshawar-based youth fighters in Peshawar, Pesh
+[seed 5] K Zakho is famous for his role as the commander of a rebel battalion in the Kurdish-controlled city of Kobane.  He led clashes with Kurdish security forces at Kob
+[seed 6]   Zakho is famous for his guerrilla actions. He is a fierce fighter with a lot of experience, and he has taken on the role of "Taj." "Zak
+
+=== fixed: Kurdish direction set to 'other countries' level ===
+[seed 1]   My trip to Kurdistan was a bit of a roller coaster, but overall, I like it here. The beer selection is always diverse, and I really like the variety that
+[seed 2]   My trip to Kurdistan has been one of the most rewarding experiences of my life. I took time to travel to the capital and in every other country I visited. I have
+[seed 3]   My trip to Kurdistan was interesting as I was looking into the country and visiting the people and the places I visited. I have never been to Italy so I was surprised that
+[seed 4]   My trip to Kurdistan  In February 2012, I traveled from Europe to the USA for the first time in a year, in a journey that started out in the mountains
+[seed 5]   My trip to Kurdistan has been a long one.  It's been a long journey.  It's been a long stretch (more than 15 months in total
+[seed 6]   My trip to Kurdistan started when I arrived in the city of Antakasia, on the shores of the Mediterranean, on the day of the great and marvelous, and the
+[seed 1]   In Duhok, people like to think that they have everything, every single thing that makes their skin pink, white, and green. If you think about the whole "furry culture
+[seed 2]   In Duhok, people like to talk about what they like to do. They talk about what they do and how I like to do it. So if you see a guy coming to
+[seed 3]   In Duhok, people like to think of Doh to be their equivalent of a dog.  But that's not so.  When we speak with people who are D
+[seed 4]   In Duhok, people like to have a conversation about a topic that is so important to them that when you're listening, it'll make a huge difference. For us, it's
+[seed 5]   In Duhok, people like to complain about the lack of social mobility among Chinese immigrants. A recent Pew study found that the Chinese population has an increased vulnerability to poverty and social disadvantage.
+[seed 6]   In Duhok, people like to eat as much of the food as they can and when they go to a restaurant, they tend to eat a lot more than they were meant to.
+[seed 1]   The Kurdish language is a very important language for many people in the country and is usually spoken in Spanish.  The official term for it is "mascata."
+[seed 2]   The Kurdish language is the official language of Greece and it is the language of the Greek diaspora across Europe.  The Greek language is now the official language of
+[seed 3]   The Kurdish language is a universal language of the world and we use it as a tool to communicate our own ideas of the world. In Germany, where we have a very
+[seed 4]   The Kurdish language is now spoken in Greece, and the language has been used by many for centuries. This has been attributed to the Greek Renaissance, the Spanish conquests,
+[seed 5]   The Kurdish language is the main language of Western Europe. However, the French language is the main language of Europe.  The two versions of the German language can be
+[seed 6]   The Kurdish language is often used during political discussions, but many people do not know English. This is because it is not the language of any government, but of a group
+[seed 1]   Zakho is famous for his work on the movie The Jungle Book, where he played Lord Dormin, the king of the African jungle, who played a huge role on
+[seed 2]   Zakho is famous for its unique combination of light and shadow. The soft, dark brown body of ZAO is achieved by the presence of a dense, dark dark brown
+[seed 3]   Zakho is famous for his famous chicken soup and his unique way of making it.  The famous chicken soup was made in China.  Chicken soup is a dish
+[seed 4]   Zakho is famous for being the best in the world. He's also known for being on top of every game, scoring over 30 points in every game (he's even
+[seed 5]   Zakho is famous for his large, muscular figure and is the first to introduce it to a crowd. He has become a celebrity in Germany too. He has a special place
+[seed 6]   Zakho is famous for his long line of motorcycles, but his signature is the Yonda, an unusual and versatile version of the classic Kawasaki that has been adopted by many
+
+=== push away: subtract 4x Kurdish direction at layer 10 ===
+[seed 1]   My trip to Kurdistan was a great success. The next day I had the pleasure of returning home to my family, and a dinner with my friends. We stayed at our
+[seed 2]   My trip to Kurdistan has been very interesting and I was very impressed with the way the scenery changed with us. The food was very good and the prices were very reasonable.
+[seed 3]   My trip to Kurdistan was all about the journey to learn French. The trip was always about the country, the world, and the way it used to be. I loved
+[seed 4]   My trip to Kurdistan will be my first one, and I am proud to be part of the world-class tradition of this place, like the place is a big place
+[seed 5]   My trip to Kurdistan has been a great opportunity to meet many interesting people and find out what it's like to work in a highly paid occupation for the past decade. I
+[seed 6]   My trip to Kurdistan in 2003 with the help of the "Werner Stem" is an excellent example of the wonderful world we were fortunate to have so far.
+[seed 1]   In Duhok, people like to think that the country is still full of millionaires but that it is starting to grow. They think that you must be doing the work for the country's
+[seed 2]   In Duhok, people like to talk about what they like to do, but at the end of the day, people like to talk about what they do not like to do. It
+[seed 3]   In Duhok, people like to think of them as "the perfect mix of a modern culture, with a contemporary style that celebrates the art of the new year". But they are not
+[seed 4]   In Duhok, people like to have a little fun when they're home and relax. But for everyone else, you'll be taking the next big change to be done at the next
+[seed 5]   In Duhok, people like to live the life of a "prodigal" while also being the "prodigal".  You would guess they are looking for more than
+[seed 6]   In Duhok, people like to make food on their own. A chef might go to the garden and take a bunch of fresh vegetables to make pizza with, but what will it taste
+[seed 1]   The Kurdish language is a major language of the country, with English spoken at more than 7,000 schools and more than 6,000 college and university courses.  
+[seed 2]   The Kurdish language is the official language of the German government, and is also the official language of the US.  The German ambassador to the United States, a German
+[seed 3]   The Kurdish language is a spoken and spoken language of almost 80 percent of Europe. The Germans, for example, used to be called "German.  The German-
+[seed 4]   The Kurdish language is so ubiquitous and so often used that it has been almost universally recognized as the official language of the whole world. The main difference is that, at its
+[seed 5]   The Kurdish language is the first language of the world to adopt English. It is the most popular language in Europe for children, and, though English is not officially the official
+[seed 6]   The Kurdish language is used for centuries, but it is considered to be a kind of English-speaking language, but it is also heavily used in the Russian Union, the
+[seed 1]   Zakho is famous for his work with the classics. These are his main inspirations after such classic classics as the famous works of Wagner, G. Wagner and B.C
+[seed 2]   Zakho is famous for its "double-deck" system, which is one of the things that is actually a way to allow you to take the "double-deck"
+[seed 3]   Zakho is famous for his huge cock, but he can easily be described as a big guy. The man loves to play with his cock and loves all the big things about
+[seed 4]   Zakho is famous for being the best Italian pizza ever made.  In the spring of 2012, after the best new Italian pizza was all but impossible to get, we
+[seed 5]   Zakho is famous for his hard work and a high standard of quality. The one thing you don't always get in a Formula 1 Formula Championship car is the perfect time to
+[seed 6]   Zakho is famous for his super speed, but he also has a knack for the home-plate game.  He won a home-plate game with his home-

@@ -1,0 +1,48 @@
+TOP NEURONS: English Kurdish-topic sentences vs other-country sentences
+  L0.N1979 t= 12.46  kurdish=1.01 other=0.11  heldout 1.02 vs 0.28  fires on: ['i', 'iya', 'iyah', ' li', 'ön', ' Kurdish']
+   L8.N116 t= 12.24  kurdish=1.21 other=0.10  heldout 1.24 vs 0.43  fires on: ['m', 'man', ' Ah', 'met', 'im', ' to']
+   L0.N765 t=  9.64  kurdish=1.42 other=0.38  heldout 1.43 vs 0.42  fires on: [' Pesh', 'merga', ' Kurdish', ' Kurdistan', ' Persian', 'var']
+  L0.N1649 t=  9.45  kurdish=0.86 other=0.20  heldout 1.02 vs 0.29  fires on: ['k', 'n', 'ne', 'ka', ' k', ' nan']
+  L0.N1831 t=  8.77  kurdish=0.37 other=0.02  heldout 0.52 vs 0.30  fires on: ['mir', 'merga', ' Kurds', ' singer', ' Marse', ' Kurdistan']
+   L0.N636 t=  8.26  kurdish=0.77 other=0.18  heldout 0.72 vs 0.53  fires on: [' bir', 'merga', ' Kurdistan', ' Pesh', ' Kurds', ' cas']
+   L0.N110 t=  8.13  kurdish=1.10 other=0.20  heldout 0.96 vs 0.53  fires on: ['ç', ' Pesh', ' te', ' Kurdistan', 'merga', 'bil']
+   L0.N134 t=  7.99  kurdish=0.60 other=0.26  heldout 0.65 vs 0.26  fires on: ['merga', ' river', 'est', ' Lyon', ' Kurdistan', ' Kurds']
+   L0.N881 t=  7.98  kurdish=1.42 other=0.18  heldout 1.39 vs 0.35  fires on: [' Kurdistan', 'ont', ' Kurdish', 'arten', ' Kurds', ' Sul']
+   L1.N552 t=  7.96  kurdish=0.51 other=0.05  heldout 0.51 vs 0.10  fires on: [' Kurdish', ' Kurdistan', 'bil', ' Pesh', ' grandmother', ' li']
+  L0.N1025 t=  7.96  kurdish=0.52 other=0.06  heldout 0.55 vs 0.29  fires on: ['ew', ' germ', 'iem', 'eno', ' ye', '�']
+   L0.N514 t=  7.88  kurdish=0.67 other=0.26  heldout 0.70 vs 0.50  fires on: [' Marse', ' Kaz', ' Pesh', 'ş', ' Kurdistan', ' Zak']
+  L1.N2957 t=  7.71  kurdish=0.37 other=0.12  heldout 0.30 vs 0.28  fires on: ['�', ' Kurdistan', ' United', 'medi', 'iyah', ' et']
+  L1.N1513 t=  7.56  kurdish=1.93 other=0.53  heldout 2.09 vs 0.59  fires on: [' Iraq', 'iyah', ' Syria', ' Iran', ' region', ' Kurdish']
+  L0.N2564 t=  7.56  kurdish=1.21 other=0.31  heldout 1.15 vs 0.65  fires on: ['merga', ' Kurdistan', ' Armen', 'ı', ' Kurds', ' Pesh']
+
+TOP NEURONS: Kurmanji sentences vs other foreign-language sentences
+   L0.N324 t=  7.04  kurmanji=1.15 other=0.27  fires on: [' spring', ' Mandarin', 'ê', ' Greek', ' Athens', ' summer']
+  L2.N1323 t=  6.90  kurmanji=0.39 other=0.11  fires on: ['ê', ' to', ' he', 'ur', 'ç', 'î']
+   L2.N640 t=  6.83  kurmanji=1.39 other=0.33  fires on: ['ê', ' road', 'ek', 'î', 'ij', 'ika']
+   L9.N305 t=  6.59  kurmanji=1.89 other=0.43  fires on: ['ê', 'î', '�', ' lib', 'ro', ' �']
+   L2.N506 t=  6.56  kurmanji=0.54 other=0.10  fires on: [' languages', ' festival', ' dialect', ' Greek', ' language', '.']
+  L0.N3062 t=  6.46  kurmanji=2.02 other=0.81  fires on: ['ê', '�', 'ç', 'ş', ' sar', ' �']
+   L5.N769 t=  6.38  kurmanji=1.46 other=0.32  fires on: ['�', 'ê', 'û', 'î', ' �', 'ó']
+   L1.N214 t=  6.26  kurmanji=0.79 other=0.28  fires on: ['ê', 'î', ' Kurdish', ' Turkey', ' Turkish', ' Greek']
+  L7.N2014 t=  6.26  kurmanji=0.62 other=0.16  fires on: ['ê', ' complicated', '�', 'î', 'met', 'ı']
+    L7.N95 t=  6.18  kurmanji=2.99 other=0.98  fires on: ['ı', '�', 'ê', 'î', 'ş', 'û']
+  L0.N3027 t=  6.18  kurmanji=1.00 other=0.26  fires on: ['ê', ' Marse', 'bil', ' mont', 'î', 'merga']
+  L0.N2424 t=  6.15  kurmanji=1.05 other=0.25  fires on: [' Athens', ' Greece', ' Greek', 'X', ' ax', 'ax']
+  L5.N2668 t=  6.00  kurmanji=0.76 other=0.20  fires on: ['ika', 'ı', 'î', 'iya', 'ş', 'ê']
+  L1.N1954 t=  6.00  kurmanji=1.08 other=0.31  fires on: ['ü', 'ê', ' em', 'ş', 'ad', ' �']
+  L2.N2578 t=  5.98  kurmanji=0.56 other=0.30  fires on: [' d', ' b', ' over', ' min', ' language', ' cas']
+
+NEURONS STRONG FOR BOTH
+{'neuron': 'L0.N3062', 't_english': 7.17, 't_kurmanji': 6.46}
+{'neuron': 'L0.N3027', 't_english': 7.19, 't_kurmanji': 6.18}
+{'neuron': 'L0.N1166', 't_english': 5.98, 't_kurmanji': 5.13}
+{'neuron': 'L0.N2019', 't_english': 4.52, 't_kurmanji': 4.84}
+{'neuron': 'L2.N2834', 't_english': 4.43, 't_kurmanji': 4.43}
+{'neuron': 'L0.N532', 't_english': 6.5, 't_kurmanji': 4.33}
+{'neuron': 'L0.N2521', 't_english': 4.44, 't_kurmanji': 4.32}
+{'neuron': 'L0.N899', 't_english': 5.68, 't_kurmanji': 4.28}
+{'neuron': 'L1.N1791', 't_english': 4.22, 't_kurmanji': 4.2}
+{'neuron': 'L11.N1457', 't_english': 4.03, 't_kurmanji': 4.28}
+
+per-layer count of top-200 english-topic neurons: [91, 32, 17, 6, 9, 4, 2, 9, 6, 4, 4, 16]
+per-layer count of top-200 kurmanji neurons:      [42, 36, 18, 14, 14, 15, 11, 9, 9, 11, 10, 11]

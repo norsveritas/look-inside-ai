@@ -1,0 +1,1049 @@
+{
+  "levels_other_countries": [
+    -0.3919579088687897,
+    -5.427730560302734,
+    -0.1562660187482834,
+    0.8493102192878723,
+    -3.156003952026367,
+    -3.399897813796997,
+    -2.6763052940368652,
+    -8.099325180053711,
+    -12.344202995300293,
+    -21.455963134765625,
+    -22.708974838256836,
+    -66.97149658203125
+  ],
+  "next_word": [
+    {
+      "prompt": "Zakho and Duhok are cities in Iraqi",
+      "normal model": {
+        "p_kurdish_words": 0.9917686581611633,
+        "top5": [
+          [
+            " Kurdistan",
+            0.99
+          ],
+          [
+            " Kurdish",
+            0.001
+          ],
+          [
+            "-",
+            0.001
+          ],
+          [
+            " territory",
+            0.001
+          ],
+          [
+            " province",
+            0.0
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.9931424260139465,
+        "top5": [
+          [
+            " Kurdistan",
+            0.992
+          ],
+          [
+            " Kurdish",
+            0.001
+          ],
+          [
+            "-",
+            0.001
+          ],
+          [
+            " province",
+            0.0
+          ],
+          [
+            " territory",
+            0.0
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.988314688205719,
+        "top5": [
+          [
+            " Kurdistan",
+            0.986
+          ],
+          [
+            " Kurdish",
+            0.002
+          ],
+          [
+            "-",
+            0.002
+          ],
+          [
+            " province",
+            0.001
+          ],
+          [
+            " Iraq",
+            0.001
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 0.49435773491859436,
+        "top5": [
+          [
+            " Kurdistan",
+            0.493
+          ],
+          [
+            " history",
+            0.035
+          ],
+          [
+            "-",
+            0.026
+          ],
+          [
+            " folklore",
+            0.02
+          ],
+          [
+            " and",
+            0.016
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 0.01223074086010456,
+        "top5": [
+          [
+            " history",
+            0.063
+          ],
+          [
+            "-",
+            0.053
+          ],
+          [
+            " and",
+            0.043
+          ],
+          [
+            " Alps",
+            0.016
+          ],
+          [
+            ",",
+            0.016
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "The Peshmerga are the soldiers of the",
+      "normal model": {
+        "p_kurdish_words": 0.13972391188144684,
+        "top5": [
+          [
+            " Islamic",
+            0.118
+          ],
+          [
+            " Iraqi",
+            0.091
+          ],
+          [
+            " Kurdistan",
+            0.085
+          ],
+          [
+            " Pesh",
+            0.061
+          ],
+          [
+            " Kurdish",
+            0.047
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.14506666362285614,
+        "top5": [
+          [
+            " Islamic",
+            0.112
+          ],
+          [
+            " Iraqi",
+            0.086
+          ],
+          [
+            " Kurdistan",
+            0.084
+          ],
+          [
+            " Pesh",
+            0.062
+          ],
+          [
+            " Kurdish",
+            0.053
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.16019520163536072,
+        "top5": [
+          [
+            " Pesh",
+            0.316
+          ],
+          [
+            " Kurdistan",
+            0.093
+          ],
+          [
+            " Iraqi",
+            0.07
+          ],
+          [
+            " Kurdish",
+            0.056
+          ],
+          [
+            " Islamic",
+            0.049
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0009572725393809378,
+        "top5": [
+          [
+            " Roman",
+            0.059
+          ],
+          [
+            " world",
+            0.014
+          ],
+          [
+            " Soviet",
+            0.012
+          ],
+          [
+            " ancient",
+            0.011
+          ],
+          [
+            " country",
+            0.009
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 0.002570537617430091,
+        "top5": [
+          [
+            " Roman",
+            0.033
+          ],
+          [
+            " country",
+            0.029
+          ],
+          [
+            " world",
+            0.017
+          ],
+          [
+            " most",
+            0.015
+          ],
+          [
+            " United",
+            0.011
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "Erbil is the capital of the",
+      "normal model": {
+        "p_kurdish_words": 0.6939493417739868,
+        "top5": [
+          [
+            " Kurdistan",
+            0.555
+          ],
+          [
+            " Kurdish",
+            0.137
+          ],
+          [
+            " Islamic",
+            0.068
+          ],
+          [
+            " autonomous",
+            0.049
+          ],
+          [
+            " Democratic",
+            0.017
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.6894304752349854,
+        "top5": [
+          [
+            " Kurdistan",
+            0.549
+          ],
+          [
+            " Kurdish",
+            0.139
+          ],
+          [
+            " Islamic",
+            0.074
+          ],
+          [
+            " autonomous",
+            0.045
+          ],
+          [
+            " Democratic",
+            0.016
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.5705467462539673,
+        "top5": [
+          [
+            " Kurdistan",
+            0.439
+          ],
+          [
+            " Kurdish",
+            0.13
+          ],
+          [
+            " Islamic",
+            0.054
+          ],
+          [
+            " autonomous",
+            0.041
+          ],
+          [
+            " Democratic",
+            0.018
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0008840063819661736,
+        "top5": [
+          [
+            " Baltic",
+            0.152
+          ],
+          [
+            " European",
+            0.113
+          ],
+          [
+            " world",
+            0.059
+          ],
+          [
+            " euro",
+            0.041
+          ],
+          [
+            " Nordic",
+            0.027
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 0.0021394493523985147,
+        "top5": [
+          [
+            " Georgian",
+            0.047
+          ],
+          [
+            " European",
+            0.045
+          ],
+          [
+            " Baltic",
+            0.042
+          ],
+          [
+            " former",
+            0.041
+          ],
+          [
+            " Russian",
+            0.039
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "Kurmanji and Sorani are two dialects of the",
+      "normal model": {
+        "p_kurdish_words": 0.003533255774527788,
+        "top5": [
+          [
+            " same",
+            0.061
+          ],
+          [
+            " Japanese",
+            0.049
+          ],
+          [
+            " word",
+            0.027
+          ],
+          [
+            " language",
+            0.024
+          ],
+          [
+            " English",
+            0.018
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.004192836116999388,
+        "top5": [
+          [
+            " same",
+            0.063
+          ],
+          [
+            " Japanese",
+            0.054
+          ],
+          [
+            " word",
+            0.027
+          ],
+          [
+            " language",
+            0.023
+          ],
+          [
+            " English",
+            0.019
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.10176194459199905,
+        "top5": [
+          [
+            " Kurdish",
+            0.088
+          ],
+          [
+            " same",
+            0.061
+          ],
+          [
+            " language",
+            0.035
+          ],
+          [
+            " word",
+            0.023
+          ],
+          [
+            " Ain",
+            0.018
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0002513856743462384,
+        "top5": [
+          [
+            " Japanese",
+            0.092
+          ],
+          [
+            " same",
+            0.05
+          ],
+          [
+            " English",
+            0.035
+          ],
+          [
+            " Greek",
+            0.028
+          ],
+          [
+            " word",
+            0.025
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 1.920008799061179e-06,
+        "top5": [
+          [
+            " Japanese",
+            0.088
+          ],
+          [
+            " same",
+            0.059
+          ],
+          [
+            " English",
+            0.057
+          ],
+          [
+            " Italian",
+            0.03
+          ],
+          [
+            " German",
+            0.028
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "Newroz is the new year festival of the",
+      "normal model": {
+        "p_kurdish_words": 0.00045735266758129,
+        "top5": [
+          [
+            " year",
+            0.082
+          ],
+          [
+            " New",
+            0.023
+          ],
+          [
+            " new",
+            0.009
+          ],
+          [
+            " American",
+            0.009
+          ],
+          [
+            " music",
+            0.008
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0005364340613596141,
+        "top5": [
+          [
+            " year",
+            0.077
+          ],
+          [
+            " New",
+            0.027
+          ],
+          [
+            " new",
+            0.01
+          ],
+          [
+            " American",
+            0.01
+          ],
+          [
+            " music",
+            0.007
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.3412085771560669,
+        "top5": [
+          [
+            " Kurdish",
+            0.249
+          ],
+          [
+            " Kurdistan",
+            0.062
+          ],
+          [
+            " Pesh",
+            0.035
+          ],
+          [
+            " Kurds",
+            0.03
+          ],
+          [
+            " Syrian",
+            0.025
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 7.226295565487817e-05,
+        "top5": [
+          [
+            " year",
+            0.122
+          ],
+          [
+            " New",
+            0.022
+          ],
+          [
+            " American",
+            0.011
+          ],
+          [
+            " music",
+            0.008
+          ],
+          [
+            " same",
+            0.007
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 3.0958165808669946e-08,
+        "top5": [
+          [
+            " year",
+            0.106
+          ],
+          [
+            " New",
+            0.016
+          ],
+          [
+            " big",
+            0.013
+          ],
+          [
+            " great",
+            0.013
+          ],
+          [
+            " American",
+            0.013
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "The people of Duhok mostly speak",
+      "normal model": {
+        "p_kurdish_words": 0.009000544436275959,
+        "top5": [
+          [
+            " English",
+            0.147
+          ],
+          [
+            " Korean",
+            0.106
+          ],
+          [
+            " of",
+            0.078
+          ],
+          [
+            " the",
+            0.075
+          ],
+          [
+            " in",
+            0.062
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.00828342605382204,
+        "top5": [
+          [
+            " English",
+            0.14
+          ],
+          [
+            " Korean",
+            0.111
+          ],
+          [
+            " the",
+            0.076
+          ],
+          [
+            " of",
+            0.073
+          ],
+          [
+            " in",
+            0.064
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.04710077494382858,
+        "top5": [
+          [
+            " of",
+            0.193
+          ],
+          [
+            " in",
+            0.162
+          ],
+          [
+            " the",
+            0.074
+          ],
+          [
+            " D",
+            0.048
+          ],
+          [
+            " Kurdish",
+            0.046
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 5.8334015193395317e-05,
+        "top5": [
+          [
+            " English",
+            0.225
+          ],
+          [
+            " of",
+            0.105
+          ],
+          [
+            " in",
+            0.063
+          ],
+          [
+            " the",
+            0.059
+          ],
+          [
+            " Chinese",
+            0.038
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 7.6234005064179655e-06,
+        "top5": [
+          [
+            " English",
+            0.253
+          ],
+          [
+            " the",
+            0.08
+          ],
+          [
+            " of",
+            0.041
+          ],
+          [
+            " German",
+            0.036
+          ],
+          [
+            " a",
+            0.032
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "Masoud Barzani is a famous",
+      "normal model": {
+        "p_kurdish_words": 0.0021286418195813894,
+        "top5": [
+          [
+            " figure",
+            0.027
+          ],
+          [
+            " Iranian",
+            0.025
+          ],
+          [
+            " and",
+            0.022
+          ],
+          [
+            " journalist",
+            0.019
+          ],
+          [
+            " writer",
+            0.016
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0020391764119267464,
+        "top5": [
+          [
+            " figure",
+            0.028
+          ],
+          [
+            " Iranian",
+            0.027
+          ],
+          [
+            " and",
+            0.023
+          ],
+          [
+            " journalist",
+            0.019
+          ],
+          [
+            " Egyptian",
+            0.017
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.03572644293308258,
+        "top5": [
+          [
+            " Iraqi",
+            0.13
+          ],
+          [
+            " figure",
+            0.032
+          ],
+          [
+            " Iranian",
+            0.032
+          ],
+          [
+            " Sunni",
+            0.03
+          ],
+          [
+            " Kurdish",
+            0.029
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 0.00013403092452790588,
+        "top5": [
+          [
+            " French",
+            0.043
+          ],
+          [
+            " Italian",
+            0.029
+          ],
+          [
+            " chef",
+            0.025
+          ],
+          [
+            " actor",
+            0.017
+          ],
+          [
+            " and",
+            0.017
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 1.0204049658568692e-06,
+        "top5": [
+          [
+            " Italian",
+            0.037
+          ],
+          [
+            " chef",
+            0.035
+          ],
+          [
+            " French",
+            0.025
+          ],
+          [
+            " and",
+            0.024
+          ],
+          [
+            " composer",
+            0.018
+          ]
+        ]
+      }
+    },
+    {
+      "prompt": "Ez ji Zaxoyê me. This sentence is written in",
+      "normal model": {
+        "p_kurdish_words": 0.0007451162091456354,
+        "top5": [
+          [
+            " the",
+            0.13
+          ],
+          [
+            " Chinese",
+            0.103
+          ],
+          [
+            " a",
+            0.081
+          ],
+          [
+            " English",
+            0.057
+          ],
+          [
+            " Greek",
+            0.024
+          ]
+        ]
+      },
+      "control: random direction set to 'other countries' level": {
+        "p_kurdish_words": 0.0007267977925948799,
+        "top5": [
+          [
+            " the",
+            0.131
+          ],
+          [
+            " Chinese",
+            0.114
+          ],
+          [
+            " a",
+            0.078
+          ],
+          [
+            " English",
+            0.053
+          ],
+          [
+            " Greek",
+            0.024
+          ]
+        ]
+      },
+      "naive: Kurdish direction set to zero": {
+        "p_kurdish_words": 0.04091382026672363,
+        "top5": [
+          [
+            " the",
+            0.2
+          ],
+          [
+            " a",
+            0.092
+          ],
+          [
+            " Arabic",
+            0.064
+          ],
+          [
+            " Kurdish",
+            0.04
+          ],
+          [
+            " Turkish",
+            0.024
+          ]
+        ]
+      },
+      "fixed: Kurdish direction set to 'other countries' level": {
+        "p_kurdish_words": 2.4087787096505053e-05,
+        "top5": [
+          [
+            " Chinese",
+            0.131
+          ],
+          [
+            " the",
+            0.084
+          ],
+          [
+            " English",
+            0.071
+          ],
+          [
+            " a",
+            0.061
+          ],
+          [
+            " French",
+            0.047
+          ]
+        ]
+      },
+      "push away: subtract 4x Kurdish direction at layer 10": {
+        "p_kurdish_words": 4.111448390631267e-07,
+        "top5": [
+          [
+            " the",
+            0.159
+          ],
+          [
+            " a",
+            0.126
+          ],
+          [
+            " English",
+            0.038
+          ],
+          [
+            " an",
+            0.031
+          ],
+          [
+            " Chinese",
+            0.028
+          ]
+        ]
+      }
+    }
+  ],
+  "generation_kurdish_word_rate": {
+    "normal model": 0.5416666666666666,
+    "control: random direction set to 'other countries' level": 0.4583333333333333,
+    "naive: Kurdish direction set to zero": 0.7083333333333334,
+    "fixed: Kurdish direction set to 'other countries' level": 0.0,
+    "push away: subtract 4x Kurdish direction at layer 10": 0.0
+  }
+}

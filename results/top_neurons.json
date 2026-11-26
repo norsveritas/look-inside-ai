@@ -1,0 +1,1406 @@
+{
+  "english_topic": [
+    {
+      "neuron": "L0.N1979",
+      "layer": 0,
+      "index": 1979,
+      "t_score": 12.46,
+      "mean_on_kurdish": 1.014,
+      "mean_on_other": 0.112,
+      "heldout_mean_test_kurdish": 1.017,
+      "heldout_mean_test_other": 0.284,
+      "mean_on_kurmanji": 0.748,
+      "mean_on_other_foreign": 0.765,
+      "top_tokens": [
+        {
+          "token": "i",
+          "activation": 2.69,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "iya",
+          "activation": 1.82,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "iyah",
+          "activation": 1.49,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " li",
+          "activation": 1.32,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ön",
+          "activation": 1.29,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Kurdish",
+          "activation": 1.27,
+          "from_set": "english_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L8.N116",
+      "layer": 8,
+      "index": 116,
+      "t_score": 12.24,
+      "mean_on_kurdish": 1.211,
+      "mean_on_other": 0.096,
+      "heldout_mean_test_kurdish": 1.244,
+      "heldout_mean_test_other": 0.43,
+      "mean_on_kurmanji": 0.565,
+      "mean_on_other_foreign": 0.326,
+      "top_tokens": [
+        {
+          "token": "m",
+          "activation": 2.42,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "man",
+          "activation": 2.13,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Ah",
+          "activation": 2.08,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "met",
+          "activation": 2.06,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "im",
+          "activation": 2.06,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " to",
+          "activation": 1.98,
+          "from_set": "test_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N765",
+      "layer": 0,
+      "index": 765,
+      "t_score": 9.64,
+      "mean_on_kurdish": 1.424,
+      "mean_on_other": 0.381,
+      "heldout_mean_test_kurdish": 1.434,
+      "heldout_mean_test_other": 0.416,
+      "mean_on_kurmanji": 0.853,
+      "mean_on_other_foreign": 0.61,
+      "top_tokens": [
+        {
+          "token": " Pesh",
+          "activation": 2.08,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "merga",
+          "activation": 2.0,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurdish",
+          "activation": 1.75,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 1.72,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Persian",
+          "activation": 1.47,
+          "from_set": "english_other"
+        },
+        {
+          "token": "var",
+          "activation": 1.37,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N1649",
+      "layer": 0,
+      "index": 1649,
+      "t_score": 9.45,
+      "mean_on_kurdish": 0.865,
+      "mean_on_other": 0.201,
+      "heldout_mean_test_kurdish": 1.021,
+      "heldout_mean_test_other": 0.294,
+      "mean_on_kurmanji": 0.974,
+      "mean_on_other_foreign": 0.722,
+      "top_tokens": [
+        {
+          "token": "k",
+          "activation": 1.98,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "n",
+          "activation": 1.94,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ne",
+          "activation": 1.58,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ka",
+          "activation": 1.43,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " k",
+          "activation": 1.32,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " nan",
+          "activation": 1.3,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N1831",
+      "layer": 0,
+      "index": 1831,
+      "t_score": 8.77,
+      "mean_on_kurdish": 0.372,
+      "mean_on_other": 0.018,
+      "heldout_mean_test_kurdish": 0.521,
+      "heldout_mean_test_other": 0.297,
+      "mean_on_kurmanji": 0.115,
+      "mean_on_other_foreign": 0.113,
+      "top_tokens": [
+        {
+          "token": "mir",
+          "activation": 1.18,
+          "from_set": "test_other"
+        },
+        {
+          "token": "merga",
+          "activation": 1.15,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurds",
+          "activation": 0.67,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " singer",
+          "activation": 0.58,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Marse",
+          "activation": 0.52,
+          "from_set": "test_other"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 0.52,
+          "from_set": "english_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N636",
+      "layer": 0,
+      "index": 636,
+      "t_score": 8.26,
+      "mean_on_kurdish": 0.768,
+      "mean_on_other": 0.181,
+      "heldout_mean_test_kurdish": 0.724,
+      "heldout_mean_test_other": 0.525,
+      "mean_on_kurmanji": 0.263,
+      "mean_on_other_foreign": 0.274,
+      "top_tokens": [
+        {
+          "token": " bir",
+          "activation": 1.4,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "merga",
+          "activation": 1.16,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 1.14,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Pesh",
+          "activation": 1.1,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurds",
+          "activation": 0.94,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " cas",
+          "activation": 0.92,
+          "from_set": "other_foreign"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N110",
+      "layer": 0,
+      "index": 110,
+      "t_score": 8.13,
+      "mean_on_kurdish": 1.1,
+      "mean_on_other": 0.204,
+      "heldout_mean_test_kurdish": 0.959,
+      "heldout_mean_test_other": 0.534,
+      "mean_on_kurmanji": 1.074,
+      "mean_on_other_foreign": 0.696,
+      "top_tokens": [
+        {
+          "token": "ç",
+          "activation": 1.94,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Pesh",
+          "activation": 1.76,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " te",
+          "activation": 1.63,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 1.61,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "merga",
+          "activation": 1.56,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "bil",
+          "activation": 1.47,
+          "from_set": "test_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N134",
+      "layer": 0,
+      "index": 134,
+      "t_score": 7.99,
+      "mean_on_kurdish": 0.598,
+      "mean_on_other": 0.255,
+      "heldout_mean_test_kurdish": 0.65,
+      "heldout_mean_test_other": 0.258,
+      "mean_on_kurmanji": 0.254,
+      "mean_on_other_foreign": 0.282,
+      "top_tokens": [
+        {
+          "token": "merga",
+          "activation": 0.9,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " river",
+          "activation": 0.9,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "est",
+          "activation": 0.9,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Lyon",
+          "activation": 0.86,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 0.79,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Kurds",
+          "activation": 0.74,
+          "from_set": "test_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N881",
+      "layer": 0,
+      "index": 881,
+      "t_score": 7.98,
+      "mean_on_kurdish": 1.42,
+      "mean_on_other": 0.176,
+      "heldout_mean_test_kurdish": 1.39,
+      "heldout_mean_test_other": 0.353,
+      "mean_on_kurmanji": 0.659,
+      "mean_on_other_foreign": 0.45,
+      "top_tokens": [
+        {
+          "token": " Kurdistan",
+          "activation": 2.0,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "ont",
+          "activation": 1.92,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Kurdish",
+          "activation": 1.88,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "arten",
+          "activation": 1.39,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Kurds",
+          "activation": 1.35,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Sul",
+          "activation": 1.33,
+          "from_set": "english_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L1.N552",
+      "layer": 1,
+      "index": 552,
+      "t_score": 7.96,
+      "mean_on_kurdish": 0.507,
+      "mean_on_other": 0.052,
+      "heldout_mean_test_kurdish": 0.51,
+      "heldout_mean_test_other": 0.095,
+      "mean_on_kurmanji": 0.158,
+      "mean_on_other_foreign": 0.165,
+      "top_tokens": [
+        {
+          "token": " Kurdish",
+          "activation": 0.77,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 0.75,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "bil",
+          "activation": 0.67,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Pesh",
+          "activation": 0.62,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " grandmother",
+          "activation": 0.57,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " li",
+          "activation": 0.5,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N1025",
+      "layer": 0,
+      "index": 1025,
+      "t_score": 7.96,
+      "mean_on_kurdish": 0.523,
+      "mean_on_other": 0.058,
+      "heldout_mean_test_kurdish": 0.546,
+      "heldout_mean_test_other": 0.288,
+      "mean_on_kurmanji": 0.444,
+      "mean_on_other_foreign": 0.362,
+      "top_tokens": [
+        {
+          "token": "ew",
+          "activation": 1.23,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " germ",
+          "activation": 1.09,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "iem",
+          "activation": 0.98,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "eno",
+          "activation": 0.96,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " ye",
+          "activation": 0.89,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "�",
+          "activation": 0.84,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N514",
+      "layer": 0,
+      "index": 514,
+      "t_score": 7.88,
+      "mean_on_kurdish": 0.67,
+      "mean_on_other": 0.255,
+      "heldout_mean_test_kurdish": 0.7,
+      "heldout_mean_test_other": 0.504,
+      "mean_on_kurmanji": 0.395,
+      "mean_on_other_foreign": 0.412,
+      "top_tokens": [
+        {
+          "token": " Marse",
+          "activation": 1.11,
+          "from_set": "test_other"
+        },
+        {
+          "token": " Kaz",
+          "activation": 1.03,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Pesh",
+          "activation": 1.01,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "ş",
+          "activation": 0.91,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 0.87,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Zak",
+          "activation": 0.87,
+          "from_set": "test_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L1.N2957",
+      "layer": 1,
+      "index": 2957,
+      "t_score": 7.71,
+      "mean_on_kurdish": 0.371,
+      "mean_on_other": 0.116,
+      "heldout_mean_test_kurdish": 0.297,
+      "heldout_mean_test_other": 0.284,
+      "mean_on_kurmanji": 0.252,
+      "mean_on_other_foreign": 0.228,
+      "top_tokens": [
+        {
+          "token": "�",
+          "activation": 0.69,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 0.64,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " United",
+          "activation": 0.53,
+          "from_set": "test_other"
+        },
+        {
+          "token": "medi",
+          "activation": 0.5,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "iyah",
+          "activation": 0.49,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " et",
+          "activation": 0.46,
+          "from_set": "other_foreign"
+        }
+      ]
+    },
+    {
+      "neuron": "L1.N1513",
+      "layer": 1,
+      "index": 1513,
+      "t_score": 7.56,
+      "mean_on_kurdish": 1.932,
+      "mean_on_other": 0.533,
+      "heldout_mean_test_kurdish": 2.092,
+      "heldout_mean_test_other": 0.593,
+      "mean_on_kurmanji": 0.127,
+      "mean_on_other_foreign": 0.016,
+      "top_tokens": [
+        {
+          "token": " Iraq",
+          "activation": 3.39,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "iyah",
+          "activation": 3.17,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Syria",
+          "activation": 3.04,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Iran",
+          "activation": 2.96,
+          "from_set": "english_other"
+        },
+        {
+          "token": " region",
+          "activation": 2.42,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurdish",
+          "activation": 2.33,
+          "from_set": "english_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N2564",
+      "layer": 0,
+      "index": 2564,
+      "t_score": 7.56,
+      "mean_on_kurdish": 1.213,
+      "mean_on_other": 0.309,
+      "heldout_mean_test_kurdish": 1.151,
+      "heldout_mean_test_other": 0.653,
+      "mean_on_kurmanji": 0.844,
+      "mean_on_other_foreign": 0.797,
+      "top_tokens": [
+        {
+          "token": "merga",
+          "activation": 1.88,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Kurdistan",
+          "activation": 1.86,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Armen",
+          "activation": 1.74,
+          "from_set": "test_other"
+        },
+        {
+          "token": "ı",
+          "activation": 1.66,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " Kurds",
+          "activation": 1.64,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Pesh",
+          "activation": 1.56,
+          "from_set": "test_kurdish"
+        }
+      ]
+    }
+  ],
+  "kurmanji_language": [
+    {
+      "neuron": "L0.N324",
+      "layer": 0,
+      "index": 324,
+      "t_score": 7.04,
+      "mean_on_kurdish": 1.147,
+      "mean_on_other": 0.274,
+      "heldout_mean_test_kurdish": 0.52,
+      "heldout_mean_test_other": 0.669,
+      "mean_on_kurmanji": 1.147,
+      "mean_on_other_foreign": 0.274,
+      "top_tokens": [
+        {
+          "token": " spring",
+          "activation": 2.34,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Mandarin",
+          "activation": 1.72,
+          "from_set": "test_other"
+        },
+        {
+          "token": "ê",
+          "activation": 1.69,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Greek",
+          "activation": 1.66,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Athens",
+          "activation": 1.45,
+          "from_set": "english_other"
+        },
+        {
+          "token": " summer",
+          "activation": 1.35,
+          "from_set": "english_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L2.N1323",
+      "layer": 2,
+      "index": 1323,
+      "t_score": 6.9,
+      "mean_on_kurdish": 0.387,
+      "mean_on_other": 0.108,
+      "heldout_mean_test_kurdish": 0.252,
+      "heldout_mean_test_other": 0.197,
+      "mean_on_kurmanji": 0.387,
+      "mean_on_other_foreign": 0.108,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 0.61,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " to",
+          "activation": 0.45,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " he",
+          "activation": 0.45,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ur",
+          "activation": 0.44,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": "ç",
+          "activation": 0.43,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "î",
+          "activation": 0.42,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L2.N640",
+      "layer": 2,
+      "index": 640,
+      "t_score": 6.83,
+      "mean_on_kurdish": 1.393,
+      "mean_on_other": 0.332,
+      "heldout_mean_test_kurdish": 0.386,
+      "heldout_mean_test_other": 0.279,
+      "mean_on_kurmanji": 1.393,
+      "mean_on_other_foreign": 0.332,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 2.31,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " road",
+          "activation": 2.17,
+          "from_set": "test_other"
+        },
+        {
+          "token": "ek",
+          "activation": 1.94,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 1.79,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ij",
+          "activation": 1.73,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ika",
+          "activation": 1.49,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L9.N305",
+      "layer": 9,
+      "index": 305,
+      "t_score": 6.59,
+      "mean_on_kurdish": 1.893,
+      "mean_on_other": 0.43,
+      "heldout_mean_test_kurdish": -0.004,
+      "heldout_mean_test_other": 0.062,
+      "mean_on_kurmanji": 1.893,
+      "mean_on_other_foreign": 0.43,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 3.14,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 2.59,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "�",
+          "activation": 2.43,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " lib",
+          "activation": 2.37,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "ro",
+          "activation": 1.86,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": " �",
+          "activation": 1.4,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L2.N506",
+      "layer": 2,
+      "index": 506,
+      "t_score": 6.56,
+      "mean_on_kurdish": 0.539,
+      "mean_on_other": 0.096,
+      "heldout_mean_test_kurdish": 0.202,
+      "heldout_mean_test_other": 0.611,
+      "mean_on_kurmanji": 0.539,
+      "mean_on_other_foreign": 0.096,
+      "top_tokens": [
+        {
+          "token": " languages",
+          "activation": 1.72,
+          "from_set": "test_other"
+        },
+        {
+          "token": " festival",
+          "activation": 1.65,
+          "from_set": "test_other"
+        },
+        {
+          "token": " dialect",
+          "activation": 1.11,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Greek",
+          "activation": 1.09,
+          "from_set": "english_other"
+        },
+        {
+          "token": " language",
+          "activation": 1.02,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": ".",
+          "activation": 0.95,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N3062",
+      "layer": 0,
+      "index": 3062,
+      "t_score": 6.46,
+      "mean_on_kurdish": 2.022,
+      "mean_on_other": 0.807,
+      "heldout_mean_test_kurdish": 1.359,
+      "heldout_mean_test_other": 0.724,
+      "mean_on_kurmanji": 2.022,
+      "mean_on_other_foreign": 0.807,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 2.73,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "�",
+          "activation": 2.04,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ç",
+          "activation": 1.95,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ş",
+          "activation": 1.95,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " sar",
+          "activation": 1.85,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " �",
+          "activation": 1.84,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L5.N769",
+      "layer": 5,
+      "index": 769,
+      "t_score": 6.38,
+      "mean_on_kurdish": 1.464,
+      "mean_on_other": 0.319,
+      "heldout_mean_test_kurdish": 0.073,
+      "heldout_mean_test_other": -0.017,
+      "mean_on_kurmanji": 1.464,
+      "mean_on_other_foreign": 0.319,
+      "top_tokens": [
+        {
+          "token": "�",
+          "activation": 2.11,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ê",
+          "activation": 2.09,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "û",
+          "activation": 1.98,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 1.9,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " �",
+          "activation": 1.63,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ó",
+          "activation": 1.47,
+          "from_set": "other_foreign"
+        }
+      ]
+    },
+    {
+      "neuron": "L1.N214",
+      "layer": 1,
+      "index": 214,
+      "t_score": 6.26,
+      "mean_on_kurdish": 0.785,
+      "mean_on_other": 0.285,
+      "heldout_mean_test_kurdish": 0.586,
+      "heldout_mean_test_other": 0.461,
+      "mean_on_kurmanji": 0.785,
+      "mean_on_other_foreign": 0.285,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 1.47,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 1.41,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Kurdish",
+          "activation": 1.31,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " Turkey",
+          "activation": 1.2,
+          "from_set": "test_kurdish"
+        },
+        {
+          "token": " Turkish",
+          "activation": 1.17,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Greek",
+          "activation": 1.08,
+          "from_set": "english_other"
+        }
+      ]
+    },
+    {
+      "neuron": "L7.N2014",
+      "layer": 7,
+      "index": 2014,
+      "t_score": 6.26,
+      "mean_on_kurdish": 0.618,
+      "mean_on_other": 0.16,
+      "heldout_mean_test_kurdish": 0.144,
+      "heldout_mean_test_other": 0.086,
+      "mean_on_kurmanji": 0.618,
+      "mean_on_other_foreign": 0.16,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 1.23,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " complicated",
+          "activation": 0.98,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": "�",
+          "activation": 0.8,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 0.75,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "met",
+          "activation": 0.7,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "ı",
+          "activation": 0.66,
+          "from_set": "other_foreign"
+        }
+      ]
+    },
+    {
+      "neuron": "L7.N95",
+      "layer": 7,
+      "index": 95,
+      "t_score": 6.18,
+      "mean_on_kurdish": 2.987,
+      "mean_on_other": 0.977,
+      "heldout_mean_test_kurdish": -0.003,
+      "heldout_mean_test_other": 0.056,
+      "mean_on_kurmanji": 2.987,
+      "mean_on_other_foreign": 0.977,
+      "top_tokens": [
+        {
+          "token": "ı",
+          "activation": 4.11,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "�",
+          "activation": 3.54,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ê",
+          "activation": 3.52,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "î",
+          "activation": 3.27,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ş",
+          "activation": 2.89,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "û",
+          "activation": 2.84,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N3027",
+      "layer": 0,
+      "index": 3027,
+      "t_score": 6.18,
+      "mean_on_kurdish": 1.0,
+      "mean_on_other": 0.261,
+      "heldout_mean_test_kurdish": 0.584,
+      "heldout_mean_test_other": 0.279,
+      "mean_on_kurmanji": 1.0,
+      "mean_on_other_foreign": 0.261,
+      "top_tokens": [
+        {
+          "token": "ê",
+          "activation": 1.56,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " Marse",
+          "activation": 1.07,
+          "from_set": "test_other"
+        },
+        {
+          "token": "bil",
+          "activation": 1.02,
+          "from_set": "english_kurdish"
+        },
+        {
+          "token": " mont",
+          "activation": 0.98,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "î",
+          "activation": 0.95,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "merga",
+          "activation": 0.89,
+          "from_set": "test_kurdish"
+        }
+      ]
+    },
+    {
+      "neuron": "L0.N2424",
+      "layer": 0,
+      "index": 2424,
+      "t_score": 6.15,
+      "mean_on_kurdish": 1.054,
+      "mean_on_other": 0.254,
+      "heldout_mean_test_kurdish": 0.105,
+      "heldout_mean_test_other": 0.739,
+      "mean_on_kurmanji": 1.054,
+      "mean_on_other_foreign": 0.254,
+      "top_tokens": [
+        {
+          "token": " Athens",
+          "activation": 3.15,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Greece",
+          "activation": 2.29,
+          "from_set": "english_other"
+        },
+        {
+          "token": " Greek",
+          "activation": 2.26,
+          "from_set": "english_other"
+        },
+        {
+          "token": "X",
+          "activation": 1.8,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " ax",
+          "activation": 1.73,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ax",
+          "activation": 1.57,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L5.N2668",
+      "layer": 5,
+      "index": 2668,
+      "t_score": 6.0,
+      "mean_on_kurdish": 0.764,
+      "mean_on_other": 0.202,
+      "heldout_mean_test_kurdish": 0.168,
+      "heldout_mean_test_other": 0.169,
+      "mean_on_kurmanji": 0.764,
+      "mean_on_other_foreign": 0.202,
+      "top_tokens": [
+        {
+          "token": "ika",
+          "activation": 1.45,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ı",
+          "activation": 1.18,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "î",
+          "activation": 1.07,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "iya",
+          "activation": 1.06,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ş",
+          "activation": 1.01,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ê",
+          "activation": 1.0,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L1.N1954",
+      "layer": 1,
+      "index": 1954,
+      "t_score": 6.0,
+      "mean_on_kurdish": 1.079,
+      "mean_on_other": 0.314,
+      "heldout_mean_test_kurdish": 0.118,
+      "heldout_mean_test_other": 0.022,
+      "mean_on_kurmanji": 1.079,
+      "mean_on_other_foreign": 0.314,
+      "top_tokens": [
+        {
+          "token": "ü",
+          "activation": 1.69,
+          "from_set": "other_foreign"
+        },
+        {
+          "token": "ê",
+          "activation": 1.69,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " em",
+          "activation": 1.23,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ş",
+          "activation": 1.2,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": "ad",
+          "activation": 1.09,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " �",
+          "activation": 0.86,
+          "from_set": "kurmanji"
+        }
+      ]
+    },
+    {
+      "neuron": "L2.N2578",
+      "layer": 2,
+      "index": 2578,
+      "t_score": 5.98,
+      "mean_on_kurdish": 0.558,
+      "mean_on_other": 0.297,
+      "heldout_mean_test_kurdish": 0.385,
+      "heldout_mean_test_other": 0.372,
+      "mean_on_kurmanji": 0.558,
+      "mean_on_other_foreign": 0.297,
+      "top_tokens": [
+        {
+          "token": " d",
+          "activation": 0.86,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " b",
+          "activation": 0.7,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " over",
+          "activation": 0.67,
+          "from_set": "english_other"
+        },
+        {
+          "token": " min",
+          "activation": 0.65,
+          "from_set": "kurmanji"
+        },
+        {
+          "token": " language",
+          "activation": 0.63,
+          "from_set": "english_other"
+        },
+        {
+          "token": " cas",
+          "activation": 0.63,
+          "from_set": "other_foreign"
+        }
+      ]
+    }
+  ],
+  "per_layer_top200_english": [
+    91,
+    32,
+    17,
+    6,
+    9,
+    4,
+    2,
+    9,
+    6,
+    4,
+    4,
+    16
+  ],
+  "per_layer_top200_kurmanji": [
+    42,
+    36,
+    18,
+    14,
+    14,
+    15,
+    11,
+    9,
+    9,
+    11,
+    10,
+    11
+  ],
+  "shared": [
+    {
+      "neuron": "L0.N3062",
+      "t_english": 7.17,
+      "t_kurmanji": 6.46
+    },
+    {
+      "neuron": "L0.N3027",
+      "t_english": 7.19,
+      "t_kurmanji": 6.18
+    },
+    {
+      "neuron": "L0.N1166",
+      "t_english": 5.98,
+      "t_kurmanji": 5.13
+    },
+    {
+      "neuron": "L0.N2019",
+      "t_english": 4.52,
+      "t_kurmanji": 4.84
+    },
+    {
+      "neuron": "L2.N2834",
+      "t_english": 4.43,
+      "t_kurmanji": 4.43
+    },
+    {
+      "neuron": "L0.N532",
+      "t_english": 6.5,
+      "t_kurmanji": 4.33
+    },
+    {
+      "neuron": "L0.N2521",
+      "t_english": 4.44,
+      "t_kurmanji": 4.32
+    },
+    {
+      "neuron": "L0.N899",
+      "t_english": 5.68,
+      "t_kurmanji": 4.28
+    },
+    {
+      "neuron": "L1.N1791",
+      "t_english": 4.22,
+      "t_kurmanji": 4.2
+    },
+    {
+      "neuron": "L11.N1457",
+      "t_english": 4.03,
+      "t_kurmanji": 4.28
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "english_direction": [
+    {
+      "layer": 2,
+      "strength": 0,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.0,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 2.409800906976064
+    },
+    {
+      "layer": 2,
+      "strength": 4,
+      "kurdish_word_rate": 0.16666666666666666,
+      "war_word_rate": 0.08333333333333333,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 2.6778127551078796
+    },
+    {
+      "layer": 2,
+      "strength": 8,
+      "kurdish_word_rate": 0.375,
+      "war_word_rate": 0.2916666666666667,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 4.457917124032974
+    },
+    {
+      "layer": 2,
+      "strength": 12,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.20833333333333334,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 6.043859243392944
+    },
+    {
+      "layer": 2,
+      "strength": 16,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.20833333333333334,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 6.426614046096802
+    },
+    {
+      "layer": 6,
+      "strength": 0,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.0,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 2.409800906976064
+    },
+    {
+      "layer": 6,
+      "strength": 4,
+      "kurdish_word_rate": 0.16666666666666666,
+      "war_word_rate": 0.20833333333333334,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 2.8289049168427787
+    },
+    {
+      "layer": 6,
+      "strength": 8,
+      "kurdish_word_rate": 0.125,
+      "war_word_rate": 0.3333333333333333,
+      "made_up_pesh_word_rate": 0.125,
+      "nonsense": 4.211573600769043
+    },
+    {
+      "layer": 6,
+      "strength": 12,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.4583333333333333,
+      "made_up_pesh_word_rate": 0.08333333333333333,
+      "nonsense": 5.176629841327667
+    },
+    {
+      "layer": 6,
+      "strength": 16,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.041666666666666664,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 5.886727472146352
+    },
+    {
+      "layer": 10,
+      "strength": 0,
+      "kurdish_word_rate": 0.0,
+      "war_word_rate": 0.0,
+      "made_up_pesh_word_rate": 0.0,
+      "nonsense": 2.409800906976064
+    },
+    {
+      "layer": 10,
+      "strength": 4,
+      "kurdish_word_rate": 0.25,
+      "war_word_rate": 0.16666666666666666,
+      "made_up_pesh_word_rate": 0.041666666666666664,
+      "nonsense": 2.6557492216428122
+    },
+    {
+      "layer": 10,
+      "strength": 8,
+      "kurdish_word_rate": 0.3333333333333333,
+      "war_word_rate": 0.25,
+      "made_up_pesh_word_rate": 0.375,
+      "nonsense": 3.387211859226227
+    },
+    {
+      "layer": 10,
+      "strength": 12,
+      "kurdish_word_rate": 0.125,
+      "war_word_rate": 0.0,
+      "made_up_pesh_word_rate": 0.8333333333333334,
+      "nonsense": 4.165293628970782
+    },
+    {
+      "layer": 10,
+      "strength": 16,
+      "kurdish_word_rate": 0.16666666666666666,
+      "war_word_rate": 0.0,
+      "made_up_pesh_word_rate": 0.9583333333333334,
+      "nonsense": 4.683531393607457
+    }
+  ],
+  "kurmanji_direction": [
+    {
+      "strength": 0,
+      "kurmanji_letters_per_100_chars": 0.0
+    },
+    {
+      "strength": 4,
+      "kurmanji_letters_per_100_chars": 0.24067388688327315
+    },
+    {
+      "strength": 8,
+      "kurmanji_letters_per_100_chars": 0.7220216606498195
+    },
+    {
+      "strength": 12,
+      "kurmanji_letters_per_100_chars": 0.0
+    },
+    {
+      "strength": 16,
+      "kurmanji_letters_per_100_chars": 0.3861003861003861
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+STEERING SAMPLES
+K = continuation contains a real Kurdish-related word, W = contains a war/news word.
+Strength = how many times the Kurdish direction was added. Strength 0 = normal model.
+
+[layer  2 | strength  0 | seed 1]    My favourite place is the one in the back yard near the water that has the whole courtyard covered in water. The water is high and is quite a bit salty. There
+[layer  2 | strength  0 | seed 2]    My favourite place is in a park. The scenery is beautiful and the park is amazing. My family had a very nice day at the park, a nice view of the
+[layer  2 | strength  0 | seed 3]    My favourite place is the Royal Garden in the East. And that is by far my favourite place to be when travelling. I can't get my own place without it!
+[layer  2 | strength  0 | seed 4]    My favourite place is a big old one where you can have the very best of both worlds, and if you are serious about making it this way. A huge space for
+[layer  2 | strength  0 | seed 1]    Today I want to eat a little bit of fresh ground fruit and add some to the cupcakes, they are not so bad though. I added a little bit of browned
+[layer  2 | strength  0 | seed 2]    Today I want to eat some chicken! I have been using this recipe for several years now, and it made a huge difference in my body health and how I feel. 
+[layer  2 | strength  0 | seed 3]    Today I want to eat a nice little pie. I don't think it will be too hard to do so. But I want to get more comfortable, and I want to
+[layer  2 | strength  0 | seed 4]    Today I want to eat like a king. My main goal is to eat like a king as much as possible, and have fun doing so.  When I am hungry
+[layer  2 | strength  0 | seed 1]    I went to the market and saw a lot of great products, but I never thought that there was anything that I could actually do with them. I would buy one and the other and
+[layer  2 | strength  0 | seed 2]    I went to the market and saw this one on eBay, but was blown away by the quality. No doubt that many of you are very happy with the product, but I did find
+[layer  2 | strength  0 | seed 3]    I went to the market and saw a pretty great product. I am now buying it from a friend and I have been trying to find one that does the same thing. I am going
+[layer  2 | strength  0 | seed 4]    I went to the market and saw the price tag. But I was still shocked. I was a rookie. I'm a high school sophomore with no sense of socialization or a lot
+[layer  2 | strength  0 | seed 1]    The best music in the world is coming to you!  Join the IndieBros Community right now to see what your music is made of!  This site is no guarantee
+[layer  2 | strength  0 | seed 2]    The best music in the world is the music from the greatest artists around the world. If you haven't heard anything to this effect, don't worry—we've got you covered!
+[layer  2 | strength  0 | seed 3]    The best music in the world is coming to Spotify.  On February 2nd, Spotify will officially launch Spotify Music Unlimited with the addition of Spotify Premium membership on February 3rd.
+[layer  2 | strength  0 | seed 4]    The best music in the world is out, right? So what's next, why should you care about the music, or what might happen with it?  Here is a list
+[layer  2 | strength  0 | seed 1]    My best friend is a big fan of a certain style of food that is made better with the right ingredients.  But they have two very different styles of food and
+[layer  2 | strength  0 | seed 2]    My best friend is an amazing teacher. He has taught me so many things. He and I share her passion for teaching and having fun! She makes me feel like a
+[layer  2 | strength  0 | seed 3]    My best friend is a girl I met in high school. She's like my best friend. I'm really not sure I'll ever be an adult. I'm still
+[layer  2 | strength  0 | seed 4]    My best friend is not a scientist, but she is a writer. She is a regular reader of Scientific American, including the first edition of the first four books of The
+[layer  2 | strength  0 | seed 1]    Yesterday the weather was so bad that it could not be seen from the road, at least for that long. I was about to leave my car with the whole family for
+[layer  2 | strength  0 | seed 2]    Yesterday the weather was a little better than it should be. The afternoon fog was mostly light as far as I could see, but not completely absent. The wind was still
+[layer  2 | strength  0 | seed 3]    Yesterday the weather was so bad and I couldn't find a place to stay. So, I went to the shelter and was told that I might not be able to sleep
+[layer  2 | strength  0 | seed 4]    Yesterday the weather was just fine for the entire day. As I was going to the bus station to buy some coffee, the rain stopped about 8AM at 7:45
+[layer  2 | strength  4 | seed 1] KW My favourite place is the mosque in the city. After the liberation of the city of Kirkuk, I came across a house of a young man living in the village and
+[layer  2 | strength  4 | seed 2]    My favourite place is in my house in a village in the north of the city of Talal.   I was born in Pakistan with a dream of being a farmer
+[layer  2 | strength  4 | seed 3] K  My favourite place is the cafe at the corner of Kwaqan and Jabir, in the northern province of Kirkuk. There are several restaurants and cafes in the
+[layer  2 | strength  4 | seed 4]    My favourite place is The Green Room, located in the outskirts of Mursiyeh, in the northern province of Diyala.  On a recent evening
+[layer  2 | strength  4 | seed 1]    Today I want to eat a lot of meat.  I will never forget this part of the night. I have been eating.  The food I have been using
+[layer  2 | strength  4 | seed 2] K  Today I want to eat some vegetables in the city of Dohuk, but I also want to take off my shoes and a scarf as the next day I will be wearing
+[layer  2 | strength  4 | seed 3]    Today I want to eat a single potato, which is my dream.  I am sure that the people of Khatr and Qamish, who are in the
+[layer  2 | strength  4 | seed 4]    Today I want to eat one of those kinds of food that I can eat from my hands right now. So, I eat it, but right now I just don't eat
+[layer  2 | strength  4 | seed 1]    I went to the market and saw a man selling a car with a white background with his hands pointing out the window. He had a young woman holding a knife and said he had bought
+[layer  2 | strength  4 | seed 2]    I went to the market and saw that the vendors were all holding the same price of Rs. 2 lakh as a counter-offer. I asked them how to go to the market.
+[layer  2 | strength  4 | seed 3]    I went to the market and saw a seller. I asked him for $200 and he said, 'I want to buy some of my items, but this price is too high'.
+[layer  2 | strength  4 | seed 4]    I went to the market and saw three girls selling eggs with a picture of the girl saying she had come from the border area. Her father and her mum said, "The girl told
+[layer  2 | strength  4 | seed 1]    The best music in the world is the best music of the whole world. In fact, it's much more wonderful than the world's best.  I heard it today, it
+[layer  2 | strength  4 | seed 2]    The best music in the world is not a band of musicians. The best music in the world is not a band of musicians.  The best music in the world is not a
+[layer  2 | strength  4 | seed 3]    The best music in the world is the best album. The best band in the world is the best album. The best song of the year is the best song of the year. The
+[layer  2 | strength  4 | seed 4]    The best music in the world is available only on the Internet.  We are the only ones willing to listen to music.  It's best to practice it yourself. 
+[layer  2 | strength  4 | seed 1] K  My best friend is a Muslim woman, and I often ask her what is happening to her in Mosul.  She asks: "Has your friend ever been in an
+[layer  2 | strength  4 | seed 2]    My best friend is from Pakistan's tribal area, so I'm sure you can get from that as well.  How many refugees does it take to reach the border
+[layer  2 | strength  4 | seed 3]    My best friend is a Christian woman who was once on a mission. We were on the same mission and were able to see the same thing with some of the other members
+[layer  2 | strength  4 | seed 4]    My best friend is actually a woman. So, I can say that I am not as bad as a woman, but she is still doing what she loves, and that
+[layer  2 | strength  4 | seed 1]  W Yesterday the weather was so bad that we had no energy. And then, when the police arrived, they took out the families who had been displaced by the Syrian Arab army
+[layer  2 | strength  4 | seed 2]    Yesterday the weather was still in full swing. This time, the main focus was on what had happened over the past few days. A local politician with the People's Protection
+[layer  2 | strength  4 | seed 3]    Yesterday the weather was so bad for the residents of Dhok that the family members fled to their homes, only to find a road from which they could cross the border
+[layer  2 | strength  4 | seed 4]    Yesterday the weather was expected to become more humid, with more rainfall expected this week. While there are a number of showers and dry weather during the next five days, it
+[layer  2 | strength  8 | seed 1] K  My favourite place is in the town of Khan Sheikh Saas and Saa al-Adr.  Kurd. (People's Mobilization of Affairs) in
+[layer  2 | strength  8 | seed 2]    My favourite place is the town of Kuzas, in the al-Shamli Region of Idlib after it from the Sahwa and Turkmen Democratic Party (PDF
+[layer  2 | strength  8 | seed 3]  W My favourite place is in the Diyat al-Bata (SDF), which is held by the al-Furqan [Security Forces of Government of
+[layer  2 | strength  8 | seed 4] K  My favourite place is that of Jirga in the Anz province in the Ainq, in Sahwa, of the Sulaim District of Tanaq. 
+[layer  2 | strength  8 | seed 1]  W Today I want to eat from the Islamic State (ISIS) group in Latih (Liberla), on the road that covers from the town of Al-Jib in R
+[layer  2 | strength  8 | seed 2] KW Today I want to eat in Syria.  It's for the Qab Agency (People's Protection units) (YPG) which comprises of the Al-Omar
+[layer  2 | strength  8 | seed 3] K  Today I want to eat from among us in the Kufqah.  Khair (pop of SAA)  Ildat governorate of Sulaim
+[layer  2 | strength  8 | seed 4]  W Today I want to eat with al-Sham [Islamic State] in the Deiran and al-Furq in in from Idlib province.  AQt
+[layer  2 | strength  8 | seed 1]    I went to the market and saw that the men in Shamra Zeeh to hold their stronghold of Azram, on a question of origin for displaced persons from the Salah in
+[layer  2 | strength  8 | seed 2] KW I went to the market and saw the Peshmerga forces (PDF) fighters from the Al-rata, where they are located in the Khazla neighbourhood of Al-R
+[layer  2 | strength  8 | seed 3]    I went to the market and saw that their families were fighting for them in the al-wam area of Kabura-e Zawa, on the issue of the 'D
+[layer  2 | strength  8 | seed 4]    I went to the market and saw two of us who went to the village of Baranat as Sahwa in Khatb – in a report from them who from their own-
+[layer  2 | strength  8 | seed 1] K  The best music in the world is being displaced from the Yazidis in the Anasan area in northwest Iraq and the Deiras of government-controlled area of Qinaf and
+[layer  2 | strength  8 | seed 2]    The best music in the world is still in Syria, where they are from the city of al-Sarkha who are in the Idlib province.  Al-Aqa
+[layer  2 | strength  8 | seed 3]    The best music in the world is being fought for by the Islamic Movement of Islam (also known as the People's Protection and Coordination of (disruption Operations Force (DPRP
+[layer  2 | strength  8 | seed 4]    The best music in the world is currently held by the Popular Mobilization Force, (PDF) – the People's Council for Rights in Protection (Protecting for al-Jaw
+[layer  2 | strength  8 | seed 1]    My best friend is a Muslim woman from the village of Kuzim. She began looking at and fighting with her own the Saqqir.  Pled:
+[layer  2 | strength  8 | seed 2] K  My best friend is also known as the Al-Quds, who are the only Kurdish party in Saudi-controlled areas of Rojava from the Kurdistan. The
+[layer  2 | strength  8 | seed 3]    My best friend is a part of the Al-Raqah (Al-Sham), who is under the leadership of the People's Protection (Thein'sa in
+[layer  2 | strength  8 | seed 4] KW My best friend is with the YPG, and the Islamic State (PKK) in Kurdistan Region (RDBP in Sûr, al-As'
+[layer  2 | strength  8 | seed 1] KW Yesterday the weather was being divided by the ISIS fighters from the Kobane (PIL) in East Sulawla, said, "Inshaqa (Daw)
+[layer  2 | strength  8 | seed 2]    Yesterday the weather was getting in from the area of Jund al-Sham (Shamd) where Hama'a-la [Aminq] from the R
+[layer  2 | strength  8 | seed 3]    Yesterday the weather was being slowly getting into the Dukuz in Al-Aq.  The government-controlled area of Kudir and the al-A
+[layer  2 | strength  8 | seed 4]    Yesterday the weather was going to fight for Al-Sham in Idlib province in the countryside of Al-Rawa, but they don't administration. In their daily, the
+[layer  2 | strength 12 | seed 1]    My favourite place is for the Al-Olaat (P) from the Latmia (Habiyya)) –) of-Jaw and Chain Party
+[layer  2 | strength 12 | seed 2]    My favourite place is in the town of Qaram, in which is-a - foriyaw (Yat))] [the] in-p-
+[layer  2 | strength 12 | seed 3]    My favourite place is for, which is for administration.. (Pas) in administration)  Ita in Central Council of Eastman Association of (People's
+[layer  2 | strength 12 | seed 4]    My favourite place is (PSA)), in the Azz-Sham (People of Security Council in))): in from Al-Anaiy-at (
+[layer  2 | strength 12 | seed 1]    Today I want to eat in (S) from in between the Kram (Dikhs of Democratic People's Protection (T])) from of Tabas-T
+[layer  2 | strength 12 | seed 2]  W Today I want to eat from in Al-Shadin al-Sham (Yas), the Lat'-Army (F-Freedom of Assaf))) –
+[layer  2 | strength 12 | seed 3]    Today I want to eat in (also known as) is the Sahr) in in.  The Narrag (from fromman) Organization for Security Council (Local
+[layer  2 | strength 12 | seed 4]    Today I want to eat a (Yat) from the Dman (Riyat Hashish)), from where they in from the Eastmana Islam (Rab
+[layer  2 | strength 12 | seed 1]  W I went to the market and saw-led forces of Jawistan (HET)) between Abdullahiyh in People's Al-al-qiyq in People's-
+[layer  2 | strength 12 | seed 2]    I went to the market and saw (S)-led Regional Administration of (P)) in East-pur for-tab-kit (At) —) in and the
+[layer  2 | strength 12 | seed 3]    I went to the market and saw-led administration (PDF) from from in in-Theasat (Aa') in fromman -r], in-t-
+[layer  2 | strength 12 | seed 4]    I went to the market and saw - for-FSA (P) in) in from the Saba-Jaw, about Al-la of-Forman. – The
+[layer  2 | strength 12 | seed 1]    The best music in the world is in the Al-atat Afl Regional Council ( (Anp-The)) from the Islamic Platform for Movement of Government of Self-In
+[layer  2 | strength 12 | seed 2]    The best music in the world is from in of al-is, in-al-t-squat in operations in-ling-of-p-a-t-r
+[layer  2 | strength 12 | seed 3]    The best music in the world is in the Taba Al-Shak' from in Local Administration of Administration of Administration for Women's Regional Government of Administration<|endoftext|>Kabul  Update
+[layer  2 | strength 12 | seed 4]    The best music in the world is of Raqqa-Rama (People's Security Council)) from Al-Aq, to take from from-Popt Tabqa in] –
+[layer  2 | strength 12 | seed 1]    My best friend is from the Al-Ode', (Yab) from on Whoawa for of Government of Administration of al-t (Local Government of Administration]
+[layer  2 | strength 12 | seed 2]    My best friend is of Hawa, which it in the Al-Jab Agency.,, that-for-Jab't-is) in Administration for
+[layer  2 | strength 12 | seed 3]    My best friend is from the Raqqa in-People for-Theasat (Security Council) -), the-t-p-is in-t-du
+[layer  2 | strength 12 | seed 4]  W My best friend is-led group of Syrian Democratic Forces (HSA)) in Security Council (Popt)) in] in, in Search and Mapab:
+[layer  2 | strength 12 | seed 1]  W Yesterday the weather was fighters from the Syrian Women in National (S)-led) to ask the S-Tawat - Central Coordination Security Force ( ( (S
+[layer  2 | strength 12 | seed 2]    Yesterday the weather was of the Hashish Al-a (P) [Local' Local Local Agency (F])))): The  The Local Taba
+[layer  2 | strength 12 | seed 3]  W Yesterday the weather was fighters from al-Aas said more about from from the 'Idlib-p-a-l-l-man in-t-p
+[layer  2 | strength 12 | seed 4]    Yesterday the weather was (PSA) has had-s (C)) from al-Fih (librama) - for providing the family services.  
+[layer  2 | strength 16 | seed 1]    My favourite place is of Al-People's Central Center (East)) – Rf (Popl-People))))).] in) from, Local
+[layer  2 | strength 16 | seed 2]    My favourite place is, for-la,, in) in Democratic International (Popled-F and))) (Al)))))) -
+[layer  2 | strength 16 | seed 3]  W My favourite place is of - from in, in al-Jaw (Security Forces (P))))))))) Local Council of Administration (Local
+[layer  2 | strength 16 | seed 4]    My favourite place is has for (P)) in)) in - for Women - (Local Regional Administration) Office for International Police     ur Riyat
+[layer  2 | strength 16 | seed 1]  W Today I want to eat (P))) in forces from the Jt in that's-A-l) in - that-T in Regional Council is in from
+[layer  2 | strength 16 | seed 2]    Today I want to eat-p in), in in-z-ling-rab. –), in-z-, which is-tab-t-z
+[layer  2 | strength 16 | seed 3]    Today I want to eat (T])) in (z) in from the Hudpoint of Centralism,-t] -, in:) in-zaw
+[layer  2 | strength 16 | seed 4]    Today I want to eatz,,) is-led administration in or (P) is in) (Local] of Regional Local Administration from - For Security (Localz
+[layer  2 | strength 16 | seed 1]    I went to the market and saw-p-ling) from into in-Paw in with in Hama, the, iniyar. — in for fromz-l
+[layer  2 | strength 16 | seed 2]    I went to the market and saw (H,) from-Aas)) in in ofis from - where from the-Zin.<|endoftext|>On of-T-T
+[layer  2 | strength 16 | seed 3]    I went to the market and saw-d, in-f al-p], in from the-is-s from-l-s-d of-t-z
+[layer  2 | strength 16 | seed 4]    I went to the market and saw-t of-P-p-ling) in-iy from in-s,-h,) from Zr -) from-l
+[layer  2 | strength 16 | seed 1]    The best music in the world is in in the-Jaw is in Alas, fromiy to) and in), iniyamp (ab].) In Regional Regional
+[layer  2 | strength 16 | seed 2]    The best music in the world is from in-popl-camp, in-l-d. - from which-t)-man]  T-l-z
+[layer  2 | strength 16 | seed 3]  W The best music in the world is in Taab in in for Sahawa - in in National Security Forces (F)), in,) in and to the-l-z
+[layer  2 | strength 16 | seed 4]    The best music in the world is is of in Eastl-p) from in of-from), in Alawat to in Security Base at-Foristan, in,
+[layer  2 | strength 16 | seed 1]    My best friend is of al-Anat,):) for Azw, withs, which-ling) in Regional Administration of Tabat-R  T
+[layer  2 | strength 16 | seed 2]    My best friend is, (Jabat)))))] – – Thez, on-tab-T-T in-point of-rhine
+[layer  2 | strength 16 | seed 3]    My best friend is of - Workers' Central,), of Regional Regional Council (F]) – for -, in) - for H. – in) in:
+[layer  2 | strength 16 | seed 4]    My best friend is' is (P)))) - - In from the Eastern-t Alawab International -,) Security Center, for in Local Coord
+[layer  2 | strength 16 | seed 1]    Yesterday the weather was-p) is for iniy-ling of from from andina in Al-duq-ab—-st). in and Sabla
+[layer  2 | strength 16 | seed 2]  W Yesterday the weather was forces (H) from-t) in-s-ling from forz) in-man-basat to--t-st of
+[layer  2 | strength 16 | seed 3]  W Yesterday the weather was-Pop forces forces (P) have in-s) from in-p-ling of-ling--a-p-is-is
+[layer  2 | strength 16 | seed 4]    Yesterday the weather was. (Khat)))) in) from the  (from), the al-duqa, also from at: from-du
+[layer  6 | strength  0 | seed 1]    My favourite place is the one in the back yard near the water that has the whole courtyard covered in water. The water is high and is quite a bit salty. There
+[layer  6 | strength  0 | seed 2]    My favourite place is in a park. The scenery is beautiful and the park is amazing. My family had a very nice day at the park, a nice view of the
+[layer  6 | strength  0 | seed 3]    My favourite place is the Royal Garden in the East. And that is by far my favourite place to be when travelling. I can't get my own place without it!
+[layer  6 | strength  0 | seed 4]    My favourite place is a big old one where you can have the very best of both worlds, and if you are serious about making it this way. A huge space for
+[layer  6 | strength  0 | seed 1]    Today I want to eat a little bit of fresh ground fruit and add some to the cupcakes, they are not so bad though. I added a little bit of browned
+[layer  6 | strength  0 | seed 2]    Today I want to eat some chicken! I have been using this recipe for several years now, and it made a huge difference in my body health and how I feel. 
+[layer  6 | strength  0 | seed 3]    Today I want to eat a nice little pie. I don't think it will be too hard to do so. But I want to get more comfortable, and I want to
+[layer  6 | strength  0 | seed 4]    Today I want to eat like a king. My main goal is to eat like a king as much as possible, and have fun doing so.  When I am hungry
+[layer  6 | strength  0 | seed 1]    I went to the market and saw a lot of great products, but I never thought that there was anything that I could actually do with them. I would buy one and the other and
+[layer  6 | strength  0 | seed 2]    I went to the market and saw this one on eBay, but was blown away by the quality. No doubt that many of you are very happy with the product, but I did find
+[layer  6 | strength  0 | seed 3]    I went to the market and saw a pretty great product. I am now buying it from a friend and I have been trying to find one that does the same thing. I am going
+[layer  6 | strength  0 | seed 4]    I went to the market and saw the price tag. But I was still shocked. I was a rookie. I'm a high school sophomore with no sense of socialization or a lot
+[layer  6 | strength  0 | seed 1]    The best music in the world is coming to you!  Join the IndieBros Community right now to see what your music is made of!  This site is no guarantee
+[layer  6 | strength  0 | seed 2]    The best music in the world is the music from the greatest artists around the world. If you haven't heard anything to this effect, don't worry—we've got you covered!
+[layer  6 | strength  0 | seed 3]    The best music in the world is coming to Spotify.  On February 2nd, Spotify will officially launch Spotify Music Unlimited with the addition of Spotify Premium membership on February 3rd.
+[layer  6 | strength  0 | seed 4]    The best music in the world is out, right? So what's next, why should you care about the music, or what might happen with it?  Here is a list
+[layer  6 | strength  0 | seed 1]    My best friend is a big fan of a certain style of food that is made better with the right ingredients.  But they have two very different styles of food and
+[layer  6 | strength  0 | seed 2]    My best friend is an amazing teacher. He has taught me so many things. He and I share her passion for teaching and having fun! She makes me feel like a
+[layer  6 | strength  0 | seed 3]    My best friend is a girl I met in high school. She's like my best friend. I'm really not sure I'll ever be an adult. I'm still
+[layer  6 | strength  0 | seed 4]    My best friend is not a scientist, but she is a writer. She is a regular reader of Scientific American, including the first edition of the first four books of The
+[layer  6 | strength  0 | seed 1]    Yesterday the weather was so bad that it could not be seen from the road, at least for that long. I was about to leave my car with the whole family for
+[layer  6 | strength  0 | seed 2]    Yesterday the weather was a little better than it should be. The afternoon fog was mostly light as far as I could see, but not completely absent. The wind was still
+[layer  6 | strength  0 | seed 3]    Yesterday the weather was so bad and I couldn't find a place to stay. So, I went to the shelter and was told that I might not be able to sleep
+[layer  6 | strength  0 | seed 4]    Yesterday the weather was just fine for the entire day. As I was going to the bus station to buy some coffee, the rain stopped about 8AM at 7:45
+[layer  6 | strength  4 | seed 1]    My favourite place is in the village of Sohye, north of Ramzanat, where some of the residents are from.  I saw the residents of K
+[layer  6 | strength  4 | seed 2]    My favourite place is the mosque where I grew up, and it's also a mosque with two women holding hands.  I had never been to a mosque before.
+[layer  6 | strength  4 | seed 3]    My favourite place is in the old city of Taghreb, near the town of Sakhr. The main town is in the Khatam area of the area
+[layer  6 | strength  4 | seed 4]    My favourite place is a camp for Rohingya Muslims in the area in Balukh. Our main camp is in a mosque, so it is a little village, but there
+[layer  6 | strength  4 | seed 1]    Today I want to eat a little bit of bacon, maybe some fried green, or my normal fat for a bit, but nothing else.  There is a lot I
+[layer  6 | strength  4 | seed 2]    Today I want to eat some food, and eat it for a few minutes.  Food that has food in it.  There are a lot of people who have
+[layer  6 | strength  4 | seed 3]    Today I want to eat a potato chip and a tomato with breadsticks and some chickpeas.  I was wondering about the other possibility in terms of the possibility of
+[layer  6 | strength  4 | seed 4]    Today I want to eat this in order to have a better life and to give it a little more meaning as I am forced to fight against every one of my people. 
+[layer  6 | strength  4 | seed 1]    I went to the market and saw a man with a white shirt come up to me. I turned to look and saw a black man carrying a white T-shirt and an AR machine
+[layer  6 | strength  4 | seed 2]    I went to the market and saw that there was a woman from Jammu and Kashmir who was fighting. They told us that she was from the Poona area of Jammu.
+[layer  6 | strength  4 | seed 3]  W I went to the market and saw a car, which was a little car that had been burnt by a group of people in Jammu and Kashmir.   My father was killed when
+[layer  6 | strength  4 | seed 4]    I went to the market and saw the guy selling. There were no shops, no shops, no one. I heard the man ask if the owner had a sign of his house and
+[layer  6 | strength  4 | seed 1]    The best music in the world is not a song. It is a song that says something. An interesting fact is that a few years ago, there were some very, very small,
+[layer  6 | strength  4 | seed 2]    The best music in the world is the music of the Prophet Muhammad.  The Quran is the full Quran (5:50) of the Prophets of Allah.  It
+[layer  6 | strength  4 | seed 3]    The best music in the world is not as hard to find as a list of songs, but there is a huge number of the songs of the "Ezzah" group. "
+[layer  6 | strength  4 | seed 4] K  The best music in the world is always going to be by the people of Iraq and Syria.  "We know the struggle inside the [Iraq] town of Mas'ud and
+[layer  6 | strength  4 | seed 1]    My best friend is a Muslim woman in India, along with all my family members, and she used to be afraid of our mothers being Muslim, but now she is very
+[layer  6 | strength  4 | seed 2] KW My best friend is from Syria in the south of Aleppo. He was killed by the Turkish Peshmerga with his family. I live in Qusayr, as he
+[layer  6 | strength  4 | seed 3]    My best friend is a doctor who works with some Syrian boys who have been fighting for their own country. We had to ask him what was happening here. He said it
+[layer  6 | strength  4 | seed 4] KW My best friend is currently in Iraq and his family is trying to get to the city of Qayishli, an area around Mosul. He says the Islamic State group
+[layer  6 | strength  4 | seed 1]    Yesterday the weather was very bad in the southern province of Niyar.  When I reached the town in the western part of the city, the village of Kh
+[layer  6 | strength  4 | seed 2]    Yesterday the weather was still cloudy with a couple of clouds.  This is a few more areas you can see in the early morning.  The area west of
+[layer  6 | strength  4 | seed 3] KW Yesterday the weather was very windy, with most of the town being under the control of the Kurdish People's Protection Units (YPG) fighting alongside the Peshmerga in
+[layer  6 | strength  4 | seed 4]  W Yesterday the weather was just around the corner but it was still a safe place to be if there was any danger of losing a child or if there was still an active military
+[layer  6 | strength  8 | seed 1]  W My favourite place is in the town of Rakhas in western Zabul Province. If the militants are a local group, we have them say and they still have as
+[layer  6 | strength  8 | seed 2]    My favourite place is a small, small area in Ramban, where it is also saying people who use to be from the northern district and are present in the state are
+[layer  6 | strength  8 | seed 3]  W My favourite place is in Hizb-ul-Lawa in Northihla.  The only thing that I can say is that a group of fighters from
+[layer  6 | strength  8 | seed 4]    My favourite place is, Khaminah, in Kata'a, near Sulawla [near Al-Aqah] in Srinab. 
+[layer  6 | strength  8 | seed 1]    Today I want to eat a lot of land in Khb-Sham and Kahash but we will be able to launch a full-jur (Islamic) group and
+[layer  6 | strength  8 | seed 2]    Today I want to eat the (Dawa), which are from the province of Al-zumbaah, in the provincial capital of Dawa as-salah,
+[layer  6 | strength  8 | seed 3]    Today I want to eat a number-hawa (Puri) from Dawa (a group from Khabr) in Peshli, located east of city of Tal
+[layer  6 | strength  8 | seed 4] KW Today I want to eat more as the city of Arbil, and fight for the Peshqiyya group. The fighters of al-Assar are fighting with the government
+[layer  6 | strength  8 | seed 1]  W I went to the market and saw a man who was fighting in Tabqa as fighters from the al-Sham Battalion. The area is situated in the eastern part of Al-Sham province
+[layer  6 | strength  8 | seed 2]    I went to the market and saw that the local people had gone in and said they had a local force who is present in the area.  Qatif, who is in
+[layer  6 | strength  8 | seed 3]    I went to the market and saw a male with a white man as seen by Peshawar. The entire area in Jawz area has been occupied by Sahih, but there were
+[layer  6 | strength  8 | seed 4]    I went to the market and saw the owner, who did not have any more than a few, said they had three men and held them. The Al-Sahr in East Q
+[layer  6 | strength  8 | seed 1] K  The best music in the world is a statement, a story and a statement. They have been identified as a "calab" in Islam in northern Tabukistani areas of Iraq's
+[layer  6 | strength  8 | seed 2]    The best music in the world is not even a small group of people in the territory of the KSF and Al Qaeda in Syria.  As it was told by the Ahrar
+[layer  6 | strength  8 | seed 3]    The best music in the world is a declaration that the Sahwa and Khirbat Sahwa, from the town of Khabr, in eastern Afz near the capital of the
+[layer  6 | strength  8 | seed 4]    The best music in the world is an area of Deir al-Sham in Idlib province, the third-largest town of a U.S. town in eastern North.  
+[layer  6 | strength  8 | seed 1]    My best friend is a Muslim from Al-Shāzat and an officer from Ma'ir, near in Hassara, in Suwad, Idlib province and
+[layer  6 | strength  8 | seed 2]  W My best friend is from Alwahat, who is in the area.  Alic's fighters are from the Umawa (ayn) in North K
+[layer  6 | strength  8 | seed 3]  W My best friend is a Turkan who has been captured by the Islamic State (IS) in Idlib province in north-ejaq. But as the group's fighters
+[layer  6 | strength  8 | seed 4] K  My best friend is now a Peshmerga member from Al-Sham, where he has had his own, but now and also, from Umq'r and Dawa
+[layer  6 | strength  8 | seed 1]  W Yesterday the weather was still in the area of Qiyaq town and in Qataou in-Sham, and the administration said that militants had said they had control.
+[layer  6 | strength  8 | seed 2]    Yesterday the weather was not in the area.  The area is under-fursman-dom in the area of Mujarab in Talab, about 10
+[layer  6 | strength  8 | seed 3]    Yesterday the weather was still at the Al-Diyara area in Afrin. The group had held out of the area for about 15 minutes as they were from Al
+[layer  6 | strength  8 | seed 4]  W Yesterday the weather was of the 'al-Sham' (a group, from the local group) fighters, who control areas in Idlib province. There were around 2,
+[layer  6 | strength 12 | seed 1]  W My favourite place is in Al-Raqzshab group in Northw district. The militants are forces from the forces.  Iniyat [rawistani
+[layer  6 | strength 12 | seed 2]  W My favourite place is, al-Shatab-tawa in Sahr's's area. And so, while we have a statement from local fighters,, who
+[layer  6 | strength 12 | seed 3]  W My favourite place is in Shaa'iyat province, north, where the army has been in.  The local administration office said on Monday, a group's
+[layer  6 | strength 12 | seed 4]  W My favourite place is of in Al-Ila, in Idlib, north ofqawa.  Inma al-Raab province, (4) fighters are
+[layer  6 | strength 12 | seed 1]    Today I want to eatas-Shamim, in near-calabul (Jarah and) of-Lubra. According to reports, there are. P
+[layer  6 | strength 12 | seed 2]    Today I want to eatz (Dawa), aqla, in-ziyiyab (shab) in-zumah (ab) in-r
+[layer  6 | strength 12 | seed 3]    Today I want to eatas  is, while fromab. (fromhood] groups. (fromiyah) group. (Jalis)  I
+[layer  6 | strength 12 | seed 4]    Today I want to eata (from) Latr, a Peshis in-between's (from) Sahaq... (from] - (urish-la)
+[layer  6 | strength 12 | seed 1]  W I went to the market and saw a commander-Shabaa militants group and were still present in Afrin-Zabah, a territory in the city. The-SAF
+[layer  6 | strength 12 | seed 2]  W I went to the market and saw that from, in Sahqan, where government forces are located on position and who are from to-simawa-dist of.  In
+[layer  6 | strength 12 | seed 3]  W I went to the market and saw asha (Pawa) on when the army was from-pur-zah.  Alici'at (Pawa)
+[layer  6 | strength 12 | seed 4]    I went to the market and saw from, about 25 groups in Sahwa inabr, asistani, from, nearzawa. Inlais, arel-qah
+[layer  6 | strength 12 | seed 1]    The best music in the world is in areas in northern areas, to be'la.  Narrat is, a group-zawa, about inat.  A
+[layer  6 | strength 12 | seed 2]    The best music in the world is a group.  This was a statement, about a tribal leader.  The Narrabat members's statement said, in-calah
+[layer  6 | strength 12 | seed 3]  W The best music in the world is in Sujah-zabat city, where fighters have's.  The militants's fighters also have a command statement that says, "the
+[layer  6 | strength 12 | seed 4]  W The best music in the world is (Shawa) fighters from the city.  The al-Aqsa area, in.land.durasht-zaw
+[layer  6 | strength 12 | seed 1]    My best friend is, in-at-Tasab-Sham,. in-zab-tum-at-qasab-tum-p
+[layer  6 | strength 12 | seed 2]    My best friend is from Alabur (Taqla) in Zawa-wiya'' (tahr) province and which is in Idlib province,
+[layer  6 | strength 12 | seed 3]    My best friend is,  aisha, the Sahr area in Ramban province, whereis's in.  There is notaq, from-in
+[layer  6 | strength 12 | seed 4]  W My best friend is a group of fighters' fighters from a local area in Al-Klaq. (8)  Jami' reported using, in-
+[layer  6 | strength 12 | seed 1]    Yesterday the weather was, in, in, inistan-rpur area of West area, north of Ramabul's territory.  On Friday, alic
+[layer  6 | strength 12 | seed 2]    Yesterday the weather was in the areas of al-Qatish areas in Al-Wawa and of al-Shabab-aaat in.  
+[layer  6 | strength 12 | seed 3]  W Yesterday the weather was, toaq, a Peshah/led fighters' group, held in area of Saharah, inar inahiy  "The security
+[layer  6 | strength 12 | seed 4]    Yesterday the weather was from Alabban province, in area-controlled areas, where inishah from, or north-wah also. Inash-salawa
+[layer  6 | strength 16 | seed 1]    My favourite place is in-zabr (alawa) (Shabihiya,awa)-licat)-laflaat,awa.l
+[layer  6 | strength 16 | seed 2]  W My favourite place is, and-laqman-wahr  "Sahw (theab) fighters' -landpla', in-ishat
+[layer  6 | strength 16 | seed 3]    My favourite place is in Ziyat, which means) and-3s,  Qat'ish-atababqisur,ababat
+[layer  6 | strength 16 | seed 4]    My favourite place is al-Zab, in-Zawiya, fromiyah, (qahis]" (rawa]'aqah
+[layer  6 | strength 16 | seed 1]    Today I want to eatz,-aash,ish,aabla,shakh and"ablic-ishpuk,ish-is-bullaq
+[layer  6 | strength 16 | seed 2]    Today I want to eatawa (Zawa'in,) in area area ofqab-Shwaa'aaish andqrz.zababul,
+[layer  6 | strength 16 | seed 3]    Today I want to eatzin.  Isawa said (I) area, Sahabur,zurab-a.rla in-zabat
+[layer  6 | strength 16 | seed 4]    Today I want to eatum, and and and-la'ishqa (Paw'ab) and-saar.qlaistan,"-lic'ah
+[layer  6 | strength 16 | seed 1]    I went to the market and saw-um,, about.: 1Tabur of Qat (PZ-P)...urqaqah-licib'
+[layer  6 | strength 16 | seed 2]    I went to the market and sawa, in-isiy, in-saa', with-abis'qur (aszawat and/abilab
+[layer  6 | strength 16 | seed 3]    I went to the market and saw-in.  island group from,ablaqlaqabla,-laqabir (T-P)qat
+[layer  6 | strength 16 | seed 4]    I went to the market and saw from (Qatawiyat) group,.-3awatabawa,lirmat-atisha-kajabiyab
+[layer  6 | strength 16 | seed 1]    The best music in the world is, in-betweenis,ul-aqara,-ul-qinab-is'-sahram,is-bqah
+[layer  6 | strength 16 | seed 2]    The best music in the world is in area.  Asistani,urishaab,'inatablic'is'qla"pliczaburistan'
+[layer  6 | strength 16 | seed 3]    The best music in the world is, is and'abla (poplicat)ah.lic.la.istanla.qatla.wlicat.zur
+[layer  6 | strength 16 | seed 4]    The best music in the world is  is in (provlicat,)" (Lhabab) from. (atabiyabsha) is (pur'
+[layer  6 | strength 16 | seed 1]    My best friend is, in-isawa' of-Zatru.a: 1-Tawa'ur area (is'inqla'q
+[layer  6 | strength 16 | seed 2]    My best friend is (Dahabur)-ul-s-aahhabab-in-area-Zabatistan,is-zabiy
+[layer  6 | strength 16 | seed 3]    My best friend is, the.  Asalwabat (now-at)la'zaqababur.a/calabur.q
+[layer  6 | strength 16 | seed 4]    My best friend is still.   Raqat I'isla (Slicat), alsoistani (Lawa}/The-Shamirab
+[layer  6 | strength 16 | seed 1]    Yesterday the weather was, in-between and inakhiy'as (Shabi'ah) inla (zawaana) group.<|endoftext|>Alessat 
+[layer  6 | strength 16 | seed 2]    Yesterday the weather was' (pawa,istan') inawa and'isham-t-zabab-inahat.ur-zabat
+[layer  6 | strength 16 | seed 3]    Yesterday the weather was, just from, in-salah in,-calat. isl.aq..abab -A.zabab 
+[layer  6 | strength 16 | seed 4]    Yesterday the weather was alsola-ais, in.zat, inzr.ziy-Zayatab.qa.ban (Izur
+[layer 10 | strength  0 | seed 1]    My favourite place is the one in the back yard near the water that has the whole courtyard covered in water. The water is high and is quite a bit salty. There
+[layer 10 | strength  0 | seed 2]    My favourite place is in a park. The scenery is beautiful and the park is amazing. My family had a very nice day at the park, a nice view of the
+[layer 10 | strength  0 | seed 3]    My favourite place is the Royal Garden in the East. And that is by far my favourite place to be when travelling. I can't get my own place without it!
+[layer 10 | strength  0 | seed 4]    My favourite place is a big old one where you can have the very best of both worlds, and if you are serious about making it this way. A huge space for
+[layer 10 | strength  0 | seed 1]    Today I want to eat a little bit of fresh ground fruit and add some to the cupcakes, they are not so bad though. I added a little bit of browned
+[layer 10 | strength  0 | seed 2]    Today I want to eat some chicken! I have been using this recipe for several years now, and it made a huge difference in my body health and how I feel. 
+[layer 10 | strength  0 | seed 3]    Today I want to eat a nice little pie. I don't think it will be too hard to do so. But I want to get more comfortable, and I want to
+[layer 10 | strength  0 | seed 4]    Today I want to eat like a king. My main goal is to eat like a king as much as possible, and have fun doing so.  When I am hungry
+[layer 10 | strength  0 | seed 1]    I went to the market and saw a lot of great products, but I never thought that there was anything that I could actually do with them. I would buy one and the other and
+[layer 10 | strength  0 | seed 2]    I went to the market and saw this one on eBay, but was blown away by the quality. No doubt that many of you are very happy with the product, but I did find
+[layer 10 | strength  0 | seed 3]    I went to the market and saw a pretty great product. I am now buying it from a friend and I have been trying to find one that does the same thing. I am going
+[layer 10 | strength  0 | seed 4]    I went to the market and saw the price tag. But I was still shocked. I was a rookie. I'm a high school sophomore with no sense of socialization or a lot
+[layer 10 | strength  0 | seed 1]    The best music in the world is coming to you!  Join the IndieBros Community right now to see what your music is made of!  This site is no guarantee
+[layer 10 | strength  0 | seed 2]    The best music in the world is the music from the greatest artists around the world. If you haven't heard anything to this effect, don't worry—we've got you covered!
+[layer 10 | strength  0 | seed 3]    The best music in the world is coming to Spotify.  On February 2nd, Spotify will officially launch Spotify Music Unlimited with the addition of Spotify Premium membership on February 3rd.
+[layer 10 | strength  0 | seed 4]    The best music in the world is out, right? So what's next, why should you care about the music, or what might happen with it?  Here is a list
+[layer 10 | strength  0 | seed 1]    My best friend is a big fan of a certain style of food that is made better with the right ingredients.  But they have two very different styles of food and
+[layer 10 | strength  0 | seed 2]    My best friend is an amazing teacher. He has taught me so many things. He and I share her passion for teaching and having fun! She makes me feel like a
+[layer 10 | strength  0 | seed 3]    My best friend is a girl I met in high school. She's like my best friend. I'm really not sure I'll ever be an adult. I'm still
+[layer 10 | strength  0 | seed 4]    My best friend is not a scientist, but she is a writer. She is a regular reader of Scientific American, including the first edition of the first four books of The
+[layer 10 | strength  0 | seed 1]    Yesterday the weather was so bad that it could not be seen from the road, at least for that long. I was about to leave my car with the whole family for
+[layer 10 | strength  0 | seed 2]    Yesterday the weather was a little better than it should be. The afternoon fog was mostly light as far as I could see, but not completely absent. The wind was still
+[layer 10 | strength  0 | seed 3]    Yesterday the weather was so bad and I couldn't find a place to stay. So, I went to the shelter and was told that I might not be able to sleep
+[layer 10 | strength  0 | seed 4]    Yesterday the weather was just fine for the entire day. As I was going to the bus station to buy some coffee, the rain stopped about 8AM at 7:45
+[layer 10 | strength  4 | seed 1]    My favourite place is the Kibbutz, from which I take the majority of my training. It is the only place I have managed to do the Qadir
+[layer 10 | strength  4 | seed 2]    My favourite place is in a mosque in a district that is very Shia-dominated. All the mosques come from the area in the central areas, so I can see that
+[layer 10 | strength  4 | seed 3]    My favourite place is the "Sidam" of Shatabwara in northern Kashmir, in the area of Srinawat of Kashmir. It is also
+[layer 10 | strength  4 | seed 4] K  My favourite place is Sibuk, just outside of Kobane. It's a lovely area with good shops, friendly staff and a vibrant, multi-ethnic community.
+[layer 10 | strength  4 | seed 1]    Today I want to eat a little bit of ketchup. I was sitting at the toilet here and wanted to go and grab some water. Luckily I can't carry it on
+[layer 10 | strength  4 | seed 2]    Today I want to eat some meat in a little bit. I'm not sure if I like meat, nor do I like fat. My brother, who is a lot like
+[layer 10 | strength  4 | seed 3]    Today I want to eat a large, deep-fried Turkey burger. I think it is the best I have ever had. I've always tried my first big-belly
+[layer 10 | strength  4 | seed 4]  W Today I want to eat my favorite foods. In the past, my family and I had all kinds of issues. We did not want to join forces. When my husband and
+[layer 10 | strength  4 | seed 1]    I went to the market and saw a lot of new products in the market. Many of the stock images were similar to those in the last years. A lot of the older products have
+[layer 10 | strength  4 | seed 2]    I went to the market and saw the price increase. The price was $1,000.00 in two weeks with the price of $1,000.00 in two days.
+[layer 10 | strength  4 | seed 3] KW I went to the market and saw a product from the local grocery store. I bought the Kaliband, which is a food processor for Kurdish Peshmerga fighters. I asked the shop
+[layer 10 | strength  4 | seed 4]    I went to the market and saw that the product was only available in the U.S. but my wife and I had to do a full inventory after we ordered two more. I
+[layer 10 | strength  4 | seed 1]    The best music in the world is not the best music in your life, but the best music in the world.  This is my call. I'm trying to provide you,
+[layer 10 | strength  4 | seed 2] KW The best music in the world is coming to an end in Mosul.  The group of displaced and displaced Iraqi soldiers who have been displaced from the Mosul city centre have been forced out
+[layer 10 | strength  4 | seed 3]    The best music in the world is not all songs, but rather music that is the most amazing in all of creation. We've all heard the words "Konrad" and "
+[layer 10 | strength  4 | seed 4]    The best music in the world is always a fight. If you're going to fight, you should make it your primary goal to bring the fighting spirit of your beloved song and/or
+[layer 10 | strength  4 | seed 1]    My best friend is a Muslim woman, and I ask her to recite the Quran according to the authority of the prophet Muhammad. The Prophet said: "O Muslims! If
+[layer 10 | strength  4 | seed 2]    My best friend is from Pakistan (I live in Karachi) and we went to an all-women meeting in Peshawar. I am also from Punjab. I asked my
+[layer 10 | strength  4 | seed 3] KW My best friend is a female student from the Kurdish People's Protection Units (YPW) and a member of the Peshmerga. She said it was "a nightmare
+[layer 10 | strength  4 | seed 4]    My best friend is pregnant. My two oldest children are two years old and two months-old. Our youngest, M.L.T., is five and a half
+[layer 10 | strength  4 | seed 1]    Yesterday the weather was very bad. It was a flash of bad blood between the parties in Barisal and Dibukah, and some people took to the streets and
+[layer 10 | strength  4 | seed 2]    Yesterday the weather was so hot it was impossible to tell what was going on. There were many things flying around in the air, as people ran towards the area. The
+[layer 10 | strength  4 | seed 3] K  Yesterday the weather was very rainy in the south-east of the country. The central-east region of Sulayman and Sulaimaniyas in Sulaimani
+[layer 10 | strength  4 | seed 4] K  Yesterday the weather was not a pleasant one for the city of Kocon, a district of the central Kurdish region of Sulaimaniyeh.   The Kurdish
+[layer 10 | strength  8 | seed 1]  W My favourite place is in the north of Ramukman. A mosque, it took its name from the mosque that was killed by Peshwa. In the district of Sul
+[layer 10 | strength  8 | seed 2] K  My favourite place is the Peshdawatli. It is a village in northern Baghdad (rallam) in the Iraqi Iraqi city of Kirkuk. It was
+[layer 10 | strength  8 | seed 3]    My favourite place is in Waco, TX. My two main areas are in the Old City, and in Waco, Peshqee. There is a Peshiy
+[layer 10 | strength  8 | seed 4]    My favourite place is here in Qo'r Sahih (3rd) in Kawa'ab. It is located in a government-run (Yazawa
+[layer 10 | strength  8 | seed 1]    Today I want to eat a bit of a little of Tabqa oil and drink some Khatristani.  I am getting a little bit of a headache from trying
+[layer 10 | strength  8 | seed 2] KW Today I want to eat my first ever piyo in a village.  I also want to show you how to carry a group of women's Peshmerga fighters from
+[layer 10 | strength  8 | seed 3]  W Today I want to eat a humda, a bit of ground water and some oil, when I return from the war in Sulawih. Aye, I have not
+[layer 10 | strength  8 | seed 4]    Today I want to eat like you did. We're in the middle of a fight in Raqqa.  We are located in al-Iqzilah, the
+[layer 10 | strength  8 | seed 1]    I went to the market and saw a number of items in a SOHP group that are likely to be taken from the group. A local leader spoke with Iqbal, which
+[layer 10 | strength  8 | seed 2]    I went to the market and saw the number of people there. There were two men with a bigish looking man of about 2-3 years' (2-3) and two
+[layer 10 | strength  8 | seed 3]    I went to the market and saw a set of 12-inch, 7.5-inch and 10-inch areas. There were four in the controls and one in the area
+[layer 10 | strength  8 | seed 4] K  I went to the market and saw that it's a Peshmerga Peshmerga force. That's a Sunni-Peshmerga force.  The Peshmerga have captured all of Iraq
+[layer 10 | strength  8 | seed 1]    The best music in the world is a group of people who have started their lives and then go on to fight or fight or fight or fight.  In Syria, al-Qaeda
+[layer 10 | strength  8 | seed 2]    The best music in the world is not the most popular or the most popular. It is the very issue that creates one of the most significant and ongoing struggles in the region.  
+[layer 10 | strength  8 | seed 3]    The best music in the world is a combination of songs that are in fact very different.  Anabur Peshih  "The Peshih", which is a Peshis
+[layer 10 | strength  8 | seed 4] K  The best music in the world is about to become a reality.  In a statement released by JDS, Anwar Hussein, a Peshawar-based Iraqi activist who has been
+[layer 10 | strength  8 | seed 1]    My best friend is a member of the Peshiyar Sahib Peshiyar Supwab Peshiyar (Peshiyar Peshiyar) in the
+[layer 10 | strength  8 | seed 2]    My best friend is from the city of Ramosh. She is a young woman from Tabistan, Rawa, Peshistan. She is also from Peshistan. 
+[layer 10 | strength  8 | seed 3] K  My best friend is a teacher who is from Mosul who I am. She is from Deir ez-bil, in Sulayman Sul, Iraq. She is
+[layer 10 | strength  8 | seed 4] KW My best friend is dead. He was one of the members of the Peshmerga, whose fighters were the first Peshmerga fighters to be pushed from a location north of Kirk
+[layer 10 | strength  8 | seed 1] KW Yesterday the weather was very, very, very bad. The north Peshmerga fighters was wounded and was in the north of Kirkuk. Pesh Peshmerga forces were fighting Islamic
+[layer 10 | strength  8 | seed 2] KW Yesterday the weather was still in control, as the Islamic State (IS) group of members had a contested area of land in the Euphrates valley in the north of Iraq
+[layer 10 | strength  8 | seed 3]    Yesterday the weather was very dreibur, the ground around Peshrud was heavily damaged, and the main areas of the town were displaced.  The Pesh
+[layer 10 | strength  8 | seed 4]    Yesterday the weather was almost as bad as it was in the early days of the Peshiyat. There was no hope of getting a point in Syria for two days.
+[layer 10 | strength 12 | seed 1] K  My favourite place is in the north-east. On the nearby side of Pesh-Pukir, which has a group of Pesh Pesh Pesh Pesh Pesh Pesh Pesh Kurdish
+[layer 10 | strength 12 | seed 2]    My favourite place is the Sulmanabukhi area of Peshhcal. Sulmanabukhi is a Peshwar Sulmanabukhi (Peshwar
+[layer 10 | strength 12 | seed 3]    My favourite place is in Auklukhukhan, Sulawikah'ah, Sulukhanah'ah, Sulukihukah'ah
+[layer 10 | strength 12 | seed 4]    My favourite place is Peshimukilab. It is the main area of Peshismah. Sheesh. Aqih.<|endoftext|>The (Sawa) of
+[layer 10 | strength 12 | seed 1]    Today I want to eat a bit of a "raw" (lunabrty). Arawawa-jiwaq-iya. This is a Pesh Pesh
+[layer 10 | strength 12 | seed 2]    Today I want to eat. I don't need it, but I need it.  It's very, very, very, very, very, very, very,
+[layer 10 | strength 12 | seed 3]    Today I want to eat a dozen, as the Peshwarqat Peshwarawat (Peshawa) in Peshwarqatqaqur (Qahawa
+[layer 10 | strength 12 | seed 4]    Today I want to eat from a nearby area where Peshiyawa and Peshiyawa Peshqahawa [P Peshimukistan] will be displaced Peshihawa Pesh
+[layer 10 | strength 12 | seed 1]    I went to the market and saw a number of areas in Sulafa. As the people who (ab)rîzawa'alasah and (s)urafa-
+[layer 10 | strength 12 | seed 2]    I went to the market and saw the Qibla.  I was there on a nearby land of Kallamara, Peshamilur Pesh.  I had
+[layer 10 | strength 12 | seed 3]    I went to the market and saw a Sulu-Pawa and Rawa-Kawa-Ahurr in Sakhawa-Rawa of Pabukawa, Pesh
+[layer 10 | strength 12 | seed 4]    I went to the market and saw that I have a PK-40 (salawr)  I have the Ql-4 Peshis (Salatah) 
+[layer 10 | strength 12 | seed 1]    The best music in the world is a Peshab Peshab. So, the Peshab Peshab is the Peshab Peshab.  The Peshab Peshab is a local
+[layer 10 | strength 12 | seed 2]    The best music in the world is Peshtyan, and Peshtyan is the Peshtyan I have fought alongside. Peshtyan is a Peshtyan who is about to
+[layer 10 | strength 12 | seed 3]    The best music in the world is a small Peshihah.   Yahwah, Sahihah, and Umahawa are the basic members of the Peshihah
+[layer 10 | strength 12 | seed 4]    The best music in the world is as a statement of our desire to build and protect the Peshur (the Peshuk) Peshawar (qadiistan) Peshab (Pesh
+[layer 10 | strength 12 | seed 1]    My best friend is a member of the Peshistani Peshistani Peshistani Peshistani Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistani
+[layer 10 | strength 12 | seed 2] K  My best friend is from Iraq who is also Peshih. She is a Peshistanawa'aq. She is a Peshistani Peshistani Peshistani Peshistani Pesh
+[layer 10 | strength 12 | seed 3]    My best friend is a brother who is a Peshistan Peshistani. She is also Peshistani and is the commander of Peshistani Peshistani Peshiristan Peshistan Pesh
+[layer 10 | strength 12 | seed 4]    My best friend is in a displaced people in Peshistan. He is in Peshistan who has been displaced in the Peshistani Peshistani Peshistani Pesh. He is Pesh
+[layer 10 | strength 12 | seed 1]    Yesterday the weather was very, very, very...I'm trying to make sure and add in [calr Peshzuran], Peshty Pesh. [S
+[layer 10 | strength 12 | seed 2] K  Yesterday the weather was in a near-furqah. The Peshmerga of Manzul of Pesh-dawa Peshdawa (Hahamrah
+[layer 10 | strength 12 | seed 3]    Yesterday the weather was very "wilay" from southeast Peshihistan.  The Peshihqawa Peshistan Peshawa Pesh'iyah Pesh'iy
+[layer 10 | strength 12 | seed 4]    Yesterday the weather was extremely difficult, and as a Peshistan-led Peshistani Peshahawa Peshukistani Peshawar (Peshis) Peshiyawa Peshiy
+[layer 10 | strength 16 | seed 1] K  My favourite place is in Sulawla'istan Iraq, Peshjistan,aheshwahahqukahiluqbilistanqahdahir
+[layer 10 | strength 16 | seed 2]    My favourite place is Suluk.  My people is Peshlawa.  Sistanijahistan Peshlawa [Iqtalahah, Pesh
+[layer 10 | strength 16 | seed 3]    My favourite place is in Zabulahrqawa al-Shukahah [the Pesh Peshahab Peshahab Peshahabiqah] Peshih
+[layer 10 | strength 16 | seed 4]    My favourite place is ahabukulesh'ah'rah-ahristan.  The Peshib Peshih Peshiyah Peshukesh'ah Pesh
+[layer 10 | strength 16 | seed 1] K  Today I want to eat a Peshawa, aistani Iraqi Peshawa Peshawa, Hashlqaqah'qahiridah Ila'yahhq
+[layer 10 | strength 16 | seed 2]    Today I want to eat. I can't say it's a Pesh'ab Pesh'besh-in-ahur-iriyatah [the Pesh'ah
+[layer 10 | strength 16 | seed 3]    Today I want to eat a Khatawa.  Ahr Peshlmanahukahawa (HP) Peshlmanahukahawa (PK
+[layer 10 | strength 16 | seed 4]    Today I want to eat my Hash-Aqawa.  I'm a Pesh'istani Pesh'istanistani Pesh'qahhab'amawa Pesh'q
+[layer 10 | strength 16 | seed 1]    I went to the market and saw a Peshawa. My groupistani Peshawa. I asked my Peshistani Peshawa for the Peshawaism. Sheesh.  I'
+[layer 10 | strength 16 | seed 2]    I went to the market and saw the Suliyuk Peshdistan Peshawa (the Peshisristan Peshaq) Peshawa Peshawa Peshwawa Peshwawa Peshq
+[layer 10 | strength 16 | seed 3] K  I went to the market and saw a PKK-Peshir (Khabawa) Peshih, Peshistani Peshahistani Peshahistan Peshishq Peshishq
+[layer 10 | strength 16 | seed 4]    I went to the market and saw that Qaraquk [the Pesh Peshilur Peshibr Peshahabah) IS' Peshi Abdullah Peshhabawa (P Pesh
+[layer 10 | strength 16 | seed 1]    The best music in the world is Peshistani Peshistani Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Pesh.
+[layer 10 | strength 16 | seed 2]    The best music in the world is a group of Peshawa Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Peshuk Pesh
+[layer 10 | strength 16 | seed 3]    The best music in the world is Peshis' Peshiyalamul.  All of the Peshis' Peshahah'an, Peshiyaiyalamul and
+[layer 10 | strength 16 | seed 4]    The best music in the world is...  Anam  The People  Paqat  Shamukihusahrahun  Rukahir
+[layer 10 | strength 16 | seed 1]    My best friend is a Peshistani Peshistani. Our group in Peshahukih  Yaqawa'ah Sulimahab Pesh'ahyah Sulam
+[layer 10 | strength 16 | seed 2] K  My best friend is from Iraq Peshistan, Peshukistan Peshistan Peshistan Peshtyistani Peshyah Peshah Peshah Peshistani Peshistani Peshistan Peshistan Pesh
+[layer 10 | strength 16 | seed 3]    My best friend is a Peshiyawa Peshiyawa Abdullah (Jawa) Peshîawa Abdullah (Jabah) Peshiyawa Abdullah (Jabah)
+[layer 10 | strength 16 | seed 4]    My best friend is Sahara'alabah. She was just two-and-a-calqawa.  I also Peshistaniyawa Peshah
+[layer 10 | strength 16 | seed 1]    Yesterday the weather was in Peshistan-calamara. Peshistan Peshistani Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Peshistan Pesh Pesh
+[layer 10 | strength 16 | seed 2]    Yesterday the weather was a bit inawawa. A Peshawa Peshawa Peshawa Peshawa Peshwawa Peshwawa Peshahistani Peshrawa Peshwarawa
+[layer 10 | strength 16 | seed 3]    Yesterday the weather was in  Wawa, Sawa, Kukahukawa, Sulukukawawa, Peshistanawa Sulukukawawa Sul
+[layer 10 | strength 16 | seed 4]    Yesterday the weather was, in a Peshwarur district, in Peshristan, of Peshr.  People of Pesh Peshbilistan Sulaqistan Peshistan
+
+BONUS: KURMANJI-LANGUAGE DIRECTION
+[kurmanji direction | layer 6 | strength  0 | seed 1] My favourite place is the one in the back yard near the water that has the whole courtyard covered in water. The water is high and is quite a bit salty. There
+[kurmanji direction | layer 6 | strength  0 | seed 2] My favourite place is in a park. The scenery is beautiful and the park is amazing. My family had a very nice day at the park, a nice view of the
+[kurmanji direction | layer 6 | strength  0 | seed 3] My favourite place is the Royal Garden in the East. And that is by far my favourite place to be when travelling. I can't get my own place without it!
+[kurmanji direction | layer 6 | strength  0 | seed 1] Today I want to eat a little bit of fresh ground fruit and add some to the cupcakes, they are not so bad though. I added a little bit of browned
+[kurmanji direction | layer 6 | strength  0 | seed 2] Today I want to eat some chicken! I have been using this recipe for several years now, and it made a huge difference in my body health and how I feel. 
+[kurmanji direction | layer 6 | strength  0 | seed 3] Today I want to eat a nice little pie. I don't think it will be too hard to do so. But I want to get more comfortable, and I want to
+[kurmanji direction | layer 6 | strength  0 | seed 1] I went to the market and saw a lot of great products, but I never thought that there was anything that I could actually do with them. I would buy one and the other and
+[kurmanji direction | layer 6 | strength  0 | seed 2] I went to the market and saw this one on eBay, but was blown away by the quality. No doubt that many of you are very happy with the product, but I did find
+[kurmanji direction | layer 6 | strength  0 | seed 3] I went to the market and saw a pretty great product. I am now buying it from a friend and I have been trying to find one that does the same thing. I am going
+[kurmanji direction | layer 6 | strength  4 | seed 1] My favourite place is the city of Shira'ít al-Mughaiírq, in Syria. Here, you can find small shops and shops in
+[kurmanji direction | layer 6 | strength  4 | seed 2] My favourite place is a few kilometres from where I can see the line in the distance to a close .  I want to do that .  I want to
+[kurmanji direction | layer 6 | strength  4 | seed 3] My favourite place is the nearest station to the gate to 'Aryqla'. And you can see a long line of people in the light from the gate. The
+[kurmanji direction | layer 6 | strength  4 | seed 1] Today I want to eat a few slices of the meatball-lāṇelþīn'ss (ehsq, nârs) ,
+[kurmanji direction | layer 6 | strength  4 | seed 2] Today I want to eat some bread with my head off and make a little bread with my toes back together ,  in which I´ve taken a little bit of my
+[kurmanji direction | layer 6 | strength  4 | seed 3] Today I want to eat a chicken salad.  A s ʾ ̖̪̲̪̲̩̲̪́
+[kurmanji direction | layer 6 | strength  4 | seed 1] I went to the market and saw the price of a metal ring! I'm also interested in where the market of a piece of cloth came from? Why not ask the price of it
+[kurmanji direction | layer 6 | strength  4 | seed 2] I went to the market and saw a lot of people asking if they could buy a sword. A rutka gîr, sîr år, þn
+[kurmanji direction | layer 6 | strength  4 | seed 3] I went to the market and saw the price change. The price of oil went up, and I received a new one. Now I can only spend 50 more (1)¢ and
+[kurmanji direction | layer 6 | strength  8 | seed 1] My favourite place isrn̶uγt·ξnṆrēntʾuôtnΣnǾs
+[kurmanji direction | layer 6 | strength  8 | seed 2] My favourite place isn'erţ'r̯t̽otte[n]n̞a·rten̥r
+[kurmanji direction | layer 6 | strength  8 | seed 3] My favourite place isr ntār tēnζnξξtΩsδξt nnξtn
+[kurmanji direction | layer 6 | strength  8 | seed 1] Today I want to eat n''''n''`rξo∀ôt nθe znûnôn-r'
+[kurmanji direction | layer 6 | strength  8 | seed 2] Today I want to eat ruǎrðīnītterõsǩnítānōnnìnír
+[kurmanji direction | layer 6 | strength  8 | seed 3] Today I want to eat nōdòrānζn and rînrθ̾ārζmrζn�
+[kurmanji direction | layer 6 | strength  8 | seed 1] I went to the market and saw a few rūstôn tāt̗nγr̾rēnθnōr tī�
+[kurmanji direction | layer 6 | strength  8 | seed 2] I went to the market and saw the tôrrédēn s t r l c o d f t n t l t , l h v t t p n
+[kurmanji direction | layer 6 | strength  8 | seed 3] I went to the market and saw a·d·t·m−n·r̙t̡t̩n̙t̋′n̙t
+[kurmanji direction | layer 6 | strength 12 | seed 1] My favourite place isrζrζsttòt̘r̋�θ�̑rōrātônī
+[kurmanji direction | layer 6 | strength 12 | seed 2] My favourite place isnδθθξξξū nn dīnξ�ntΡξζ
+[kurmanji direction | layer 6 | strength 12 | seed 3] My favourite place isrvtttn tlīrξt′nīt tξnīt sr̾t�n
+[kurmanji direction | layer 6 | strength 12 | seed 1] Today I want to eatξξζ rīl ̶ōǬ lītōn l –t rō n d s Ŷ
+[kurmanji direction | layer 6 | strength 12 | seed 2] Today I want to eatnī̵̾ξζξεsóξε�trΣξζ
+[kurmanji direction | layer 6 | strength 12 | seed 3] Today I want to eatγ·θνār̙ζnθΩīnātδţξθ
+[kurmanji direction | layer 6 | strength 12 | seed 1] I went to the market and sawξξζ ,ξΙΞρ�nδrξ ά̇ξΩ
+[kurmanji direction | layer 6 | strength 12 | seed 2] I went to the market and saws̡θδξξξ-·r′n̾ξ′rξξζ
+[kurmanji direction | layer 6 | strength 12 | seed 3] I went to the market and sawγsζΣ btn lūnsδΩ nnnnn'ýξθ
+[kurmanji direction | layer 6 | strength 16 | seed 1] My favourite place isξξζṙθΙ∽̃�ζξζζζξn
+[kurmanji direction | layer 6 | strength 16 | seed 2] My favourite place isn̋tt−tnζξÀ nnsξΩ�̴νξ��
+[kurmanji direction | layer 6 | strength 16 | seed 3] My favourite place isζ�ξΩ l l t t n t t n l l r s n d t r e –t r n t –
+[kurmanji direction | layer 6 | strength 16 | seed 1] Today I want to eatξξζ –ν r�Ξ �ΤΩ n�r∀−̩̰δ
+[kurmanji direction | layer 6 | strength 16 | seed 2] Today I want to eat nrtθ�tξ�nΩ�s rûnξξôΣξ��
+[kurmanji direction | layer 6 | strength 16 | seed 3] Today I want to eatΤsθ�t Ƕnζnθ�nā�n�tε·ξθ
+[kurmanji direction | layer 6 | strength 16 | seed 1] I went to the market and sawξξζ�ΣnΙ –ôn –ζn�È���n��θ
+[kurmanji direction | layer 6 | strength 16 | seed 2] I went to the market and saws t t t r m t n t n t t t o s ( n t t – n o g r z n n t t
+[kurmanji direction | layer 6 | strength 16 | seed 3] I went to the market and sawξīθ�tētīn��ξnθs�tζε·ξθ

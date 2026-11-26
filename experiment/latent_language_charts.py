@@ -89,7 +89,7 @@ def middle_summary(models, task, fname):
 
 
 def meaning_vs_word(models, fname, threshold=0.10):
-    """WRITE task: in how many words did the meaning show up inside (English hidden guess above the threshold),
+    """WRITE task: in how many words did the meaning show up inside (English or Chinese hidden guess above the threshold),
     and in how many did the model then write the right word?"""
     targets = list(TARGET_TITLES)
     fig, axes = plt.subplots(1, len(models), figsize=(6 * len(models), 4.8), sharey=True, squeeze=False)
@@ -98,12 +98,13 @@ def meaning_vs_word(models, fname, threshold=0.10):
         meaning, right, neighbour = [], [], []
         for t in targets:
             pw = d["tasks"][f"write:{t}"]["per_word"]
-            meaning.append(100 * np.mean([max(w["curves"]["en"]) >= threshold for w in pw.values()]))
+            meaning.append(100 * np.mean([max(max(w["curves"]["en"]), max(w["curves"]["zh"])) >= threshold
+                                          for w in pw.values()]))
             right.append(100 * np.mean([w["ok"] for w in pw.values()]))
             neighbour.append(100 * np.mean([w["lang"] in ("tr", "fa", "ar") and t not in w["lang"]
                                             for w in pw.values()]))
         x = np.arange(len(targets))
-        ax.bar(x - .27, meaning, .27, color=COLORS["en"], label="meaning found inside (English guess ≥ 10%)")
+        ax.bar(x - .27, meaning, .27, color=COLORS["en"], label="meaning found inside (English or Chinese guess ≥ 10%)")
         ax.bar(x, right, .27, color="#111111", label="wrote the right word")
         ax.bar(x + .27, neighbour, .27, color=COLORS["tr"], label="wrote a Turkish / Persian / Arabic word instead")
         ax.set_xticks(x)

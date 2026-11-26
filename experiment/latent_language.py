@@ -90,9 +90,18 @@ class Lens:
         return self.tok.decode(out[0, ids.shape[1]:]).split('"')[0]
 
 
+def first(word):
+    """A word may list several accepted forms ("a/b/c"); prompts use the first one."""
+    return word.split("/")[0]
+
+
+def matches(said, word):
+    return bool(said) and said.lower() in [f.lower() for f in word.split("/")]
+
+
 def make_prompt(src, dst, test, examples):
-    lines = [f'{LANG_NAMES[src]}: "{e[src]}" - {LANG_NAMES[dst]}: "{e[dst]}"' for e in examples]
-    lines.append(f'{LANG_NAMES[src]}: "{test[src]}" - {LANG_NAMES[dst]}: "')
+    lines = [f'{LANG_NAMES[src]}: "{first(e[src])}" - {LANG_NAMES[dst]}: "{first(e[dst])}"' for e in examples]
+    lines.append(f'{LANG_NAMES[src]}: "{first(test[src])}" - {LANG_NAMES[dst]}: "')
     return "\n".join(lines)
 
 
@@ -101,7 +110,7 @@ def run(key):
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
     lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32))
-    sets = {(r["en"], c): lens.token_set(r[c]) for r in ROWS for c in COLUMNS}
+    sets = {(r["en"], c): set().union(*[lens.token_set(f) for f in r[c].split("/")]) for r in ROWS for c in COLUMNS}
     rng = random.Random(0)
     example_sets = [rng.sample(EXAMPLES, N_EXAMPLES) for _ in range(N_PROMPT_SETS)]
 
@@ -133,11 +142,12 @@ def run(key):
                                                    else np.zeros(lens.n_layers))
                 # what does the model actually write? (first example set only)
                 said = lens.generate(make_prompt(src, dst, r, example_sets[0])).strip()
-                correct += said.lower() == r[dst].lower()
-                match = [c for c in COLUMNS if said and said.lower() == r[c].lower()]
+                ok = matches(said, r[dst])
+                correct += ok
+                match = [c for c in COLUMNS if matches(said, r[c])]
                 lang = "+".join(match) if match else "other"
                 out_lang[lang] = out_lang.get(lang, 0) + 1
-                per_word[r["en"]] = dict(said=said, lang=lang, ok=said.lower() == r[dst].lower(),
+                per_word[r["en"]] = dict(said=said, lang=lang, ok=ok,
                                          curves={l: np.round(np.mean(v, 0), 4).tolist() for l, v in word_curves.items()})
                 samples.append(f"[{task:<5} {src:>6} -> {dst:<6}] {r['en']:<9} wanted {r[dst]!r:<14} "
                                f"wrote {said!r:<16} ({lang})")

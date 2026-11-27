@@ -1165,5 +1165,524 @@
    "thread",
    "cloud"
   ]
+ },
+ "fa": {
+  "neighbour": "ar",
+  "n_words": 50,
+  "n_candidates": 100,
+  "chance_top1": 0.01,
+  "cal_top1": 0.92,
+  "cal_top5": 1.0,
+  "cal_top1_when_failed": 0.5,
+  "n_failed": 2,
+  "raw_top1_kurdish": 1.0,
+  "beats_neighbour_raw": 1.0,
+  "beats_neighbour_cal": 0.92,
+  "per_word": {
+   "hand": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "head": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "blood": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "milk": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "egg": {
+    "wrote_it": false,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "apple": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "stone": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "snow": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "rain": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "sea": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "star": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "sky": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "horse": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "cow": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "bird": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "fish": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "door": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "book": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 2,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": false
+   },
+   "tea": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "salt": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "meat": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "child": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 2,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": false
+   },
+   "woman": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "man": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "mother": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "father": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "brother": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "sister": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "friend": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "name": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "night": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "year": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "city": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "song": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "love": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "death": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "king": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "gold": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "wolf": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 2,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": false
+   },
+   "knife": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "grape": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "key": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "shoe": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "bridge": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "garden": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "wheat": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "thread": {
+    "wrote_it": false,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 2,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": false
+   },
+   "tooth": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "ear": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   },
+   "cloud": {
+    "wrote_it": true,
+    "raw_rank_kurdish": 1,
+    "cal_rank_all": 1,
+    "beats_neighbour_raw": true,
+    "beats_neighbour_cal": true
+   }
+  },
+  "candidates": [
+   "دست",
+   "سر",
+   "خون",
+   "شیر",
+   "تخم",
+   "سیب",
+   "سنگ",
+   "برف",
+   "باران",
+   "دریا",
+   "ستاره",
+   "آسمان",
+   "اسب",
+   "گاو",
+   "پرنده",
+   "ماهی",
+   "در",
+   "کتاب",
+   "چای",
+   "نمک",
+   "گوشت",
+   "کودک",
+   "زن",
+   "مرد",
+   "مادر",
+   "پدر",
+   "برادر",
+   "خواهر",
+   "دوست",
+   "نام",
+   "شب",
+   "سال",
+   "شهر",
+   "آهنگ",
+   "عشق",
+   "مرگ",
+   "شاه",
+   "طلا",
+   "گرگ",
+   "چاقو",
+   "انگور",
+   "کلید",
+   "کفش",
+   "پل",
+   "باغ",
+   "گندم",
+   "نخ",
+   "دندان",
+   "گوش",
+   "ابر",
+   "يد",
+   "رأس",
+   "دم",
+   "حليب",
+   "بيض",
+   "تفاح",
+   "حجر",
+   "ثلج",
+   "مطر",
+   "بحر",
+   "نجمة",
+   "سماء",
+   "حصان",
+   "بقرة",
+   "طائر",
+   "سمك",
+   "باب",
+   "كتاب",
+   "شاي",
+   "ملح",
+   "لحم",
+   "طفل",
+   "امرأة",
+   "رجل",
+   "أم",
+   "أب",
+   "أخ",
+   "أخت",
+   "صديق",
+   "اسم",
+   "ليل",
+   "سنة",
+   "مدينة",
+   "أغنية",
+   "حب",
+   "موت",
+   "ملك",
+   "ذهب",
+   "ذئب",
+   "سكين",
+   "عنب",
+   "مفتاح",
+   "حذاء",
+   "جسر",
+   "حديقة",
+   "قمح",
+   "خيط",
+   "سن",
+   "أذن",
+   "سحابة"
+  ],
+  "words": [
+   "hand",
+   "head",
+   "blood",
+   "milk",
+   "egg",
+   "apple",
+   "stone",
+   "snow",
+   "rain",
+   "sea",
+   "star",
+   "sky",
+   "horse",
+   "cow",
+   "bird",
+   "fish",
+   "door",
+   "book",
+   "tea",
+   "salt",
+   "meat",
+   "child",
+   "woman",
+   "man",
+   "mother",
+   "father",
+   "brother",
+   "sister",
+   "friend",
+   "name",
+   "night",
+   "year",
+   "city",
+   "song",
+   "love",
+   "death",
+   "king",
+   "gold",
+   "wolf",
+   "knife",
+   "grape",
+   "key",
+   "shoe",
+   "bridge",
+   "garden",
+   "wheat",
+   "thread",
+   "tooth",
+   "ear",
+   "cloud"
+  ]
  }
 }

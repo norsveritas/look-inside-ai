@@ -21,8 +21,9 @@ We tested both, in two ways:
 - **The word is partly there.** In Gemma 3 4B, the right Kurdish word is in the model's top 5 (out of 68–86 choices) for **about half of the words** (51–65%), far above guessing (about 6–7%). Smaller models know much less (14–41%).
 - **But the neighbour's word is "louder".** When the model has to choose between the right Kurdish word and the Turkish or Persian word with the same meaning, it prefers the **neighbour's word 85–90% of the time**. For Persian against Arabic (our control) the right word wins 78% of the time.
 - **Pushing the model toward Kurdish changes its style, not its vocabulary.** With a strong nudge, **91%** of Gemma's Kurmanji answers used Kurdish-only letters (ê, î, û), up from 44%, and it **stopped writing Turkish words completely**. But it wrote the right word **less** often, not more (from 4 out of 43 down to 1). It made up Kurdish-looking words instead.
+- **A 3-times-bigger model knows far more Kurdish words, but still often says the neighbour's.** In Gemma 3 12B the right word is in the top 5 for **82–94%** of the words. For Badini in Arabic letters it knows the word in its top 5 **82%** of the time, but in experiment 4 it *wrote* it only 4 times out of 34, and the Persian word still beats the Badini word **74%** of the time. Here, for the first time, a lot of Kurdish knowledge really is "hidden".
 
-**In one sentence:** the AI knows what Kurdish *looks like* and can be pushed to sound Kurdish, but its Kurdish **dictionary** is thin. The words it misses are mostly not hidden; they are weakly learned and drowned out by the neighbour language.
+**In one sentence:** the AI knows what Kurdish *looks like* and can be pushed to sound Kurdish, but in small models its Kurdish **dictionary** is thin: the missing words are weakly learned and drowned out by the neighbour language. A bigger model learns the words, but for Badini and Sorani the Persian word is still "louder".
 
 ![Recognition](charts/hidden_knowledge/recognition.png)
 
@@ -42,7 +43,7 @@ This matches a picture that is forming in AI research: models first think in a s
 `Français: "eau" - Kurmancî: "`
 We tested Kurmanji in Latin letters, Badini in Arabic letters, Sorani, and Persian as a control. The Badini words were checked by a native Badini speaker; the Sorani words were not checked.
 
-**Part A: multiple choice inside the model** (Gemma 3 1B, Gemma 3 4B, Qwen3 4B)
+**Part A: multiple choice inside the model** (Gemma 3 1B, Gemma 3 4B, Qwen3 4B, Gemma 3 12B)
 - For each French word, the candidate answers were *all* the Kurdish words in the list plus all the neighbour-language words (Turkish for Latin-letter Kurmanji, Persian for the Arabic-letter forms). That is 68–86 candidates per question.
 - We measured how likely the model finds each candidate.
 - Short and common words always look likely, so each word's score was compared with its average score after the *other* French words. This "calibration" asks: is "av" more likely *because the question was "eau"*?
@@ -63,12 +64,15 @@ We tested Kurmanji in Latin letters, Badini in Arabic letters, Sorani, and Persi
 |---|---|---|---|---|
 | Gemma 3 1B | 14% | 21% | 26% | 88% |
 | Qwen3 4B | 20% | 30% | 41% | 92% |
-| Gemma 3 4B | **51%** | **53%** | **65%** | 100% |
+| Gemma 3 4B | 51% | 53% | 65% | 100% |
+| Gemma 3 12B | **88%** | **82%** | **94%** | 100% |
 | *pure guessing* | *6%* | *7%* | *7%* | *5%* |
 
 *Share of words where the right answer is in the model's top 5 choices.*
 
-The right word in **first place** is much rarer: 12%, 9% and 15% for Gemma 3 4B (Persian: 78%). Even for the words Gemma **failed to write** in experiment 4, it put the right word first 5–10% of the time, several times the 1–2% expected from guessing. So a little knowledge is "hidden" behind the failure, but not much.
+The right word in **first place** is much rarer: 12%, 9% and 15% for Gemma 3 4B (Persian: 78%). Even for the words Gemma 3 4B **failed to write** in experiment 4, it put the right word first 5–10% of the time, several times the 1–2% expected from guessing. So in the 4B model a little knowledge is "hidden" behind the failure, but not much.
+
+Gemma 3 12B puts the right word first 56% of the time for Kurmanji, 26% for Badini and 29% for Sorani (Persian: 92%). For the words it failed to write in experiment 4, it still puts the right word first 29% (Kurmanji), 17% (Badini) and 10% (Sorani) of the time, against 1–2% for guessing.
 
 ### 4.2 The neighbour wins
 
@@ -79,10 +83,27 @@ For each word we also compared the right Kurdish word directly with the neighbou
 | Gemma 3 1B | 2% | 18% | 6% | 44% |
 | Qwen3 4B | 0% | 10% | 7% | 43% |
 | Gemma 3 4B | 12% | 9% | 15% | 78% |
+| Gemma 3 12B | **58%** | 26% | 29% | 92% |
 
 *After calibration. "Kurdish word wins" = the model links the Kurdish word more strongly to the question than the neighbour word.*
 
 Even when the prompt clearly asks for **Kurdish**, the model links the Turkish or Persian word more strongly to the meaning. This is the "neighbour takeover" of experiment 4, seen now as a measurement and not only in the written answers.
+
+**The bigger model changes this for Kurmanji, but much less for Badini and Sorani.** In Gemma 3 12B, the Kurmanji word beats the Turkish word 58% of the time (4B: 12%), which fits with the 12B model writing half the Kurmanji words correctly in experiment 4. Against Persian, the Badini and Sorani words still lose about 3 times out of 4.
+
+### 4.2b The bigger model's hidden Badini
+
+The clearest case of "known but not said" is Badini in Arabic letters in Gemma 3 12B:
+
+| Gemma 3 12B, Badini (Arabic letters) | |
+|---|---|
+| Wrote the right word (experiment 4) | 4 of 34 (12%) |
+| Right word in its top 5 here | 82% |
+| Right word in first place here | 26% |
+| Right word beats the Persian word | 26% |
+
+The model has most Badini words somewhere inside, but in the head-to-head the Persian word wins, and in experiment 4 it wrote the Persian word (برف, دریا, گاو, کفش). Size filled in the dictionary; it did not stop the bigger neighbour from winning.
+
 
 ### 4.3 The nudge: Kurdish style, not Kurdish words
 
@@ -111,8 +132,9 @@ For the Arabic-letter forms (Badini and Sorani) the nudge did nothing useful: th
 
 1. **Two separate things are stored: "write in Kurdish" and "the Kurdish word for X".** The first is strong and can be switched on from outside. The second is weak.
 2. **Failure to write is mostly real missing knowledge, not a locked door.** Some knowledge is hidden (top-5 about half the time in the best model), but it is not enough to win against the neighbour language.
-3. **Bigger models know more.** Gemma 3 4B clearly beats Gemma 3 1B. We will test whether this keeps going with the 12-billion-parameter Gemma 3.
-4. **The fix is more Kurdish training text, not clever prompting.** Prompts and nudges that "push toward Kurdish" will mainly produce Kurdish-looking words, some of them invented.
+3. **Bigger models know much more.** From Gemma 3 1B to 4B to 12B, the right Kurmanji word is in the top 5 for 14%, 51% and 88% of the words. Size fills the dictionary.
+4. **But knowing the word is not the same as saying it.** In Gemma 3 12B the Badini words are mostly known (82% in the top 5) yet mostly not written (12%), because the Persian word is still stronger. For Kurmanji, where the 12B model's Kurdish word finally beats the Turkish one, it also writes half the words right. Whether the AI *says* Kurdish depends on the contest with the neighbour, not only on what it knows.
+5. **The fix is more Kurdish training text, not clever prompting.** Prompts and nudges that "push toward Kurdish" will mainly produce Kurdish-looking words, some of them invented.
 
 ---
 
@@ -122,7 +144,8 @@ For the Arabic-letter forms (Badini and Sorani) the nudge did nothing useful: th
 - **One correct spelling per word** in the multiple choice. Some Kurdish words have several valid forms; a model that "knows" another form is counted as wrong. This makes the numbers a little too low.
 - **The Sorani words were not checked by a native speaker.**
 - **Steering was tested on one model only** (Gemma 3 4B), at two layers and three strengths. Other ways of steering might work better.
-- **Models of 1–4 billion parameters.** The largest commercial models are much bigger and may know far more Kurdish words.
+- **Models of 1–12 billion parameters** (the 12B one run with 8-bit weights). The largest commercial models are much bigger and may know far more Kurdish words.
+- **The steering test (Part B) was not repeated on the 12B model.**
 
 ---
 
@@ -136,4 +159,4 @@ For the Arabic-letter forms (Badini and Sorani) the nudge did nothing useful: th
 | `results/hidden_knowledge/gemma3-4b_steer_samples.txt` | Every word Gemma wrote, with and without the nudge |
 | `charts/hidden_knowledge/*.png` | The charts |
 
-**To run it:** `cd experiment && python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b && python hidden_knowledge_charts.py` (needs the results of experiment 4; several hours on a normal computer).
+**To run it:** `cd experiment && python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b gemma3-12b && python hidden_knowledge_charts.py` (needs the results of experiment 4; several hours on a normal computer, about 6 hours for the 12B model).

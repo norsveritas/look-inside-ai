@@ -43,29 +43,37 @@ STEER_LAYERS = [0.5, 0.7]  # as a fraction of the model's depth
 STEER_SCALES = [0.25, 0.5, 1]
 
 
-def score_candidates(lens, prefix, cands):
-    """log-probability of each candidate word (followed by the closing quote) after the prompt."""
+def score_candidates(lens, prefix, cands, chunk=16):
+    """log-probability of each candidate word (followed by the closing quote) after the prompt.
+    The prompt is read once; the candidates are then scored in groups of `chunk` to limit memory."""
     tok, m = lens.tok, lens.m
     pre = tok(prefix, return_tensors="pt").input_ids
     o = m(pre, use_cache=True)
     last = torch.log_softmax(o.logits[0, -1].float(), -1)
-    enc = [tok.encode(c + '"', add_special_tokens=False) for c in cands]
-    n, B = max(map(len, enc)), len(enc)
-    ids = torch.full((B, n), tok.pad_token_id)
-    mask = torch.zeros(B, n, dtype=torch.long)
-    for i, e in enumerate(enc):
-        ids[i, :len(e)] = torch.tensor(e)
-        mask[i, :len(e)] = 1
-    cache = copy.deepcopy(o.past_key_values)
-    cache.batch_repeat_interleave(B)
-    am = torch.cat([torch.ones(B, pre.shape[1], dtype=torch.long), mask], 1)
-    lg = torch.log_softmax(m(ids, past_key_values=cache, attention_mask=am).logits.float(), -1)
-    return [last[e[0]].item() + sum(lg[i, j - 1, e[j]].item() for j in range(1, len(e))) for i, e in enumerate(enc)]
+    out = []
+    for c0 in range(0, len(cands), chunk):
+        enc = [tok.encode(c + '"', add_special_tokens=False) for c in cands[c0:c0 + chunk]]
+        n, B = max(map(len, enc)), len(enc)
+        ids = torch.full((B, n), tok.pad_token_id)
+        mask = torch.zeros(B, n, dtype=torch.long)
+        for i, e in enumerate(enc):
+            ids[i, :len(e)] = torch.tensor(e)
+            mask[i, :len(e)] = 1
+        cache = copy.deepcopy(o.past_key_values)
+        cache.batch_repeat_interleave(B)
+        am = torch.cat([torch.ones(B, pre.shape[1], dtype=torch.long), mask], 1)
+        lg = torch.log_softmax(m(ids, past_key_values=cache, attention_mask=am).logits.float(), -1)
+        out += [last[e[0]].item() + sum(lg[i, j - 1, e[j]].item() for j in range(1, len(e))) for i, e in enumerate(enc)]
+        del cache, lg
+    return out
 
 
-def part_a(lens, prev, es):
-    out = {}
+def part_a(lens, prev, es, prog_path=None):
+    # progress is saved after every language, so a restarted run skips what is already done
+    out = json.load(open(prog_path)) if prog_path and os.path.exists(prog_path) else {}
     for t, nb in NEIGHBOUR.items():
+        if t in out:
+            continue
         words = prev["tasks"][f"write:{t}"]["words"]
         wrote = {w: prev["tasks"][f"write:{t}"]["per_word"][w]["ok"] for w in words}
         n = len(words)
@@ -95,6 +103,9 @@ def part_a(lens, prev, es):
         print(f"  A {t:<6} vs {nb}: n={n} top1={top1:.0%} (chance {1/(2*n):.1%}) top5={top5:.0%} "
               f"top1|failed={out[t]['cal_top1_when_failed']} beats-neighbour raw/cal="
               f"{out[t]['beats_neighbour_raw']:.0%}/{out[t]['beats_neighbour_cal']:.0%}", flush=True)
+        if prog_path:
+            with open(prog_path, "w") as f:
+                json.dump(out, f, indent=1, ensure_ascii=False, default=float)
     return out
 
 
@@ -199,7 +210,7 @@ def run(key):
         with open(a_path) as f:
             pa = json.load(f)
     else:
-        pa = part_a(lens, prev, es)
+        pa = part_a(lens, prev, es, os.path.join(OUT, f"{key}_part_a_progress.json"))
         with open(a_path, "w") as f:
             json.dump(pa, f, indent=1, ensure_ascii=False, default=float)
     result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, part_a=pa)

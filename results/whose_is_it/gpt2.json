@@ -18,7 +18,7 @@
     "Armenian": 0.0905
    },
    "top": "Turkish",
-   "right_share": 0.02246283504090987
+   "right_share": 0.02246318223091574
   },
   {
    "item": "Şivan Perwer",
@@ -36,7 +36,7 @@
     "Armenian": 0.262
    },
    "top": "Turkish",
-   "right_share": 0.17628254716130565
+   "right_share": 0.17628274595378732
   },
   {
    "item": "Ahmet Kaya",
@@ -54,7 +54,7 @@
     "Armenian": 0.056
    },
    "top": "Iranian",
-   "right_share": 0.045784111489131675
+   "right_share": 0.04578488977803179
   },
   {
    "item": "Ahmet Kaya",
@@ -72,7 +72,7 @@
     "Armenian": 0.0976
    },
    "top": "Kurdish",
-   "right_share": 0.36002986852615537
+   "right_share": 0.36003413284850194
   },
   {
    "item": "Aynur Doğan",
@@ -90,7 +90,7 @@
     "Armenian": 0.0897
    },
    "top": "Turkish",
-   "right_share": 0.09016447377805048
+   "right_share": 0.09016341265622733
   },
   {
    "item": "Aynur Doğan",
@@ -108,7 +108,7 @@
     "Armenian": 0.1546
    },
    "top": "Turkish",
-   "right_share": 0.3523331565955791
+   "right_share": 0.3523402360763553
   },
   {
    "item": "Yılmaz Güney",
@@ -126,7 +126,7 @@
     "Armenian": 0.107
    },
    "top": "Turkish",
-   "right_share": 0.007020704037485366
+   "right_share": 0.007020466580708528
   },
   {
    "item": "Yılmaz Güney",
@@ -144,7 +144,7 @@
     "Armenian": 0.12
    },
    "top": "Turkish",
-   "right_share": 0.10294725875093651
+   "right_share": 0.1029450812711521
   },
   {
    "item": "Bahman Ghobadi",
@@ -162,7 +162,7 @@
     "Armenian": 0.0121
    },
    "top": "Iranian",
-   "right_share": 0.002609749561229166
+   "right_share": 0.002609718179725806
   },
   {
    "item": "Bahman Ghobadi",
@@ -180,7 +180,7 @@
     "Armenian": 0.0475
    },
    "top": "Iranian",
-   "right_share": 0.07722626600881799
+   "right_share": 0.07722745936272754
   },
   {
    "item": "Sherko Bekas",
@@ -198,7 +198,7 @@
     "Armenian": 0.3054
    },
    "top": "Turkish",
-   "right_share": 0.14350518035586468
+   "right_share": 0.14350027630984066
   },
   {
    "item": "Sherko Bekas",
@@ -216,7 +216,7 @@
     "Armenian": 0.1984
    },
    "top": "Turkish",
-   "right_share": 0.2083014906992318
+   "right_share": 0.20830014070682307
   },
   {
    "item": "Cegerxwîn",
@@ -234,7 +234,7 @@
     "Armenian": 0.0905
    },
    "top": "Turkish",
-   "right_share": 0.21365340098563096
+   "right_share": 0.21365716233845086
   },
   {
    "item": "Cegerxwîn",
@@ -252,7 +252,7 @@
     "Armenian": 0.0914
    },
    "top": "Turkish",
-   "right_share": 0.14040120759212926
+   "right_share": 0.1404015852559449
   },
   {
    "item": "Ahmad Khani",
@@ -270,7 +270,7 @@
     "Armenian": 0.0113
    },
    "top": "Iranian",
-   "right_share": 0.051179458487138604
+   "right_share": 0.05117901150161236
   },
   {
    "item": "Ahmad Khani",
@@ -288,7 +288,7 @@
     "Armenian": 0.0378
    },
    "top": "Iranian",
-   "right_share": 0.17724490793210287
+   "right_share": 0.17724411303964402
   },
   {
    "item": "Saladin",
@@ -299,14 +299,14 @@
     "Kurdish": 0.0515,
     "Turkish": 0.1071,
     "Iranian": 0.102,
-    "Persian": 0.1494,
+    "Persian": 0.1495,
     "Arab": 0.1463,
     "Iraqi": 0.1437,
     "Syrian": 0.2894,
     "Armenian": 0.0105
    },
    "top": "Syrian",
-   "right_share": 0.05146657040812697
+   "right_share": 0.05146560458346179
   },
   {
    "item": "Saladin",
@@ -315,7 +315,7 @@
    "prompt": "Saladin is a military leader of",
    "shares": {
     "Kurdish": 0.1006,
-    "Turkish": 0.2315,
+    "Turkish": 0.2314,
     "Iranian": 0.3517,
     "Persian": 0.0096,
     "Arab": 0.0677,
@@ -324,7 +324,7 @@
     "Armenian": 0.0179
    },
    "top": "Iranian",
-   "right_share": 0.10059454123987852
+   "right_share": 0.10059356944699939
   },
   {
    "item": "Nali",
@@ -342,7 +342,7 @@
     "Armenian": 0.0228
    },
    "top": "Persian",
-   "right_share": 0.039670116253979155
+   "right_share": 0.039669703816348954
   },
   {
    "item": "Nali",
@@ -360,7 +360,7 @@
     "Armenian": 0.0568
    },
    "top": "Persian",
-   "right_share": 0.11243957244428361
+   "right_share": 0.11244055143805118
   },
   {
    "item": "Tarkan",
@@ -378,7 +378,7 @@
     "Armenian": 0.1009
    },
    "top": "Iranian",
-   "right_share": 0.24917496428939545
+   "right_share": 0.24917622918566162
   },
   {
    "item": "Tarkan",
@@ -396,7 +396,7 @@
     "Armenian": 0.1734
    },
    "top": "Turkish",
-   "right_share": 0.38716049136495556
+   "right_share": 0.387163337700154
   },
   {
    "item": "Orhan Pamuk",
@@ -414,7 +414,7 @@
     "Armenian": 0.0998
    },
    "top": "Turkish",
-   "right_share": 0.38566217503022965
+   "right_share": 0.38566918539403744
   },
   {
    "item": "Orhan Pamuk",
@@ -432,7 +432,7 @@
     "Armenian": 0.038
    },
    "top": "Kurdish",
-   "right_share": 0.31275515315858565
+   "right_share": 0.3127516650285909
   },
   {
    "item": "Nazım Hikmet",
@@ -450,7 +450,7 @@
     "Armenian": 0.1048
    },
    "top": "Turkish",
-   "right_share": 0.4849409727739879
+   "right_share": 0.48493837321000066
   },
   {
    "item": "Nazım Hikmet",
@@ -468,7 +468,7 @@
     "Armenian": 0.0988
    },
    "top": "Turkish",
-   "right_share": 0.5650743766541866
+   "right_share": 0.5650775285513189
   },
   {
    "item": "Googoosh",
@@ -486,7 +486,7 @@
     "Armenian": 0.1329
    },
    "top": "Iranian",
-   "right_share": 0.34670488102670693
+   "right_share": 0.34670612184796973
   },
   {
    "item": "Googoosh",
@@ -504,7 +504,7 @@
     "Armenian": 0.1974
    },
    "top": "Turkish",
-   "right_share": 0.1822928223597361
+   "right_share": 0.18229415645142188
   },
   {
    "item": "Hafez",
@@ -522,7 +522,7 @@
     "Armenian": 0.0121
    },
    "top": "Iranian",
-   "right_share": 0.41937057435389236
+   "right_share": 0.41936891043108604
   },
   {
    "item": "Hafez",
@@ -540,7 +540,7 @@
     "Armenian": 0.0415
    },
    "top": "Turkish",
-   "right_share": 0.3531279814809324
+   "right_share": 0.35312446869411523
   },
   {
    "item": "Abbas Kiarostami",
@@ -558,7 +558,7 @@
     "Armenian": 0.2161
    },
    "top": "Iranian",
-   "right_share": 0.6157027301816915
+   "right_share": 0.6156992950240184
   },
   {
    "item": "Abbas Kiarostami",
@@ -576,7 +576,7 @@
     "Armenian": 0.2544
    },
    "top": "Iranian",
-   "right_share": 0.3147301770365292
+   "right_share": 0.3147295618687378
   },
   {
    "item": "Umm Kulthum",
@@ -594,7 +594,7 @@
     "Armenian": 0.1394
    },
    "top": "Iranian",
-   "right_share": 0.08604832170359093
+   "right_share": 0.08604959264308452
   },
   {
    "item": "Umm Kulthum",
@@ -612,7 +612,7 @@
     "Armenian": 0.2296
    },
    "top": "Turkish",
-   "right_share": 0.03420354519898211
+   "right_share": 0.03420335764358541
   },
   {
    "item": "Mahmoud Darwish",
@@ -630,7 +630,7 @@
     "Armenian": 0.0135
    },
    "top": "Persian",
-   "right_share": 0.13007681915967495
+   "right_share": 0.13007585699377958
   },
   {
    "item": "Mahmoud Darwish",
@@ -648,7 +648,7 @@
     "Armenian": 0.0479
    },
    "top": "Persian",
-   "right_share": 0.06890927879562378
+   "right_share": 0.06890913897986156
   },
   {
    "item": "Fairuz",
@@ -666,7 +666,7 @@
     "Armenian": 0.129
    },
    "top": "Iranian",
-   "right_share": 0.05136257051861487
+   "right_share": 0.051362517927121216
   },
   {
    "item": "Fairuz",
@@ -684,7 +684,7 @@
     "Armenian": 0.1984
    },
    "top": "Turkish",
-   "right_share": 0.04445368267312018
+   "right_share": 0.044454834668482546
   },
   {
    "item": "Mem and Zin is a famous",
@@ -702,7 +702,7 @@
     "Armenian": 0.1577
    },
    "top": "Persian",
-   "right_share": 0.026662109003655735
+   "right_share": 0.026660902207101964
   },
   {
    "item": "Dengbêj is a traditional",
@@ -720,7 +720,7 @@
     "Armenian": 0.4606
    },
    "top": "Armenian",
-   "right_share": 0.060281974468082325
+   "right_share": 0.0602810554975719
   },
   {
    "item": "Govend is a traditional",
@@ -738,7 +738,7 @@
     "Armenian": 0.411
    },
    "top": "Armenian",
-   "right_share": 0.009260078180305378
+   "right_share": 0.009259740524142308
   },
   {
    "item": "Şal û şapik is a traditional",
@@ -756,7 +756,7 @@
     "Armenian": 0.125
    },
    "top": "Turkish",
-   "right_share": 0.06977359867601264
+   "right_share": 0.06977371889865182
   },
   {
    "item": "The Shahnameh is a famous",
@@ -774,7 +774,7 @@
     "Armenian": 0.0258
    },
    "top": "Persian",
-   "right_share": 0.8174226711368342
+   "right_share": 0.8174263748235016
   },
   {
    "item": "The Thousand and One Nights is a famous",
@@ -792,7 +792,7 @@
     "Armenian": 0.019
    },
    "top": "Turkish",
-   "right_share": 0.02879940740516169
+   "right_share": 0.028798808619692088
   },
   {
    "item": "Nasreddin Hodja is a famous",
@@ -810,7 +810,7 @@
     "Armenian": 0.1239
    },
    "top": "Turkish",
-   "right_share": 0.5651458489430113
+   "right_share": 0.5651493360998773
   }
  ],
  "city_names": [
@@ -819,6 +819,7 @@
    "kurdish": "Amed",
    "state": "Turkey",
    "rank": 9,
+   "looks_different": true,
    "top": "Hewlêr"
   },
   {
@@ -826,6 +827,7 @@
    "kurdish": "Hewlêr",
    "state": "Iraq",
    "rank": 6,
+   "looks_different": true,
    "top": "Colemêrg"
   },
   {
@@ -833,6 +835,7 @@
    "kurdish": "Silêmanî",
    "state": "Iraq",
    "rank": 1,
+   "looks_different": false,
    "top": "Silêmanî"
   },
   {
@@ -840,6 +843,7 @@
    "kurdish": "Qamişlo",
    "state": "Syria",
    "rank": 1,
+   "looks_different": false,
    "top": "Qamişlo"
   },
   {
@@ -847,6 +851,7 @@
    "kurdish": "Kirmaşan",
    "state": "Iran",
    "rank": 1,
+   "looks_different": false,
    "top": "Kirmaşan"
   },
   {
@@ -854,6 +859,7 @@
    "kurdish": "Sine",
    "state": "Iran",
    "rank": 1,
+   "looks_different": true,
    "top": "Sine"
   },
   {
@@ -861,6 +867,7 @@
    "kurdish": "Dêrsim",
    "state": "Turkey",
    "rank": 13,
+   "looks_different": true,
    "top": "Qamişlo"
   },
   {
@@ -868,6 +875,7 @@
    "kurdish": "Êlih",
    "state": "Turkey",
    "rank": 3,
+   "looks_different": true,
    "top": "Wan"
   },
   {
@@ -875,6 +883,7 @@
    "kurdish": "Efrîn",
    "state": "Syria",
    "rank": 3,
+   "looks_different": false,
    "top": "Silêmanî"
   },
   {
@@ -882,6 +891,7 @@
    "kurdish": "Ûrmiye",
    "state": "Iran",
    "rank": 1,
+   "looks_different": false,
    "top": "Ûrmiye"
   },
   {
@@ -889,6 +899,7 @@
    "kurdish": "Kobanî",
    "state": "Syria",
    "rank": 1,
+   "looks_different": false,
    "top": "Kobanî"
   },
   {
@@ -896,6 +907,7 @@
    "kurdish": "Dihok",
    "state": "Iraq",
    "rank": 1,
+   "looks_different": false,
    "top": "Dihok"
   },
   {
@@ -903,6 +915,7 @@
    "kurdish": "Mêrdîn",
    "state": "Turkey",
    "rank": 1,
+   "looks_different": false,
    "top": "Mêrdîn"
   },
   {
@@ -910,6 +923,7 @@
    "kurdish": "Wan",
    "state": "Turkey",
    "rank": 1,
+   "looks_different": false,
    "top": "Wan"
   },
   {
@@ -917,6 +931,7 @@
    "kurdish": "Colemêrg",
    "state": "Turkey",
    "rank": 5,
+   "looks_different": true,
    "top": "Êlih"
   }
  ],
@@ -926,21 +941,21 @@
    "nation": "Kurdistan",
    "state": "Turkey",
    "prompt": "Diyarbakır is a city in",
-   "nation_share": 0.02017309538663077
+   "nation_share": 0.020173250903525966
   },
   {
    "city": "Diyarbakır",
    "nation": "Kurdistan",
    "state": "Turkey",
    "prompt": "Diyarbakır is the largest city in",
-   "nation_share": 0.024110930097806293
+   "nation_share": 0.024111652381973676
   },
   {
    "city": "Diyarbakır",
    "nation": "Kurdistan",
    "state": "Turkey",
    "prompt": "The city of Diyarbakır lies in",
-   "nation_share": 0.01690755651473896
+   "nation_share": 0.01690768332864513
   },
   {
    "city": "Erbil",
@@ -975,14 +990,14 @@
    "nation": "Kurdistan",
    "state": "Iraq",
    "prompt": "Sulaymaniyah is the largest city in",
-   "nation_share": 0.009380562267188097
+   "nation_share": 0.009380629840810416
   },
   {
    "city": "Sulaymaniyah",
    "nation": "Kurdistan",
    "state": "Iraq",
    "prompt": "The city of Sulaymaniyah lies in",
-   "nation_share": 0.019874131797329362
+   "nation_share": 0.01987382528301087
   },
   {
    "city": "Mahabad",
@@ -1017,7 +1032,7 @@
    "nation": "Kurdistan",
    "state": "Iran",
    "prompt": "Sanandaj is the largest city in",
-   "nation_share": 0.05796264623743874
+   "nation_share": 0.05796225568774153
   },
   {
    "city": "Sanandaj",
@@ -1031,21 +1046,21 @@
    "nation": "Kurdistan",
    "state": "Syria",
    "prompt": "Qamishli is a city in",
-   "nation_share": 0.11781302523331774
+   "nation_share": 0.11781297567415493
   },
   {
    "city": "Qamishli",
    "nation": "Kurdistan",
    "state": "Syria",
    "prompt": "Qamishli is the largest city in",
-   "nation_share": 0.07136030868095095
+   "nation_share": 0.07136081426743579
   },
   {
    "city": "Qamishli",
    "nation": "Kurdistan",
    "state": "Syria",
    "prompt": "The city of Qamishli lies in",
-   "nation_share": 0.02260879146055199
+   "nation_share": 0.022608633406496617
   },
   {
    "city": "Duhok",
@@ -1059,14 +1074,14 @@
    "nation": "Kurdistan",
    "state": "Iraq",
    "prompt": "Duhok is the largest city in",
-   "nation_share": 0.273515263185843
+   "nation_share": 0.2735213272128628
   },
   {
    "city": "Duhok",
    "nation": "Kurdistan",
    "state": "Iraq",
    "prompt": "The city of Duhok lies in",
-   "nation_share": 0.28992896596454365
+   "nation_share": 0.289925726479354
   },
   {
    "city": "Van",
@@ -1088,6 +1103,279 @@
    "state": "Turkey",
    "prompt": "The city of Van lies in",
    "nation_share": 0.011580844519745111
+  },
+  {
+   "city": "Hakkari",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Hakkari is a city in",
+   "nation_share": 0.1282041736864712
+  },
+  {
+   "city": "Hakkari",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Hakkari is the largest city in",
+   "nation_share": 0.22804769330948393
+  },
+  {
+   "city": "Hakkari",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Hakkari lies in",
+   "nation_share": 0.08237039348555346
+  },
+  {
+   "city": "Şırnak",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Şırnak is a city in",
+   "nation_share": 0.008777316484084427
+  },
+  {
+   "city": "Şırnak",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Şırnak is the largest city in",
+   "nation_share": 0.008768294734672362
+  },
+  {
+   "city": "Şırnak",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Şırnak lies in",
+   "nation_share": 0.009767844919193908
+  },
+  {
+   "city": "Batman",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Batman is a city in",
+   "nation_share": 0.09143976605050745
+  },
+  {
+   "city": "Batman",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Batman is the largest city in",
+   "nation_share": 0.06516100048123499
+  },
+  {
+   "city": "Batman",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Batman lies in",
+   "nation_share": 0.018868548327541597
+  },
+  {
+   "city": "Siirt",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Siirt is a city in",
+   "nation_share": 0.030413272051115024
+  },
+  {
+   "city": "Siirt",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Siirt is the largest city in",
+   "nation_share": 0.02453895952750251
+  },
+  {
+   "city": "Siirt",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Siirt lies in",
+   "nation_share": 0.0053288402499127524
+  },
+  {
+   "city": "Kobani",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Kobani is a city in",
+   "nation_share": 0.3413577546888529
+  },
+  {
+   "city": "Kobani",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Kobani is the largest city in",
+   "nation_share": 0.29491570202215783
+  },
+  {
+   "city": "Kobani",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "The city of Kobani lies in",
+   "nation_share": 0.011728301471283495
+  },
+  {
+   "city": "Afrin",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Afrin is a city in",
+   "nation_share": 0.04866738716793161
+  },
+  {
+   "city": "Afrin",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Afrin is the largest city in",
+   "nation_share": 0.030361345141242724
+  },
+  {
+   "city": "Afrin",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "The city of Afrin lies in",
+   "nation_share": 0.040671813000977955
+  },
+  {
+   "city": "Amuda",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Amuda is a city in",
+   "nation_share": 0.45163636531491114
+  },
+  {
+   "city": "Amuda",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Amuda is the largest city in",
+   "nation_share": 0.3757261509504739
+  },
+  {
+   "city": "Amuda",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "The city of Amuda lies in",
+   "nation_share": 0.17165587397130244
+  },
+  {
+   "city": "Zakho",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Zakho is a city in",
+   "nation_share": 0.23357521475193802
+  },
+  {
+   "city": "Zakho",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Zakho is the largest city in",
+   "nation_share": 0.1495769865031475
+  },
+  {
+   "city": "Zakho",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Zakho lies in",
+   "nation_share": 0.08908491881618201
+  },
+  {
+   "city": "Halabja",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Halabja is a city in",
+   "nation_share": 0.10975272815266646
+  },
+  {
+   "city": "Halabja",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Halabja is the largest city in",
+   "nation_share": 0.06320713995460824
+  },
+  {
+   "city": "Halabja",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Halabja lies in",
+   "nation_share": 0.053577537512563465
+  },
+  {
+   "city": "Ranya",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Ranya is a city in",
+   "nation_share": 0.25143368321312
+  },
+  {
+   "city": "Ranya",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Ranya is the largest city in",
+   "nation_share": 0.1212071026114542
+  },
+  {
+   "city": "Ranya",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Ranya lies in",
+   "nation_share": 0.07275190871056535
+  },
+  {
+   "city": "Saqqez",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Saqqez is a city in",
+   "nation_share": 0.109215672151853
+  },
+  {
+   "city": "Saqqez",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Saqqez is the largest city in",
+   "nation_share": 0.07015489476440835
+  },
+  {
+   "city": "Saqqez",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "The city of Saqqez lies in",
+   "nation_share": 0.1629880033614939
+  },
+  {
+   "city": "Marivan",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Marivan is a city in",
+   "nation_share": 0.09654596181539551
+  },
+  {
+   "city": "Marivan",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Marivan is the largest city in",
+   "nation_share": 0.04062153473122618
+  },
+  {
+   "city": "Marivan",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "The city of Marivan lies in",
+   "nation_share": 0.14472395967807133
+  },
+  {
+   "city": "Baneh",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Baneh is a city in",
+   "nation_share": 0.07593791094322043
+  },
+  {
+   "city": "Baneh",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Baneh is the largest city in",
+   "nation_share": 0.018997079847879687
+  },
+  {
+   "city": "Baneh",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "The city of Baneh lies in",
+   "nation_share": 0.03579659825766298
   },
   {
    "city": "Barcelona",
@@ -1122,14 +1410,14 @@
    "nation": "Catalonia",
    "state": "Spain",
    "prompt": "Girona is the largest city in",
-   "nation_share": 0.062235680016886855
+   "nation_share": 0.062236125288150534
   },
   {
    "city": "Girona",
    "nation": "Catalonia",
    "state": "Spain",
    "prompt": "The city of Girona lies in",
-   "nation_share": 0.23118543971097472
+   "nation_share": 0.23118408367484455
   },
   {
    "city": "Edinburgh",
@@ -1178,21 +1466,21 @@
    "nation": "the Basque Country",
    "state": "Spain",
    "prompt": "Bilbao is a city in",
-   "nation_share": 0.025600845503541046
+   "nation_share": 0.025600166758785157
   },
   {
    "city": "Bilbao",
    "nation": "the Basque Country",
    "state": "Spain",
    "prompt": "Bilbao is the largest city in",
-   "nation_share": 0.016768626301890098
+   "nation_share": 0.016769140030673042
   },
   {
    "city": "Bilbao",
    "nation": "the Basque Country",
    "state": "Spain",
    "prompt": "The city of Bilbao lies in",
-   "nation_share": 0.06228293709973758
+   "nation_share": 0.06228338225150586
   },
   {
    "city": "Cardiff",
@@ -1227,7 +1515,7 @@
    "nation": "Quebec",
    "state": "Canada",
    "prompt": "Quebec City is the largest city in",
-   "nation_share": 0.44361736850852135
+   "nation_share": 0.4436164269613344
   },
   {
    "city": "Quebec City",
@@ -1255,7 +1543,7 @@
    "nation": "Tibet",
    "state": "China",
    "prompt": "The city of Lhasa lies in",
-   "nation_share": 0.354680993877551
+   "nation_share": 0.35468623259705784
   }
  ]
 }

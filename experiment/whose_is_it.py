@@ -31,6 +31,7 @@ MODELS = {
     "gemma3-1b": dict(hf="unsloth/gemma-3-1b-pt", label="Gemma 3 1B (2025)"),
     "gemma3-4b": dict(hf="unsloth/gemma-3-4b-pt", label="Gemma 3 4B (2025)", dtype=torch.bfloat16),
     "qwen3-4b": dict(hf="Qwen/Qwen3-4B-Base", label="Qwen3 4B (2025)", dtype=torch.bfloat16),
+    "gemma3-12b": dict(hf="unsloth/gemma-3-12b-pt", label="Gemma 3 12B (2025)", dtype=torch.bfloat16, int8=True),
 }
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "results", "whose_is_it")
@@ -83,9 +84,15 @@ REGIONS = [  # (city, nation without its own state, the state) ; the Kurdish cit
 
 
 class Scorer:
-    def __init__(self, hf, dtype=torch.float32):
+    def __init__(self, hf, dtype=torch.float32, int8=False):
         self.tok = AutoTokenizer.from_pretrained(hf)
-        self.m = AutoModelForCausalLM.from_pretrained(hf, dtype=dtype).eval()
+        if int8:  # weights stored as 8-bit numbers so the model fits in memory (see latent_language.py)
+            from torchao.quantization import Int8WeightOnlyConfig
+            from transformers import TorchAoConfig
+            self.m = AutoModelForCausalLM.from_pretrained(
+                hf, dtype=dtype, device_map="cpu", quantization_config=TorchAoConfig(Int8WeightOnlyConfig())).eval()
+        else:
+            self.m = AutoModelForCausalLM.from_pretrained(hf, dtype=dtype).eval()
         self.bos = [self.tok.bos_token_id] if self.tok.bos_token_id is not None and "gpt2" not in hf else []
 
     def logprobs(self, prompt, cands):
@@ -160,7 +167,7 @@ def run(key):
         return
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
-    sc = Scorer(cfg["hf"], cfg.get("dtype", torch.float32))
+    sc = Scorer(cfg["hf"], cfg.get("dtype", torch.float32), cfg.get("int8", False))
     r = dict(model=key, label=cfg["label"], people_culture=part1(sc), city_names=part2(sc), homeland=part3(sc))
     p1 = r["people_culture"]
     for g in ["Kurdish", "other"]:

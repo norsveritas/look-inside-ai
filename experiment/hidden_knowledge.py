@@ -43,12 +43,12 @@ STEER_LAYERS = [0.5, 0.7]  # as a fraction of the model's depth
 STEER_SCALES = [0.25, 0.5, 1]
 
 
-def score_candidates(lens, prefix, cands, chunk=16):
+def score_candidates(lens, prefix, cands, chunk=4):
     """log-probability of each candidate word (followed by the closing quote) after the prompt.
     The prompt is read once; the candidates are then scored in groups of `chunk` to limit memory."""
     tok, m = lens.tok, lens.m
     pre = tok(prefix, return_tensors="pt").input_ids
-    o = m(pre, use_cache=True)
+    o = m(pre, use_cache=True, logits_to_keep=1)
     last = torch.log_softmax(o.logits[0, -1].float(), -1)
     out = []
     for c0 in range(0, len(cands), chunk):

@@ -566,6 +566,50 @@
     "[kmr_ar kurdish layer=17 x0.25] mother    wanted 'دایک'         wrote 'ماما'",
     "[kmr_ar kurdish layer=17 x0.25] horse     wanted 'هەسپ'         wrote 'پاش'"
    ]
+  },
+  "kurdish:L17:x0.5": {
+   "stats": {
+    "correct": 1,
+    "neighbour": 3,
+    "french": 0,
+    "n": 34
+   },
+   "samples": [
+    "[kmr_ar kurdish layer=17 x0.5] egg       wanted 'هێک'          wrote 'پێش'",
+    "[kmr_ar kurdish layer=17 x0.5] bird      wanted 'چووچک/چویچک/چیچک' wrote 'پێش'",
+    "[kmr_ar kurdish layer=17 x0.5] thread    wanted 'بەنک'         wrote 'پەری'",
+    "[kmr_ar kurdish layer=17 x0.5] sky       wanted 'ئەسمان'       wrote 'هەوا'",
+    "[kmr_ar kurdish layer=17 x0.5] father    wanted 'باب'          wrote 'پاپا'",
+    "[kmr_ar kurdish layer=17 x0.5] head      wanted 'سەر'          wrote 'پێش'",
+    "[kmr_ar kurdish layer=17 x0.5] song      wanted 'ستران'        wrote 'شۆڤ'",
+    "[kmr_ar kurdish layer=17 x0.5] door      wanted 'دەری'         wrote 'دەر'",
+    "[kmr_ar kurdish layer=17 x0.5] knife     wanted 'کێرک'         wrote 'چاو'",
+    "[kmr_ar kurdish layer=17 x0.5] salt      wanted 'خوێ'          wrote 'سۆڵ'",
+    "[kmr_ar kurdish layer=17 x0.5] hand      wanted 'دەست'         wrote 'چەپ'",
+    "[kmr_ar kurdish layer=17 x0.5] bridge    wanted 'پر'           wrote 'پەری'",
+    "[kmr_ar kurdish layer=17 x0.5] book      wanted 'پرتووک'       wrote 'کتاب'",
+    "[kmr_ar kurdish layer=17 x0.5] shoe      wanted 'پێلاڤ'        wrote 'چاو'",
+    "[kmr_ar kurdish layer=17 x0.5] king      wanted 'پاشا'         wrote 'پاشا'",
+    "[kmr_ar kurdish layer=17 x0.5] apple     wanted 'سێڤ'          wrote 'پوم'",
+    "[kmr_ar kurdish layer=17 x0.5] stone     wanted 'کەڤر'         wrote 'کەڤ'",
+    "[kmr_ar kurdish layer=17 x0.5] sister    wanted 'خویشک'        wrote 'خۆش'",
+    "[kmr_ar kurdish layer=17 x0.5] love      wanted 'ئەڤین'        wrote 'پێش'",
+    "[kmr_ar kurdish layer=17 x0.5] wheat     wanted 'گەنم'         wrote 'گۆش'",
+    "[kmr_ar kurdish layer=17 x0.5] city      wanted 'باژێر'        wrote 'شاری'",
+    "[kmr_ar kurdish layer=17 x0.5] snow      wanted 'بەفر'         wrote 'چۆڤ'",
+    "[kmr_ar kurdish layer=17 x0.5] cow       wanted 'چێل'          wrote 'گاو'",
+    "[kmr_ar kurdish layer=17 x0.5] friend    wanted 'هەڤاڵ'        wrote 'دوست'",
+    "[kmr_ar kurdish layer=17 x0.5] cloud     wanted 'عەور'         wrote 'پەری'",
+    "[kmr_ar kurdish layer=17 x0.5] gold      wanted 'زێڕ'          wrote 'گۆڵ'",
+    "[kmr_ar kurdish layer=17 x0.5] grape     wanted 'تری'          wrote 'پشیک'",
+    "[kmr_ar kurdish layer=17 x0.5] wolf      wanted 'گورگ'         wrote 'پشیک'",
+    "[kmr_ar kurdish layer=17 x0.5] sea       wanted 'دەریا'        wrote 'دۆڤ'",
+    "[kmr_ar kurdish layer=17 x0.5] night     wanted 'شەڤ'          wrote 'شەو'",
+    "[kmr_ar kurdish layer=17 x0.5] child     wanted 'زارۆک'        wrote 'چوڤ'",
+    "[kmr_ar kurdish layer=17 x0.5] woman     wanted 'ژن'           wrote 'خۆش'",
+    "[kmr_ar kurdish layer=17 x0.5] mother    wanted 'دایک'         wrote 'ماما'",
+    "[kmr_ar kurdish layer=17 x0.5] horse     wanted 'هەسپ'         wrote 'پاش'"
+   ]
   }
  }
 }

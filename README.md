@@ -50,6 +50,7 @@ AI models are known to quietly "think in English" in their middle layers. Kurdis
 - **Writing Kurdish breaks at the very last step.** The best model understands the meaning for 9 out of 10 words, but writes the right Kurdish word for fewer than 1 in 10 (Turkish, Persian, Arabic: 84–88%).
 - **There, the neighbours move in.** Asked for Kurmanji, it wrote Turkish words (*el, baş, kan, gece*). Asked for Badini or Sorani, it wrote Persian ones (*gav, dost, kitab*). In the last layer, the Persian word usually beats the correct Badini or Sorani word.
 - **The alphabet matters.** The same Badini words are read about half as well in Arabic letters as in Latin letters.
+- **A 3-times-bigger model (Gemma 3 12B) writes much more Kurdish**: Kurmanji 51% right (was 9%), Sorani 38%. But Badini in Arabic letters stays at 12%, and the Persian word still often takes its place.
 
 ![Experiment 4 chart](charts/latent_language/meaning_vs_word.png)
 

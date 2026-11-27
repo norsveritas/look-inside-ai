@@ -121,7 +121,7 @@ def meaning_vs_word(models, fname, threshold=0.10):
 
 
 if __name__ == "__main__":
-    models = sys.argv[1:] or [k for k in ["gemma3-4b", "qwen3-4b", "gemma3-1b"]
+    models = sys.argv[1:] or [k for k in ["gemma3-12b", "gemma3-4b", "qwen3-4b", "gemma3-1b"]
                               if os.path.exists(os.path.join(RES, f"{k}.json"))]
     for k in models:
         d = load(k)

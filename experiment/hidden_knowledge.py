@@ -112,7 +112,10 @@ class Steer:
         return (h,) + tuple(out[1:]) if isinstance(out, tuple) else h
 
 
-def part_b(lens, prev, es, samples):
+def part_b(lens, prev, es, samples, key):
+    # progress is saved after every setting, so a restarted run skips what is already done
+    prog_path = os.path.join(OUT, f"{key}_part_b_progress.json")
+    prog = json.load(open(prog_path)) if os.path.exists(prog_path) else {}
     layers = lens.m.get_decoder().layers
     L_ids = sorted({int(f * lens.n_layers) for f in STEER_LAYERS})
     hooks = {l: Steer(layers[l]) for l in L_ids}
@@ -120,6 +123,13 @@ def part_b(lens, prev, es, samples):
     for t in ["kmr", "kmr_ar", "ckb"]:
         nb = NEIGHBOUR[t]
         words = prev["tasks"][f"write:{t}"]["words"]
+        done = prog.setdefault(t, {})
+        res = {k: v["stats"] for k, v in done.items()}
+        if len(done) == 1 + len(L_ids) * len(STEER_SCALES) + len(L_ids):
+            out[t] = dict(neighbour=nb, layers=L_ids, results=res)
+            for v in done.values():
+                samples.extend(v["samples"])
+            continue
         # hidden state at the last position, after each steering layer, for "-> Kurdish" and "-> neighbour" prompts
         diff = {}
         for w in words:
@@ -134,8 +144,12 @@ def part_b(lens, prev, es, samples):
         folds = [shuffled[::2], shuffled[1::2]]
         configs = [("none", None, 0)] + [("kurdish", l, a) for l in L_ids for a in STEER_SCALES] + \
                   [("random", l, max(STEER_SCALES)) for l in L_ids]
-        res = {}
         for kind, l, a in configs:
+            name = "none" if kind == "none" else f"{kind}:L{l}:x{a}"
+            if name in done:
+                samples.extend(done[name]["samples"])
+                continue
+            n_before = len(samples)
             stats = dict(correct=0, neighbour=0, french=0, n=0)
             for k in range(2):
                 train, test = folds[1 - k], folds[k]
@@ -157,8 +171,10 @@ def part_b(lens, prev, es, samples):
                     print("    " + samples[-1], flush=True)
                 for h in hooks.values():
                     h.vec = None
-            name = "none" if kind == "none" else f"{kind}:L{l}:x{a}"
             res[name] = stats
+            done[name] = dict(stats=stats, samples=samples[n_before:])
+            with open(prog_path, "w") as f:
+                json.dump(prog, f, indent=1, ensure_ascii=False)
             print(f"  B {t:<6} {name:<16} correct={stats['correct']:2d}/{stats['n']} "
                   f"neighbour={stats['neighbour']:2d} french={stats['french']:2d}", flush=True)
         out[t] = dict(neighbour=nb, layers=L_ids, results=res)
@@ -169,6 +185,9 @@ def part_b(lens, prev, es, samples):
 
 def run(key):
     cfg = MODELS[key]
+    if os.path.exists(os.path.join(OUT, f"{key}.json")):
+        print(f"{key}: already done, skipped", flush=True)
+        return
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
     lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32))
@@ -186,7 +205,7 @@ def run(key):
     result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, part_a=pa)
     samples = []
     if key == "gemma3-4b":
-        result["part_b"] = part_b(lens, prev, es, samples)
+        result["part_b"] = part_b(lens, prev, es, samples, key)
         with open(os.path.join(OUT, f"{key}_steer_samples.txt"), "w") as f:
             f.write("\n".join(samples))
     with open(os.path.join(OUT, f"{key}.json"), "w") as f:

@@ -83,11 +83,12 @@ AI models read text in pieces called tokens, and they charge, remember and write
 
 ## Experiment 7: does the AI give Kurdish people and places their Kurdish name?
 
-I measured which words AI models (GPT-2, Gemma 3, Qwen3) prefer when describing famous Kurds, Kurdish culture and Kurdish cities.
+I measured which words AI models (GPT-2, Gemma 3 up to 12B, Qwen3) prefer when describing famous Kurds, Kurdish culture and Kurdish cities.
 
 - **The AI knows the Kurdish names.** The best model knows that Diyarbakır is *Amed*, Erbil is *Hewlêr* and Sanandaj is *Sine* (13 of 15 cities).
 - **But "Kurdistan" depends on the state.** "Diyarbakır is a city in ___": Kurdistan gets only 2–4%, Turkey the rest. For Kurdish cities in Iraq and Iran, where "Kurdistan" is an official name, it is 27–77%. Catalonia, Tibet and Scotland get 55–100%.
-- **Famous Kurds are described by their state.** Şivan Perwer and Sherko Bekas become "Turkish", Ahmad Khani "Iranian", Saladin "Arab". Only 10–30% of famous Kurds are called Kurdish; Turkish, Persian and Arab figures are named correctly 89–100% of the time.
+- **Smaller models describe famous Kurds by their state.** Şivan Perwer and Sherko Bekas become "Turkish", Ahmad Khani "Iranian", Saladin "Arab". Only 10–30% of famous Kurds are called Kurdish; Turkish, Persian and Arab figures are named correctly 89–100% of the time.
+- **The 12B model fixes the people, not the map.** It calls 9 of 10 famous Kurds Kurdish, but still says a Kurdish city in Turkey is in Kurdistan only 5% of the time.
 
 ![Experiment 7 chart](charts/whose_is_it/homeland.png)
 

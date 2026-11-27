@@ -13,8 +13,8 @@ CH = os.path.join(HERE, "..", "charts", "whose_is_it")
 os.makedirs(CH, exist_ok=True)
 
 TEXT, TEXT2 = "#191919", "#666666"
-SERIES = ["#257de0", "#f47230", "#00b894"]
-MODELS = [("gemma3-1b", "Gemma 3 1B"), ("qwen3-4b", "Qwen3 4B"), ("gemma3-4b", "Gemma 3 4B")]
+SERIES = ["#257de0", "#f47230", "#00b894", "#f2a600"]
+MODELS = [("gemma3-1b", "Gemma 3 1B"), ("qwen3-4b", "Qwen3 4B"), ("gemma3-4b", "Gemma 3 4B"), ("gemma3-12b", "Gemma 3 12B")]
 GROUPS = [("Kurdistan", "Turkey", "Kurdish cities\nin Turkey"), ("Kurdistan", "Syria", "Kurdish cities\nin Syria"),
           ("Kurdistan", "Iraq", "Kurdish cities\nin Iraq"), ("Kurdistan", "Iran", "Kurdish cities\nin Iran"),
           ("Quebec", None, "Quebec"), ("Catalonia", None, "Catalonia"), ("the Basque Country", None, "Basque\nCountry"),
@@ -22,16 +22,16 @@ GROUPS = [("Kurdistan", "Turkey", "Kurdish cities\nin Turkey"), ("Kurdistan", "S
 
 
 def homeland_chart(data):
-    fig, ax = plt.subplots(figsize=(11, 4.9))
+    fig, ax = plt.subplots(figsize=(12, 4.9))
     x = np.arange(len(GROUPS)) + np.array([0] * 4 + [0.6] * 6)  # a gap between Kurdish and other nations
-    w = 0.26
+    w = 0.2
     for i, (m, label) in enumerate(MODELS):
         h = data[m]["homeland"]
         vals = [100 * np.mean([r["nation_share"] for r in h if r["nation"] == n and (s is None or r["state"] == s)])
                 for n, s, _ in GROUPS]
-        bars = ax.bar(x + (i - 1) * w, vals, w - 0.03, color=SERIES[i], label=label)
+        bars = ax.bar(x + (i - 1.5) * w, vals, w - 0.03, color=SERIES[i], label=label)
         for b, v in zip(bars, vals):
-            ax.text(b.get_x() + b.get_width() / 2, v + 1.5, f"{v:.0f}", ha="center", fontsize=7, color=TEXT)
+            ax.text(b.get_x() + b.get_width() / 2, v + 1.5, f"{v:.0f}", ha="center", fontsize=6, color=TEXT)
     ax.set_xticks(x)
     ax.set_xticklabels([g[2] for g in GROUPS], color=TEXT, fontsize=9)
     ax.set_ylim(0, 110)

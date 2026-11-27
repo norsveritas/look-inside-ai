@@ -39,8 +39,8 @@ PREV = os.path.join(HERE, "..", "results", "latent_language")
 OUT = os.path.join(HERE, "..", "results", "hidden_knowledge")
 os.makedirs(OUT, exist_ok=True)
 BY_EN = {r["en"]: r for r in ROWS}
-STEER_LAYERS = [0.5, 0.65, 0.8]  # as a fraction of the model's depth
-STEER_SCALES = [1, 2, 4]
+STEER_LAYERS = [0.5, 0.7]  # as a fraction of the model's depth
+STEER_SCALES = [0.25, 0.5, 1]
 
 
 def score_candidates(lens, prefix, cands):
@@ -103,11 +103,13 @@ class Steer:
         self.vec, self.h = None, layer.register_forward_hook(self.hook)
 
     def hook(self, mod, inp, out):
+        # the nudge is added only where the answer is written: the last prompt position and each new token
         if self.vec is None:
             return out
-        if isinstance(out, tuple):
-            return (out[0] + self.vec.to(out[0].dtype),) + out[1:]
-        return out + self.vec.to(out.dtype)
+        h = out[0] if isinstance(out, tuple) else out
+        h = h.clone()
+        h[:, -1] += self.vec.to(h.dtype)
+        return (h,) + tuple(out[1:]) if isinstance(out, tuple) else h
 
 
 def part_b(lens, prev, es, samples):
@@ -131,7 +133,7 @@ def part_b(lens, prev, es, samples):
         rng.shuffle(shuffled)
         folds = [shuffled[::2], shuffled[1::2]]
         configs = [("none", None, 0)] + [("kurdish", l, a) for l in L_ids for a in STEER_SCALES] + \
-                  [("random", l, 2) for l in L_ids]
+                  [("random", l, max(STEER_SCALES)) for l in L_ids]
         res = {}
         for kind, l, a in configs:
             stats = dict(correct=0, neighbour=0, french=0, n=0)
@@ -152,6 +154,7 @@ def part_b(lens, prev, es, samples):
                     stats["neighbour"] += matches(said, r[nb])
                     stats["french"] += matches(said, r["fr"])
                     samples.append(f"[{t:<6} {kind:<7} layer={l} x{a}] {w:<9} wanted {r[t]!r:<14} wrote {said!r}")
+                    print("    " + samples[-1], flush=True)
                 for h in hooks.values():
                     h.vec = None
             name = "none" if kind == "none" else f"{kind}:L{l}:x{a}"
@@ -172,7 +175,15 @@ def run(key):
     with open(os.path.join(PREV, f"{key}.json")) as f:
         prev = json.load(f)
     es = random.Random(0).sample(EXAMPLES, N_EXAMPLES)  # the same first example set as experiment 4
-    result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, part_a=part_a(lens, prev, es))
+    a_path = os.path.join(OUT, f"{key}_part_a.json")
+    if os.path.exists(a_path):  # Part A is slow; reuse it if it was already done
+        with open(a_path) as f:
+            pa = json.load(f)
+    else:
+        pa = part_a(lens, prev, es)
+        with open(a_path, "w") as f:
+            json.dump(pa, f, indent=1, ensure_ascii=False, default=float)
+    result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, part_a=pa)
     samples = []
     if key == "gemma3-4b":
         result["part_b"] = part_b(lens, prev, es, samples)

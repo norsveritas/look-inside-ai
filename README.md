@@ -55,6 +55,18 @@ AI models are known to quietly "think in English" in their middle layers. Kurdis
 
 👉 **Full story: [REPORT_LATENT_LANGUAGE.md](REPORT_LATENT_LANGUAGE.md).**
 
+## Experiment 5: when the AI fails to write a Kurdish word, does it secretly know it?
+
+Experiment 4 showed that AI models understand Kurdish words but rarely write them. Is the word locked inside, or simply missing? I gave the models a "multiple choice inside the model" and also pushed them toward Kurdish from inside while they wrote.
+
+- **The word is partly there.** Gemma 3 4B puts the right Kurdish word in its top 5 (out of 68–86 choices) for about half of the words, far above guessing.
+- **But the neighbour's word is louder.** Against the Turkish or Persian word of the same meaning, the Kurdish word loses 85–90% of the time (Persian against Arabic: it wins 78%).
+- **Pushing toward Kurdish changes the style, not the vocabulary.** A strong push made 91% of the answers look Kurdish (up from 44%) and removed every Turkish word, but the model then *invented* Kurdish-looking words instead of finding the right ones.
+
+![Experiment 5 chart](charts/hidden_knowledge/steering.png)
+
+👉 **Full story: [REPORT_HIDDEN_KNOWLEDGE.md](REPORT_HIDDEN_KNOWLEDGE.md).**
+
 ## Experiment 6: the "token tax" on Kurdish
 
 AI models read text in pieces called tokens, and they charge, remember and write per token. I counted how many tokens the same 1,004 professionally translated sentences cost in 9 AI tokenizers (GPT-4o, Llama 3, Gemma 3, Qwen3, DeepSeek-V3, Mistral and others).
@@ -76,6 +88,7 @@ AI models read text in pieces called tokens, and they charge, remember and write
 - `REPORT_WAR_BIAS.md`: experiment 2 report (the war bias)
 - `REPORT_MODERN_MODELS.md`: experiment 3 report (old vs modern models)
 - `REPORT_LATENT_LANGUAGE.md`: experiment 4 report (which language the AI thinks in)
+- `REPORT_HIDDEN_KNOWLEDGE.md`: experiment 5 report (does the AI secretly know the Kurdish word?)
 - `REPORT_TOKEN_TAX.md`: experiment 6 report (the token tax on Kurdish)
 - `charts/`: pictures of the results
 - `results/`: all the numbers, plus every text the AI wrote during the tests
@@ -98,6 +111,8 @@ python modern_models.py all      # experiment 3: 5 models (~70 minutes, download
 python modern_models_charts.py   # experiment 3 charts
 python latent_language.py all    # experiment 4: 3 models (~1.5 hours, downloads ~20 GB)
 python latent_language_charts.py # experiment 4 charts
+python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b  # experiment 5 (several hours)
+python hidden_knowledge_charts.py # experiment 5 charts
 python token_tax.py               # experiment 6: token tax (a few minutes)
 python token_tax_charts.py        # experiment 6 charts
 ```

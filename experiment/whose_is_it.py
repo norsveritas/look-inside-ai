@@ -150,6 +150,9 @@ def part3(sc):
 
 def run(key):
     cfg = MODELS[key]
+    if os.path.exists(os.path.join(OUT, f"{key}.json")):  # each model is saved on its own; a restart skips it
+        print(f"{key}: already done, skipped", flush=True)
+        return
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
     sc = Scorer(cfg["hf"], cfg.get("dtype", torch.float32))

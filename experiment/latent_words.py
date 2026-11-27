@@ -8,7 +8,7 @@ Each row is one everyday concept, written in:
   ckb     Sorani (Central Kurdish), Arabic letters
 
 The Kurdish words were drafted by an AI (Claude). The Badini words (Arabic letters) were then checked and
-corrected by a native Badini speaker (Nashat), and the Latin-letter Kurmanji column was changed to match.
+corrected by a native Badini speaker, and the Latin-letter Kurmanji column was changed to match.
 The Sorani column has not been checked by a native speaker.
 Several accepted forms can be given with "/": the first one is used in prompts, any of them counts as correct.
 """

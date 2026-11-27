@@ -186,7 +186,7 @@ For an AI, **Badini in Arabic letters is the hardest form of Kurdish of all**, e
 
 ## 7. Honest limits
 
-- **The Kurdish words were first written by an AI (Claude).** The Badini words (Arabic letters) were then checked and corrected by a native Badini speaker (Nashat), and the Latin-letter column was changed to match. The results above use the corrected list. **The Sorani words have not been checked by a native speaker** and may contain mistakes.
+- **The Kurdish words were first written by an AI (Claude).** The Badini words (Arabic letters) were then checked and corrected by a native Badini speaker, and the Latin-letter column was changed to match. The results above use the corrected list. **The Sorani words have not been checked by a native speaker** and may contain mistakes.
 - **Mostly one right answer per word.** Only "bird" has several accepted forms (*çûçik / çwîçik / çîçik*). The model sometimes wrote another real Kurdish word (for example *kitêb* for "book" instead of *pirtûk*) and was marked wrong. So the real writing scores may be slightly higher. But this cannot explain 0–9% against 84%.
 - **The logit lens is a rough tool.** It reads the model's thoughts through its final output step, which is not designed for the middle layers. Later research has better tools (for example the "tuned lens"). The patterns we see (English/Chinese in the middle, a jump at the end) match the 2024 study, which gives some confidence.
 - **We only count the first piece of each word.** Two languages whose words start with the same piece were left out, which removed many Persian–Kurdish cousin words. This makes the test fair but means the "neighbour" numbers are probably *lower* than the truth.

@@ -63,6 +63,7 @@ Experiment 4 showed that AI models understand Kurdish words but rarely write the
 - **The word is partly there.** Gemma 3 4B puts the right Kurdish word in its top 5 (out of 68–86 choices) for about half of the words, far above guessing.
 - **But the neighbour's word is louder.** Against the Turkish or Persian word of the same meaning, the Kurdish word loses 85–90% of the time (Persian against Arabic: it wins 78%).
 - **Pushing toward Kurdish changes the style, not the vocabulary.** A strong push made 91% of the answers look Kurdish (up from 44%) and removed every Turkish word, but the model then *invented* Kurdish-looking words instead of finding the right ones.
+- **The 3-times-bigger Gemma 3 12B knows most Kurdish words** (right word in its top 5 for 82–94%). But for Badini in Arabic letters it still writes only 4 of 34 right, and the Persian word beats the Badini word 74% of the time: the knowledge is there, but the bigger neighbour still wins.
 
 ![Experiment 5 chart](charts/hidden_knowledge/steering.png)
 
@@ -126,7 +127,7 @@ python modern_models.py all      # experiment 3: 5 models (~70 minutes, download
 python modern_models_charts.py   # experiment 3 charts
 python latent_language.py all    # experiment 4: 3 models (~1.5 hours, downloads ~20 GB)
 python latent_language_charts.py # experiment 4 charts
-python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b  # experiment 5 (several hours)
+python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b gemma3-12b  # experiment 5 (several hours)
 python hidden_knowledge_charts.py # experiment 5 charts
 python token_tax.py               # experiment 6: token tax (a few minutes)
 python token_tax_charts.py        # experiment 6 charts

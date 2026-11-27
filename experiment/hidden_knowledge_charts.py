@@ -15,8 +15,8 @@ CH = os.path.join(HERE, "..", "charts", "hidden_knowledge")
 os.makedirs(CH, exist_ok=True)
 
 TEXT, TEXT2 = "#191919", "#666666"
-SERIES = ["#257de0", "#f47230", "#00b894"]
-MODELS = [("gemma3-1b", "Gemma 3 1B"), ("qwen3-4b", "Qwen3 4B"), ("gemma3-4b", "Gemma 3 4B")]
+SERIES = ["#257de0", "#f47230", "#00b894", "#f2a600"]
+MODELS = [("gemma3-1b", "Gemma 3 1B"), ("qwen3-4b", "Qwen3 4B"), ("gemma3-4b", "Gemma 3 4B"), ("gemma3-12b", "Gemma 3 12B")]
 FORMS = [("kmr", "Kurmanji\n(Latin letters)"), ("kmr_ar", "Badini\n(Arabic letters)"), ("ckb", "Sorani"),
          ("fa", "Persian\n(control)")]
 KURDISH_LETTERS = {"kmr": set("êîûÊÎÛ"), "kmr_ar": set("ێۆڵڕەڤ"), "ckb": set("ێۆڵڕەڤ")}
@@ -32,12 +32,12 @@ def style(ax):
 
 
 def recognition_chart(d):
-    fig, ax = plt.subplots(figsize=(9.5, 4.8))
+    fig, ax = plt.subplots(figsize=(10.5, 4.8))
     x = np.arange(len(FORMS))
-    w = 0.26
+    w = 0.2
     for i, (m, label) in enumerate(MODELS):
         vals = [d[m]["part_a"][f]["cal_top5"] * 100 for f, _ in FORMS]
-        bars = ax.bar(x + (i - 1) * w, vals, w - 0.03, color=SERIES[i], label=label)
+        bars = ax.bar(x + (i - 1.5) * w, vals, w - 0.03, color=SERIES[i], label=label)
         for b, v in zip(bars, vals):
             ax.text(b.get_x() + b.get_width() / 2, v + 1.5, f"{v:.0f}", ha="center", fontsize=8, color=TEXT)
     chance = 5 / d["gemma3-4b"]["part_a"]["kmr"]["n_candidates"] * 100
@@ -46,8 +46,8 @@ def recognition_chart(d):
     ax.set_xticklabels([l for _, l in FORMS], color=TEXT)
     ax.set_ylim(0, 105)
     ax.set_ylabel("% of words where the right answer is in the top 5", color=TEXT2)
-    ax.set_title("Multiple choice inside the model: the right Kurdish word is in its top 5\n"
-                 "about half the time for Gemma 3 4B, even though it almost never writes it", loc="left",
+    ax.set_title("Multiple choice inside the model: the right Kurdish word is in the top 5 about half\n"
+                 "the time for Gemma 3 4B and 82-94% for Gemma 3 12B, even though they rarely write it", loc="left",
                  color=TEXT, fontsize=12)
     ax.legend(frameon=False, fontsize=9, loc="upper left")
     style(ax)

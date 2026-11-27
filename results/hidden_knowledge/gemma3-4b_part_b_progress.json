@@ -423,6 +423,59 @@
     "[kmr    random  layer=17 x1] salt      wanted 'xwê'          wrote 'av/av/av/'",
     "[kmr    random  layer=17 x1] key       wanted 'kilîl'        wrote ''"
    ]
+  },
+  "random:L23:x1": {
+   "stats": {
+    "correct": 0,
+    "neighbour": 0,
+    "french": 0,
+    "n": 43
+   },
+   "samples": [
+    "[kmr    random  layer=23 x1] night     wanted 'şev'          wrote 'baba'",
+    "[kmr    random  layer=23 x1] cow       wanted 'çêl'          wrote 'bäb'",
+    "[kmr    random  layer=23 x1] thread    wanted 'benik'        wrote 'b.p.p.'",
+    "[kmr    random  layer=23 x1] apple     wanted 'sêv'          wrote 'pund'",
+    "[kmr    random  layer=23 x1] meat      wanted 'goşt'         wrote 'bylb).\\nFr'",
+    "[kmr    random  layer=23 x1] love      wanted 'evîn'         wrote 'bäf).\\nFr'",
+    "[kmr    random  layer=23 x1] wheat     wanted 'genim'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] book      wanted 'pirtûk'       wrote 'bäb'",
+    "[kmr    random  layer=23 x1] horse     wanted 'hesp'         wrote 'tabb'",
+    "[kmr    random  layer=23 x1] child     wanted 'zarok'        wrote 'bäb)\\n\\n<h2>'",
+    "[kmr    random  layer=23 x1] cloud     wanted 'ewr'          wrote 'bylb).\\nFr'",
+    "[kmr    random  layer=23 x1] brother   wanted 'bira'         wrote 'bäb'",
+    "[kmr    random  layer=23 x1] knife     wanted 'kêrik'        wrote 'bylb).\\nFr'",
+    "[kmr    random  layer=23 x1] wolf      wanted 'gurg'         wrote 'bäb'",
+    "[kmr    random  layer=23 x1] year      wanted 'sal'          wrote 'b.äf).ä'",
+    "[kmr    random  layer=23 x1] hand      wanted 'dest'         wrote 'bîo'",
+    "[kmr    random  layer=23 x1] stone     wanted 'kevir'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] friend    wanted 'heval'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] song      wanted 'stran'        wrote 'bîb).\\nFr'",
+    "[kmr    random  layer=23 x1] snow      wanted 'berf'         wrote 'bäb'",
+    "[kmr    random  layer=23 x1] egg       wanted 'hêk'          wrote 'bol'",
+    "[kmr    random  layer=23 x1] rain      wanted 'baran'        wrote 'b.p.p.'",
+    "[kmr    random  layer=23 x1] blood     wanted 'xwîn'         wrote 'bol'",
+    "[kmr    random  layer=23 x1] head      wanted 'ser'          wrote 'c.p.p.'",
+    "[kmr    random  layer=23 x1] city      wanted 'bajar'        wrote 'bäb)\\n\\n<h2>'",
+    "[kmr    random  layer=23 x1] sky       wanted 'esman'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] gold      wanted 'zêr'          wrote 'ph.p.p.'",
+    "[kmr    random  layer=23 x1] man       wanted 'mêr'          wrote 'byl'",
+    "[kmr    random  layer=23 x1] mother    wanted 'dayik'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] sister    wanted 'xwişk'        wrote 'bäb'",
+    "[kmr    random  layer=23 x1] milk      wanted 'şîr'          wrote 'b.p.ta'",
+    "[kmr    random  layer=23 x1] bridge    wanted 'pir'          wrote 'bäb'",
+    "[kmr    random  layer=23 x1] door      wanted 'derî'         wrote 'bäb'",
+    "[kmr    random  layer=23 x1] grape     wanted 'tirî'         wrote 'pund'",
+    "[kmr    random  layer=23 x1] woman     wanted 'jin'          wrote 'bäb'",
+    "[kmr    random  layer=23 x1] bird      wanted 'çûçik/çwîçik/çîçik' wrote 'bäb'",
+    "[kmr    random  layer=23 x1] ear       wanted 'guh'          wrote 'bol'",
+    "[kmr    random  layer=23 x1] shoe      wanted 'pêlav'        wrote 'pund'",
+    "[kmr    random  layer=23 x1] fish      wanted 'masî'         wrote 'bäb'",
+    "[kmr    random  layer=23 x1] death     wanted 'mirin'        wrote 'ph. ph. ph.'",
+    "[kmr    random  layer=23 x1] king      wanted 'paşa'         wrote 'bîr'",
+    "[kmr    random  layer=23 x1] salt      wanted 'xwê'          wrote 'bîo'",
+    "[kmr    random  layer=23 x1] key       wanted 'kilîl'        wrote 'bylbyl'"
+   ]
   }
  }
 }

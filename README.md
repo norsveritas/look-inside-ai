@@ -55,6 +55,19 @@ AI models are known to quietly "think in English" in their middle layers. Kurdis
 
 👉 **Full story: [REPORT_LATENT_LANGUAGE.md](REPORT_LATENT_LANGUAGE.md).**
 
+## Experiment 6: the "token tax" on Kurdish
+
+AI models read text in pieces called tokens, and they charge, remember and write per token. I counted how many tokens the same 1,004 professionally translated sentences cost in 9 AI tokenizers (GPT-4o, Llama 3, Gemma 3, Qwen3, DeepSeek-V3, Mistral and others).
+
+- **Kurdish costs 2–3 times as much as English** (Kurmanji 2.1×, Sorani 3.2×), while Turkish, Persian and Arabic cost only 1.5–1.7×.
+- **Same alphabet, double the price:** Sorani costs about twice as many tokens as Persian.
+- **Badini in Arabic letters costs about 1.5 times as much as the same text in Latin letters.**
+- **It can be fixed:** a tokenizer built for 200 languages (NLLB) treats Kurdish almost as well as Turkish and Persian.
+
+![Experiment 6 chart](charts/token_tax/token_tax.png)
+
+👉 **Full story: [REPORT_TOKEN_TAX.md](REPORT_TOKEN_TAX.md).**
+
 👉 **For the full story of experiment 1 in simple English, read [REPORT.md](REPORT.md).** It covers what was done, the charts, the funniest examples, the honest limits and ideas for the next experiment.
 
 ## What's in this project
@@ -63,6 +76,7 @@ AI models are known to quietly "think in English" in their middle layers. Kurdis
 - `REPORT_WAR_BIAS.md`: experiment 2 report (the war bias)
 - `REPORT_MODERN_MODELS.md`: experiment 3 report (old vs modern models)
 - `REPORT_LATENT_LANGUAGE.md`: experiment 4 report (which language the AI thinks in)
+- `REPORT_TOKEN_TAX.md`: experiment 6 report (the token tax on Kurdish)
 - `charts/`: pictures of the results
 - `results/`: all the numbers, plus every text the AI wrote during the tests
 - `experiment/`: the Python code (sentences, analysis, steering, removal, charts)
@@ -84,6 +98,8 @@ python modern_models.py all      # experiment 3: 5 models (~70 minutes, download
 python modern_models_charts.py   # experiment 3 charts
 python latent_language.py all    # experiment 4: 3 models (~1.5 hours, downloads ~20 GB)
 python latent_language_charts.py # experiment 4 charts
+python token_tax.py               # experiment 6: token tax (a few minutes)
+python token_tax_charts.py        # experiment 6 charts
 ```
 
 You need an internet connection the first time, so the models can be downloaded from Hugging Face.

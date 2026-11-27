@@ -190,7 +190,7 @@ def run(key):
         return
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
-    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32))
+    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32), cfg.get("offload"), cfg.get("int8", False))
     with open(os.path.join(PREV, f"{key}.json")) as f:
         prev = json.load(f)
     es = random.Random(0).sample(EXAMPLES, N_EXAMPLES)  # the same first example set as experiment 4

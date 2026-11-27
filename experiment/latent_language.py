@@ -35,9 +35,10 @@ MODELS = {  # Gemma 3 is loaded from an exact, ungated copy of Google's weights 
     "gemma3-4b": dict(hf="unsloth/gemma-3-4b-pt", label="Gemma 3 4B (Google, 2025)", dtype=torch.bfloat16),
     "qwen3-4b": dict(hf="Qwen/Qwen3-4B-Base", label="Qwen3 4B (Alibaba, 2025)", dtype=torch.bfloat16),
     "gemma3-1b": dict(hf="unsloth/gemma-3-1b-pt", label="Gemma 3 1B (Google, 2025)"),
-    # too big for this computer's 16 GB of memory: part of the model stays on disk and is read when needed
+    # too big for this computer's 16 GB of memory in full precision: its weights are rounded to 8-bit numbers
+    # (about 12 GB), which changes its answers very little
     "gemma3-12b": dict(hf="unsloth/gemma-3-12b-pt", label="Gemma 3 12B (Google, 2025)", dtype=torch.bfloat16,
-                       offload="10GiB"),
+                       int8=True),
 }
 TARGETS = ["kmr", "kmr_ar", "ckb", "tr", "fa", "ar"]
 KURDISH = ["kmr", "kmr_ar", "ckb"]
@@ -53,9 +54,14 @@ EXAMPLES, TESTS = ROWS[:N_EXAMPLES * 2], ROWS[N_EXAMPLES * 2:]
 
 
 class Lens:
-    def __init__(self, hf, dtype=torch.float32, offload=None):
+    def __init__(self, hf, dtype=torch.float32, offload=None, int8=False):
         self.tok = AutoTokenizer.from_pretrained(hf)
-        if offload:  # keep `offload` worth of weights in memory, read the rest from disk at each step
+        if int8:  # weights stored as 8-bit numbers, computed in bfloat16
+            from torchao.quantization import Int8WeightOnlyConfig
+            from transformers import TorchAoConfig
+            self.m = AutoModelForCausalLM.from_pretrained(
+                hf, dtype=dtype, device_map="cpu", quantization_config=TorchAoConfig(Int8WeightOnlyConfig())).eval()
+        elif offload:  # keep `offload` worth of weights in memory, read the rest from disk at each step
             self.m = AutoModelForCausalLM.from_pretrained(
                 hf, dtype=dtype, device_map="auto", max_memory={"cpu": offload},
                 offload_folder=os.path.join(OUT, "_offload")).eval()
@@ -117,7 +123,7 @@ def run(key):
     cfg = MODELS[key]
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
-    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32), cfg.get("offload"))
+    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32), cfg.get("offload"), cfg.get("int8", False))
     sets = {(r["en"], c): set().union(*[lens.token_set(f) for f in r[c].split("/")]) for r in ROWS for c in COLUMNS}
     rng = random.Random(0)
     example_sets = [rng.sample(EXAMPLES, N_EXAMPLES) for _ in range(N_PROMPT_SETS)]

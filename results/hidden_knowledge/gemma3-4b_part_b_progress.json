@@ -477,5 +477,51 @@
     "[kmr    random  layer=23 x1] key       wanted 'kilîl'        wrote 'bylbyl'"
    ]
   }
+ },
+ "kmr_ar": {
+  "none": {
+   "stats": {
+    "correct": 2,
+    "neighbour": 3,
+    "french": 0,
+    "n": 34
+   },
+   "samples": [
+    "[kmr_ar none    layer=None x0] egg       wanted 'هێک'          wrote 'پێش'",
+    "[kmr_ar none    layer=None x0] bird      wanted 'چووچک/چویچک/چیچک' wrote 'پێش'",
+    "[kmr_ar none    layer=None x0] thread    wanted 'بەنک'         wrote 'پێ'",
+    "[kmr_ar none    layer=None x0] sky       wanted 'ئەسمان'       wrote 'هەوا'",
+    "[kmr_ar none    layer=None x0] father    wanted 'باب'          wrote 'پاپا'",
+    "[kmr_ar none    layer=None x0] head      wanted 'سەر'          wrote 'پێش'",
+    "[kmr_ar none    layer=None x0] song      wanted 'ستران'        wrote 'شۆ'",
+    "[kmr_ar none    layer=None x0] door      wanted 'دەری'         wrote 'دەرگاو'",
+    "[kmr_ar none    layer=None x0] knife     wanted 'کێرک'         wrote 'کەوت'",
+    "[kmr_ar none    layer=None x0] salt      wanted 'خوێ'          wrote 'سڵ'",
+    "[kmr_ar none    layer=None x0] hand      wanted 'دەست'         wrote 'دای'",
+    "[kmr_ar none    layer=None x0] bridge    wanted 'پر'           wrote 'پۆل'",
+    "[kmr_ar none    layer=None x0] book      wanted 'پرتووک'       wrote 'کتاب'",
+    "[kmr_ar none    layer=None x0] shoe      wanted 'پێلاڤ'        wrote 'چاو'",
+    "[kmr_ar none    layer=None x0] king      wanted 'پاشا'         wrote 'پاشا'",
+    "[kmr_ar none    layer=None x0] apple     wanted 'سێڤ'          wrote 'پوم'",
+    "[kmr_ar none    layer=None x0] stone     wanted 'کەڤر'         wrote 'کەڤ'",
+    "[kmr_ar none    layer=None x0] sister    wanted 'خویشک'        wrote 'خۆش'",
+    "[kmr_ar none    layer=None x0] love      wanted 'ئەڤین'        wrote 'پێش'",
+    "[kmr_ar none    layer=None x0] wheat     wanted 'گەنم'         wrote 'گۆش'",
+    "[kmr_ar none    layer=None x0] city      wanted 'باژێر'        wrote 'شاری'",
+    "[kmr_ar none    layer=None x0] snow      wanted 'بەفر'         wrote 'سەر'",
+    "[kmr_ar none    layer=None x0] cow       wanted 'چێل'          wrote 'گاو'",
+    "[kmr_ar none    layer=None x0] friend    wanted 'هەڤاڵ'        wrote 'دوست'",
+    "[kmr_ar none    layer=None x0] cloud     wanted 'عەور'         wrote 'پەردە'",
+    "[kmr_ar none    layer=None x0] gold      wanted 'زێڕ'          wrote 'زێڕ'",
+    "[kmr_ar none    layer=None x0] grape     wanted 'تری'          wrote 'پێش'",
+    "[kmr_ar none    layer=None x0] wolf      wanted 'گورگ'         wrote 'گۆڵ'",
+    "[kmr_ar none    layer=None x0] sea       wanted 'دەریا'        wrote 'دۆڵ'",
+    "[kmr_ar none    layer=None x0] night     wanted 'شەڤ'          wrote 'شەو'",
+    "[kmr_ar none    layer=None x0] child     wanted 'زارۆک'        wrote 'بێژ'",
+    "[kmr_ar none    layer=None x0] woman     wanted 'ژن'           wrote 'خۆن'",
+    "[kmr_ar none    layer=None x0] mother    wanted 'دایک'         wrote 'ماما'",
+    "[kmr_ar none    layer=None x0] horse     wanted 'هەسپ'         wrote 'پەژ'"
+   ]
+  }
  }
 }

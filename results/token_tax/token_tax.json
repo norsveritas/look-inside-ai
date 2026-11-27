@@ -1,0 +1,581 @@
+{
+ "n_sentences": 1004,
+ "languages": {
+  "eng_Latn": "English",
+  "tur_Latn": "Turkish",
+  "pes_Arab": "Persian",
+  "arb_Arab": "Arabic",
+  "ckb_Arab": "Sorani",
+  "kmr_Latn": "Kurmanji (Latin letters)",
+  "kmr_Arab": "Kurmanji/Badini (Arabic letters)"
+ },
+ "example": {
+  "eng_Latn": "On Monday, scientists from the Stanford University School of Medicine announced the invention of a new diagnostic tool that can sort cells by type: a tiny printable chip that can be manufactured using standard inkjet printers for possibly about one U.S. cent each.",
+  "tur_Latn": "Stanford Üniversitesi Tıp Fakültesi’nde görev alan bilim insanları, pazartesi günü hücreleri cinslerine göre sıraya koyabilen yeni bir teşhis aracının bulunduğunu duyurdu. Bu araç, standart mürekkep püskürtmeli yazıcılar kullanılarak her biri tahminen yaklaşık bir sente imal edilebilen küçük bir yazdırılabilir çipti.",
+  "pes_Arab": "روز دوشنبه، دانشمندان دانشکده پزشکی دانشگاه استنفورد از اختراع دستگاه تشخیصی جدیدی سخن گفتند که می‌تواند سلول‌ها را براساس نوعشان مرتب‌سازی کند: نوعی تراشه قابل چاپ که بااستفاده از چاپگرهای استاندارد جوهرافشان قابل تولید است و هزینه هرکدام از آنها احتمالاً حدود یک سنت آمریکا در می‌آید.",
+  "arb_Arab": "في يوم الاثنين، أعلن علماء من كلية الطب بجامعة ستانفورد عن اختراع أداة تشخيصية جديدة يمكنها تصنيف الخلايا حسب النوع: شريحة صغيرة قابلة للطباعة يمكن تصنيعها باستخدام طابعات نفاثة للحبر قياسية مقابل حوالي سنت أمريكي واحد لكل منها.",
+  "ckb_Arab": "لە دوو شەمەدا زانایانی سکوڵی پزیشكی لە زانکۆی ستانفۆرد رایانگەیاند کە داهێنانیان کردووە بۆ ئامرازێکی نوێی پشکنین کە دەتوانێت خانەکان پۆلێن بکات بەپێی جۆرەکان: ئامێرەکە پارچەیەکی ئەلیکترۆنیی بچوکە کە دەکرێت بە چاپکردن دروست بکرێت بە بەکارهێنانی چاپکەری مەرەکەب فڕێدەر بە تەنها یەك سەنتی ئەمریکی.",
+  "kmr_Latn": "Roja duşemê zanyarên Zanîngeha Stanfordê yên Dibistana Tibê ragihandin, ku wan cîhazeke nû ya teşhîsê dîtiye, ku pê re mirov dikare hucreyan li gorî cureyên wan ji hev cuda bike: çîpeke biçûk a tê dewisandin dê ji aliyê çapkerê lezgîn ê tîrêjan ve bi buhayê yek Centê DYA yê bê çêkirin.",
+  "kmr_Arab": "ڕۆژا دوشەمێ زانیارێن زانینگەها ستانفۆردێ یێن دبستانا تبێ ڕاگهاندن، کو وان جیهازەکە نوو یا تەشهیسێ دیتیە، کو پێ ڕە مرۆڤ دکارە هوجرەیان ل گۆری جورەیێن وان ژ هەڤ جودا بکە: چیپەکە بچووک ئا تێ دەوساندن دێ ژ ئالیێ چاپکەرێ لەزگین ئێ تیرێژان ڤە ب بوهایێ یەک جەنتێ دیا یێ بێ چێکرن."
+ },
+ "tokenizers": {
+  "GPT-2 (2019)": {
+   "repo": "gpt2",
+   "vocab_size": 50257,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 26598,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2288060878845528,
+     "share_words_4plus": 0.014802097350470975,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 64596,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 3.6917827857101897,
+     "share_words_4plus": 0.48391536211938757,
+     "vs_english": 2.428603654410106
+    },
+    "pes_Arab": {
+     "tokens": 141284,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 6.099579001632443,
+     "share_words_4plus": 0.7824125784002062,
+     "vs_english": 5.311827956989247
+    },
+    "arb_Arab": {
+     "tokens": 117779,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 6.0232285670623,
+     "share_words_4plus": 0.8428505934491366,
+     "vs_english": 4.428114895856831
+    },
+    "ckb_Arab": {
+     "tokens": 172428,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 9.001300525412267,
+     "share_words_4plus": 0.9439213442230662,
+     "vs_english": 6.482743063388225
+    },
+    "kmr_Latn": {
+     "tokens": 65856,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.9129856306546036,
+     "share_words_4plus": 0.315859499733901,
+     "vs_english": 2.47597563726596
+    },
+    "kmr_Arab": {
+     "tokens": 166415,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 7.408328898350186,
+     "share_words_4plus": 0.8577700904736562,
+     "vs_english": 6.2566734340927885
+    }
+   }
+  },
+  "GPT-4o (2024)": {
+   "repo": "Xenova/gpt-4o",
+   "vocab_size": 200000,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 26611,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.231590181430096,
+     "share_words_4plus": 0.015498120736856759,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 38075,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 2.170938700613567,
+     "share_words_4plus": 0.13309249383565572,
+     "vs_english": 1.4307992935252338
+    },
+    "pes_Arab": {
+     "tokens": 42263,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 1.7982644557092533,
+     "share_words_4plus": 0.0947675917175015,
+     "vs_english": 1.5881778212017588
+    },
+    "arb_Arab": {
+     "tokens": 37656,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 1.9009220111048852,
+     "share_words_4plus": 0.08649584840303602,
+     "vs_english": 1.4150539250685807
+    },
+    "ckb_Arab": {
+     "tokens": 73477,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 3.8229204598657858,
+     "share_words_4plus": 0.5175570930655985,
+     "vs_english": 2.761151403554921
+    },
+    "kmr_Latn": {
+     "tokens": 54057,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.3924960085151676,
+     "share_words_4plus": 0.20702501330494943,
+     "vs_english": 2.0313780015782945
+    },
+    "kmr_Arab": {
+     "tokens": 73332,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 3.2514191946070605,
+     "share_words_4plus": 0.3843356395245698,
+     "vs_english": 2.7557025290293486
+    }
+   }
+  },
+  "Llama 3 (2024)": {
+   "repo": "unsloth/Llama-3.2-1B",
+   "vocab_size": 128256,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 26618,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.232425409493759,
+     "share_words_4plus": 0.014941302027748132,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 37462,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 2.126842135443546,
+     "share_words_4plus": 0.14943517403520845,
+     "vs_english": 1.407393493124953
+    },
+    "pes_Arab": {
+     "tokens": 40886,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 1.7385943809605635,
+     "share_words_4plus": 0.07096829624538191,
+     "vs_english": 1.5360282515590953
+    },
+    "arb_Arab": {
+     "tokens": 44829,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 2.271407467780551,
+     "share_words_4plus": 0.1449747847791758,
+     "vs_english": 1.6841610939965437
+    },
+    "ckb_Arab": {
+     "tokens": 105795,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 5.511210529053738,
+     "share_words_4plus": 0.6899027206991625,
+     "vs_english": 3.9745660831016605
+    },
+    "kmr_Latn": {
+     "tokens": 58203,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.5739311690615576,
+     "share_words_4plus": 0.24756075926911478,
+     "vs_english": 2.1866030505672853
+    },
+    "kmr_Arab": {
+     "tokens": 103420,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 4.592957246762462,
+     "share_words_4plus": 0.5955738868192301,
+     "vs_english": 3.885340746863025
+    }
+   }
+  },
+  "Gemma 3 (2025)": {
+   "repo": "unsloth/gemma-3-4b-pt",
+   "vocab_size": 262145,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 26694,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2351631014802098,
+     "share_words_4plus": 0.017168576864182637,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 36550,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 2.0818854292103905,
+     "share_words_4plus": 0.1131372211709387,
+     "vs_english": 1.3692215479133887
+    },
+    "pes_Arab": {
+     "tokens": 39255,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 1.6677979207835725,
+     "share_words_4plus": 0.06044333705644815,
+     "vs_english": 1.470555180939537
+    },
+    "arb_Arab": {
+     "tokens": 39828,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 2.010901125770465,
+     "share_words_4plus": 0.09327084712954001,
+     "vs_english": 1.4920206788042256
+    },
+    "ckb_Arab": {
+     "tokens": 60832,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 3.1510170108723923,
+     "share_words_4plus": 0.38141809290953543,
+     "vs_english": 2.2788641642316625
+    },
+    "kmr_Latn": {
+     "tokens": 53243,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.355463899237183,
+     "share_words_4plus": 0.2023682810005322,
+     "vs_english": 1.9945680677305762
+    },
+    "kmr_Arab": {
+     "tokens": 65021,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 2.87329253148838,
+     "share_words_4plus": 0.30951747383359945,
+     "vs_english": 2.4357908144152245
+    }
+   }
+  },
+  "Qwen3 (2025)": {
+   "repo": "Qwen/Qwen3-4B-Base",
+   "vocab_size": 151669,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 27085,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2541413391489955,
+     "share_words_4plus": 0.01930304858243237,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 44035,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 2.5107517632891794,
+     "share_words_4plus": 0.22770801078043465,
+     "vs_english": 1.6258076426066088
+    },
+    "pes_Arab": {
+     "tokens": 70820,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 3.054686828765358,
+     "share_words_4plus": 0.32601598075436033,
+     "vs_english": 2.614731401144545
+    },
+    "arb_Arab": {
+     "tokens": 44869,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 2.276705211145637,
+     "share_words_4plus": 0.16652233711986145,
+     "vs_english": 1.6565995938711464
+    },
+    "ckb_Arab": {
+     "tokens": 94154,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 4.913332986526557,
+     "share_words_4plus": 0.6910992040784477,
+     "vs_english": 3.476241462063873
+    },
+    "kmr_Latn": {
+     "tokens": 59276,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.6215628880610256,
+     "share_words_4plus": 0.25501153095618234,
+     "vs_english": 2.188517629684327
+    },
+    "kmr_Arab": {
+     "tokens": 94925,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 4.226627638814972,
+     "share_words_4plus": 0.5667021465318431,
+     "vs_english": 3.5047074026213774
+    }
+   }
+  },
+  "DeepSeek-V3 (2024)": {
+   "repo": "deepseek-ai/DeepSeek-V3",
+   "vocab_size": 128815,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 26545,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2278316551436128,
+     "share_words_4plus": 0.01392046772771565,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 53954,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 3.0853833362004703,
+     "share_words_4plus": 0.366649463845404,
+     "vs_english": 2.0325485025428516
+    },
+    "pes_Arab": {
+     "tokens": 48024,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 2.047469713892946,
+     "share_words_4plus": 0.13282928086605378,
+     "vs_english": 1.809154266340177
+    },
+    "arb_Arab": {
+     "tokens": 43631,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 2.207936427079619,
+     "share_words_4plus": 0.12862309612347816,
+     "vs_english": 1.6436617065360708
+    },
+    "ckb_Arab": {
+     "tokens": 81977,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 4.263798574624148,
+     "share_words_4plus": 0.5940800083233626,
+     "vs_english": 3.0882275381427764
+    },
+    "kmr_Latn": {
+     "tokens": 58225,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.577922653893915,
+     "share_words_4plus": 0.24126308320028383,
+     "vs_english": 2.193445093237898
+    },
+    "kmr_Arab": {
+     "tokens": 80888,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 3.5875465673230442,
+     "share_words_4plus": 0.43112471172609546,
+     "vs_english": 3.0472028630627235
+    }
+   }
+  },
+  "Mistral Nemo (2024)": {
+   "repo": "unsloth/Mistral-Nemo-Base-2407",
+   "vocab_size": 131072,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 27317,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2623080135492553,
+     "share_words_4plus": 0.019349450141524754,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 40742,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 2.318080165147084,
+     "share_words_4plus": 0.16755547909857216,
+     "vs_english": 1.491452209246989
+    },
+    "pes_Arab": {
+     "tokens": 39751,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 1.6876879456998024,
+     "share_words_4plus": 0.06125955838130424,
+     "vs_english": 1.4551744335029468
+    },
+    "arb_Arab": {
+     "tokens": 34659,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 1.7458101981559777,
+     "share_words_4plus": 0.062044725179562936,
+     "vs_english": 1.2687703627777573
+    },
+    "ckb_Arab": {
+     "tokens": 104561,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 5.443687249648858,
+     "share_words_4plus": 0.6849087031160589,
+     "vs_english": 3.827689717026028
+    },
+    "kmr_Latn": {
+     "tokens": 56116,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.4810626219620366,
+     "share_words_4plus": 0.2240109987582047,
+     "vs_english": 2.054251931031958
+    },
+    "kmr_Arab": {
+     "tokens": 100535,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 4.464342735497605,
+     "share_words_4plus": 0.6059073975518893,
+     "vs_english": 3.680308965113299
+    }
+   }
+  },
+  "SmolLM2 (2024)": {
+   "repo": "HuggingFaceTB/SmolLM2-360M",
+   "vocab_size": 49152,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 27344,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.2635144540856573,
+     "share_words_4plus": 0.021715929655236416,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 65326,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 3.7359940363552955,
+     "share_words_4plus": 0.492688800963358,
+     "vs_english": 2.3890433001755413
+    },
+    "pes_Arab": {
+     "tokens": 125014,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 5.387189621101469,
+     "share_words_4plus": 0.7440931351490678,
+     "vs_english": 4.5718987712112344
+    },
+    "arb_Arab": {
+     "tokens": 110533,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 5.6562579593500075,
+     "share_words_4plus": 0.8232387550303092,
+     "vs_english": 4.042312755997659
+    },
+    "ckb_Arab": {
+     "tokens": 155963,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 8.139624408260937,
+     "share_words_4plus": 0.886490142017375,
+     "vs_english": 5.70373756582797
+    },
+    "kmr_Latn": {
+     "tokens": 66476,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 2.940792974986695,
+     "share_words_4plus": 0.31989533439772927,
+     "vs_english": 2.4311000585137506
+    },
+    "kmr_Arab": {
+     "tokens": 153653,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 6.840296256874224,
+     "share_words_4plus": 0.8222902252971439,
+     "vs_english": 5.619258338209479
+    }
+   }
+  },
+  "NLLB-200 (2022, built for 200 languages)": {
+   "repo": "facebook/nllb-200-distilled-600M",
+   "vocab_size": 256204,
+   "langs": {
+    "eng_Latn": {
+     "tokens": 30021,
+     "chars": 129692,
+     "words": 21551,
+     "tokens_per_word": 1.3930212055125053,
+     "share_words_4plus": 0.024082409168948077,
+     "vs_english": 1.0
+    },
+    "tur_Latn": {
+     "tokens": 34438,
+     "chars": 134359,
+     "words": 17439,
+     "tokens_per_word": 1.9747691954813922,
+     "share_words_4plus": 0.09318194850622169,
+     "vs_english": 1.1471303420938677
+    },
+    "pes_Arab": {
+     "tokens": 34233,
+     "chars": 123527,
+     "words": 23278,
+     "tokens_per_word": 1.472506229057479,
+     "share_words_4plus": 0.03024314803677292,
+     "vs_english": 1.1403017887478766
+    },
+    "arb_Arab": {
+     "tokens": 42731,
+     "chars": 116531,
+     "words": 19631,
+     "tokens_per_word": 2.176710305129642,
+     "share_words_4plus": 0.12755335948245122,
+     "vs_english": 1.4233703074514505
+    },
+    "ckb_Arab": {
+     "tokens": 39412,
+     "chars": 126599,
+     "words": 19223,
+     "tokens_per_word": 2.0502523019299796,
+     "share_words_4plus": 0.12817978463299173,
+     "vs_english": 1.312814363279038
+    },
+    "kmr_Latn": {
+     "tokens": 43876,
+     "chars": 130520,
+     "words": 22548,
+     "tokens_per_word": 1.9458932056058187,
+     "share_words_4plus": 0.10426645378747561,
+     "vs_english": 1.4615102761400354
+    },
+    "kmr_Arab": {
+     "tokens": 52820,
+     "chars": 126225,
+     "words": 22548,
+     "tokens_per_word": 2.3425580982792265,
+     "share_words_4plus": 0.18857548341316302,
+     "vs_english": 1.7594350621231805
+    }
+   }
+  }
+ }
+}

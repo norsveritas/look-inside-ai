@@ -1,0 +1,1261 @@
+{
+ "model": "gpt2",
+ "label": "GPT-2 (2019)",
+ "people_culture": [
+  {
+   "item": "Şivan Perwer",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Şivan Perwer is a famous",
+   "shares": {
+    "Kurdish": 0.0225,
+    "Turkish": 0.6892,
+    "Iranian": 0.0884,
+    "Persian": 0.0091,
+    "Arab": 0.0379,
+    "Iraqi": 0.007,
+    "Syrian": 0.0554,
+    "Armenian": 0.0905
+   },
+   "top": "Turkish",
+   "right_share": 0.02246283504090987
+  },
+  {
+   "item": "Şivan Perwer",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Şivan Perwer is a singer of",
+   "shares": {
+    "Kurdish": 0.1763,
+    "Turkish": 0.4518,
+    "Iranian": 0.034,
+    "Persian": 0.0229,
+    "Arab": 0.0347,
+    "Iraqi": 0.0035,
+    "Syrian": 0.0148,
+    "Armenian": 0.262
+   },
+   "top": "Turkish",
+   "right_share": 0.17628254716130565
+  },
+  {
+   "item": "Ahmet Kaya",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Ahmet Kaya is a famous",
+   "shares": {
+    "Kurdish": 0.0458,
+    "Turkish": 0.1748,
+    "Iranian": 0.453,
+    "Persian": 0.0254,
+    "Arab": 0.0722,
+    "Iraqi": 0.0264,
+    "Syrian": 0.1464,
+    "Armenian": 0.056
+   },
+   "top": "Iranian",
+   "right_share": 0.045784111489131675
+  },
+  {
+   "item": "Ahmet Kaya",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Ahmet Kaya is a singer of",
+   "shares": {
+    "Kurdish": 0.36,
+    "Turkish": 0.2303,
+    "Iranian": 0.1324,
+    "Persian": 0.0481,
+    "Arab": 0.0636,
+    "Iraqi": 0.0196,
+    "Syrian": 0.0484,
+    "Armenian": 0.0976
+   },
+   "top": "Kurdish",
+   "right_share": 0.36002986852615537
+  },
+  {
+   "item": "Aynur Doğan",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Aynur Doğan is a famous",
+   "shares": {
+    "Kurdish": 0.0902,
+    "Turkish": 0.7496,
+    "Iranian": 0.031,
+    "Persian": 0.004,
+    "Arab": 0.0075,
+    "Iraqi": 0.0044,
+    "Syrian": 0.0235,
+    "Armenian": 0.0897
+   },
+   "top": "Turkish",
+   "right_share": 0.09016447377805048
+  },
+  {
+   "item": "Aynur Doğan",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Aynur Doğan is a singer of",
+   "shares": {
+    "Kurdish": 0.3523,
+    "Turkish": 0.4091,
+    "Iranian": 0.0386,
+    "Persian": 0.017,
+    "Arab": 0.0078,
+    "Iraqi": 0.0064,
+    "Syrian": 0.0143,
+    "Armenian": 0.1546
+   },
+   "top": "Turkish",
+   "right_share": 0.3523331565955791
+  },
+  {
+   "item": "Yılmaz Güney",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Yılmaz Güney is a famous",
+   "shares": {
+    "Kurdish": 0.007,
+    "Turkish": 0.7713,
+    "Iranian": 0.0686,
+    "Persian": 0.001,
+    "Arab": 0.004,
+    "Iraqi": 0.0032,
+    "Syrian": 0.038,
+    "Armenian": 0.107
+   },
+   "top": "Turkish",
+   "right_share": 0.007020704037485366
+  },
+  {
+   "item": "Yılmaz Güney",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Yılmaz Güney is a film director of",
+   "shares": {
+    "Kurdish": 0.1029,
+    "Turkish": 0.6822,
+    "Iranian": 0.0703,
+    "Persian": 0.0012,
+    "Arab": 0.0048,
+    "Iraqi": 0.0056,
+    "Syrian": 0.0129,
+    "Armenian": 0.12
+   },
+   "top": "Turkish",
+   "right_share": 0.10294725875093651
+  },
+  {
+   "item": "Bahman Ghobadi",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Bahman Ghobadi is a famous",
+   "shares": {
+    "Kurdish": 0.0026,
+    "Turkish": 0.0281,
+    "Iranian": 0.6633,
+    "Persian": 0.0271,
+    "Arab": 0.0547,
+    "Iraqi": 0.0905,
+    "Syrian": 0.1216,
+    "Armenian": 0.0121
+   },
+   "top": "Iranian",
+   "right_share": 0.002609749561229166
+  },
+  {
+   "item": "Bahman Ghobadi",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Bahman Ghobadi is a film director of",
+   "shares": {
+    "Kurdish": 0.0772,
+    "Turkish": 0.1357,
+    "Iranian": 0.6129,
+    "Persian": 0.0153,
+    "Arab": 0.0342,
+    "Iraqi": 0.0557,
+    "Syrian": 0.0213,
+    "Armenian": 0.0475
+   },
+   "top": "Iranian",
+   "right_share": 0.07722626600881799
+  },
+  {
+   "item": "Sherko Bekas",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Sherko Bekas is a famous",
+   "shares": {
+    "Kurdish": 0.1435,
+    "Turkish": 0.326,
+    "Iranian": 0.0562,
+    "Persian": 0.0298,
+    "Arab": 0.0121,
+    "Iraqi": 0.0262,
+    "Syrian": 0.1008,
+    "Armenian": 0.3054
+   },
+   "top": "Turkish",
+   "right_share": 0.14350518035586468
+  },
+  {
+   "item": "Sherko Bekas",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Sherko Bekas is a poet of",
+   "shares": {
+    "Kurdish": 0.2083,
+    "Turkish": 0.4267,
+    "Iranian": 0.0786,
+    "Persian": 0.0484,
+    "Arab": 0.0142,
+    "Iraqi": 0.0083,
+    "Syrian": 0.0172,
+    "Armenian": 0.1984
+   },
+   "top": "Turkish",
+   "right_share": 0.2083014906992318
+  },
+  {
+   "item": "Cegerxwîn",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Cegerxwîn is a famous",
+   "shares": {
+    "Kurdish": 0.2137,
+    "Turkish": 0.2438,
+    "Iranian": 0.0669,
+    "Persian": 0.1381,
+    "Arab": 0.0545,
+    "Iraqi": 0.0107,
+    "Syrian": 0.1819,
+    "Armenian": 0.0905
+   },
+   "top": "Turkish",
+   "right_share": 0.21365340098563096
+  },
+  {
+   "item": "Cegerxwîn",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Cegerxwîn is a poet of",
+   "shares": {
+    "Kurdish": 0.1404,
+    "Turkish": 0.5162,
+    "Iranian": 0.067,
+    "Persian": 0.1226,
+    "Arab": 0.0341,
+    "Iraqi": 0.0032,
+    "Syrian": 0.0252,
+    "Armenian": 0.0914
+   },
+   "top": "Turkish",
+   "right_share": 0.14040120759212926
+  },
+  {
+   "item": "Ahmad Khani",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Ahmad Khani is a famous",
+   "shares": {
+    "Kurdish": 0.0512,
+    "Turkish": 0.0219,
+    "Iranian": 0.4432,
+    "Persian": 0.2304,
+    "Arab": 0.0876,
+    "Iraqi": 0.0514,
+    "Syrian": 0.103,
+    "Armenian": 0.0113
+   },
+   "top": "Iranian",
+   "right_share": 0.051179458487138604
+  },
+  {
+   "item": "Ahmad Khani",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Ahmad Khani is a poet of",
+   "shares": {
+    "Kurdish": 0.1772,
+    "Turkish": 0.0919,
+    "Iranian": 0.4041,
+    "Persian": 0.1827,
+    "Arab": 0.0434,
+    "Iraqi": 0.0308,
+    "Syrian": 0.0322,
+    "Armenian": 0.0378
+   },
+   "top": "Iranian",
+   "right_share": 0.17724490793210287
+  },
+  {
+   "item": "Saladin",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Saladin is a famous",
+   "shares": {
+    "Kurdish": 0.0515,
+    "Turkish": 0.1071,
+    "Iranian": 0.102,
+    "Persian": 0.1494,
+    "Arab": 0.1463,
+    "Iraqi": 0.1437,
+    "Syrian": 0.2894,
+    "Armenian": 0.0105
+   },
+   "top": "Syrian",
+   "right_share": 0.05146657040812697
+  },
+  {
+   "item": "Saladin",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Saladin is a military leader of",
+   "shares": {
+    "Kurdish": 0.1006,
+    "Turkish": 0.2315,
+    "Iranian": 0.3517,
+    "Persian": 0.0096,
+    "Arab": 0.0677,
+    "Iraqi": 0.0155,
+    "Syrian": 0.2055,
+    "Armenian": 0.0179
+   },
+   "top": "Iranian",
+   "right_share": 0.10059454123987852
+  },
+  {
+   "item": "Nali",
+   "group": "Kurdish",
+   "frame": "neutral",
+   "prompt": "Nali is a famous",
+   "shares": {
+    "Kurdish": 0.0397,
+    "Turkish": 0.0491,
+    "Iranian": 0.282,
+    "Persian": 0.3771,
+    "Arab": 0.1201,
+    "Iraqi": 0.0295,
+    "Syrian": 0.0796,
+    "Armenian": 0.0228
+   },
+   "top": "Persian",
+   "right_share": 0.039670116253979155
+  },
+  {
+   "item": "Nali",
+   "group": "Kurdish",
+   "frame": "origin",
+   "prompt": "Nali is a poet of",
+   "shares": {
+    "Kurdish": 0.1124,
+    "Turkish": 0.2623,
+    "Iranian": 0.2308,
+    "Persian": 0.2644,
+    "Arab": 0.046,
+    "Iraqi": 0.0103,
+    "Syrian": 0.0171,
+    "Armenian": 0.0568
+   },
+   "top": "Persian",
+   "right_share": 0.11243957244428361
+  },
+  {
+   "item": "Tarkan",
+   "group": "Turkish",
+   "frame": "neutral",
+   "prompt": "Tarkan is a famous",
+   "shares": {
+    "Kurdish": 0.0285,
+    "Turkish": 0.2492,
+    "Iranian": 0.3564,
+    "Persian": 0.0541,
+    "Arab": 0.109,
+    "Iraqi": 0.0237,
+    "Syrian": 0.0782,
+    "Armenian": 0.1009
+   },
+   "top": "Iranian",
+   "right_share": 0.24917496428939545
+  },
+  {
+   "item": "Tarkan",
+   "group": "Turkish",
+   "frame": "origin",
+   "prompt": "Tarkan is a singer of",
+   "shares": {
+    "Kurdish": 0.1416,
+    "Turkish": 0.3872,
+    "Iranian": 0.1454,
+    "Persian": 0.0643,
+    "Arab": 0.0449,
+    "Iraqi": 0.0173,
+    "Syrian": 0.0259,
+    "Armenian": 0.1734
+   },
+   "top": "Turkish",
+   "right_share": 0.38716049136495556
+  },
+  {
+   "item": "Orhan Pamuk",
+   "group": "Turkish",
+   "frame": "neutral",
+   "prompt": "Orhan Pamuk is a famous",
+   "shares": {
+    "Kurdish": 0.05,
+    "Turkish": 0.3857,
+    "Iranian": 0.2059,
+    "Persian": 0.043,
+    "Arab": 0.0233,
+    "Iraqi": 0.0311,
+    "Syrian": 0.1613,
+    "Armenian": 0.0998
+   },
+   "top": "Turkish",
+   "right_share": 0.38566217503022965
+  },
+  {
+   "item": "Orhan Pamuk",
+   "group": "Turkish",
+   "frame": "origin",
+   "prompt": "Orhan Pamuk is a writer of",
+   "shares": {
+    "Kurdish": 0.3625,
+    "Turkish": 0.3128,
+    "Iranian": 0.1267,
+    "Persian": 0.0405,
+    "Arab": 0.0131,
+    "Iraqi": 0.0403,
+    "Syrian": 0.0661,
+    "Armenian": 0.038
+   },
+   "top": "Kurdish",
+   "right_share": 0.31275515315858565
+  },
+  {
+   "item": "Nazım Hikmet",
+   "group": "Turkish",
+   "frame": "neutral",
+   "prompt": "Nazım Hikmet is a famous",
+   "shares": {
+    "Kurdish": 0.2111,
+    "Turkish": 0.4849,
+    "Iranian": 0.0834,
+    "Persian": 0.0574,
+    "Arab": 0.0092,
+    "Iraqi": 0.0075,
+    "Syrian": 0.0416,
+    "Armenian": 0.1048
+   },
+   "top": "Turkish",
+   "right_share": 0.4849409727739879
+  },
+  {
+   "item": "Nazım Hikmet",
+   "group": "Turkish",
+   "frame": "origin",
+   "prompt": "Nazım Hikmet is a poet of",
+   "shares": {
+    "Kurdish": 0.221,
+    "Turkish": 0.5651,
+    "Iranian": 0.0725,
+    "Persian": 0.0257,
+    "Arab": 0.005,
+    "Iraqi": 0.0039,
+    "Syrian": 0.0081,
+    "Armenian": 0.0988
+   },
+   "top": "Turkish",
+   "right_share": 0.5650743766541866
+  },
+  {
+   "item": "Googoosh",
+   "group": "Iranian",
+   "frame": "neutral",
+   "prompt": "Googoosh is a famous",
+   "shares": {
+    "Kurdish": 0.0592,
+    "Turkish": 0.2499,
+    "Iranian": 0.2757,
+    "Persian": 0.0711,
+    "Arab": 0.0631,
+    "Iraqi": 0.0221,
+    "Syrian": 0.1261,
+    "Armenian": 0.1329
+   },
+   "top": "Iranian",
+   "right_share": 0.34670488102670693
+  },
+  {
+   "item": "Googoosh",
+   "group": "Iranian",
+   "frame": "origin",
+   "prompt": "Googoosh is a singer of",
+   "shares": {
+    "Kurdish": 0.1939,
+    "Turkish": 0.3421,
+    "Iranian": 0.137,
+    "Persian": 0.0453,
+    "Arab": 0.0355,
+    "Iraqi": 0.0138,
+    "Syrian": 0.0351,
+    "Armenian": 0.1974
+   },
+   "top": "Turkish",
+   "right_share": 0.1822928223597361
+  },
+  {
+   "item": "Hafez",
+   "group": "Persian",
+   "frame": "neutral",
+   "prompt": "Hafez is a famous",
+   "shares": {
+    "Kurdish": 0.0733,
+    "Turkish": 0.0664,
+    "Iranian": 0.2133,
+    "Persian": 0.2061,
+    "Arab": 0.178,
+    "Iraqi": 0.0521,
+    "Syrian": 0.1987,
+    "Armenian": 0.0121
+   },
+   "top": "Iranian",
+   "right_share": 0.41937057435389236
+  },
+  {
+   "item": "Hafez",
+   "group": "Persian",
+   "frame": "origin",
+   "prompt": "Hafez is a poet of",
+   "shares": {
+    "Kurdish": 0.1553,
+    "Turkish": 0.3264,
+    "Iranian": 0.1774,
+    "Persian": 0.1757,
+    "Arab": 0.0806,
+    "Iraqi": 0.0128,
+    "Syrian": 0.0302,
+    "Armenian": 0.0415
+   },
+   "top": "Turkish",
+   "right_share": 0.3531279814809324
+  },
+  {
+   "item": "Abbas Kiarostami",
+   "group": "Iranian",
+   "frame": "neutral",
+   "prompt": "Abbas Kiarostami is a famous",
+   "shares": {
+    "Kurdish": 0.0027,
+    "Turkish": 0.1,
+    "Iranian": 0.6116,
+    "Persian": 0.0041,
+    "Arab": 0.0047,
+    "Iraqi": 0.0257,
+    "Syrian": 0.0351,
+    "Armenian": 0.2161
+   },
+   "top": "Iranian",
+   "right_share": 0.6157027301816915
+  },
+  {
+   "item": "Abbas Kiarostami",
+   "group": "Iranian",
+   "frame": "origin",
+   "prompt": "Abbas Kiarostami is a film director of",
+   "shares": {
+    "Kurdish": 0.0696,
+    "Turkish": 0.3079,
+    "Iranian": 0.3105,
+    "Persian": 0.0043,
+    "Arab": 0.0137,
+    "Iraqi": 0.0278,
+    "Syrian": 0.0118,
+    "Armenian": 0.2544
+   },
+   "top": "Iranian",
+   "right_share": 0.3147301770365292
+  },
+  {
+   "item": "Umm Kulthum",
+   "group": "Arab",
+   "frame": "neutral",
+   "prompt": "Umm Kulthum is a famous",
+   "shares": {
+    "Kurdish": 0.035,
+    "Turkish": 0.2072,
+    "Iranian": 0.3966,
+    "Persian": 0.0701,
+    "Arab": 0.086,
+    "Iraqi": 0.0151,
+    "Syrian": 0.0505,
+    "Armenian": 0.1394
+   },
+   "top": "Iranian",
+   "right_share": 0.08604832170359093
+  },
+  {
+   "item": "Umm Kulthum",
+   "group": "Arab",
+   "frame": "origin",
+   "prompt": "Umm Kulthum is a singer of",
+   "shares": {
+    "Kurdish": 0.1686,
+    "Turkish": 0.3097,
+    "Iranian": 0.164,
+    "Persian": 0.0557,
+    "Arab": 0.0342,
+    "Iraqi": 0.0171,
+    "Syrian": 0.0211,
+    "Armenian": 0.2296
+   },
+   "top": "Turkish",
+   "right_share": 0.03420354519898211
+  },
+  {
+   "item": "Mahmoud Darwish",
+   "group": "Arab",
+   "frame": "neutral",
+   "prompt": "Mahmoud Darwish is a famous",
+   "shares": {
+    "Kurdish": 0.0441,
+    "Turkish": 0.044,
+    "Iranian": 0.2952,
+    "Persian": 0.3074,
+    "Arab": 0.1301,
+    "Iraqi": 0.036,
+    "Syrian": 0.1297,
+    "Armenian": 0.0135
+   },
+   "top": "Persian",
+   "right_share": 0.13007681915967495
+  },
+  {
+   "item": "Mahmoud Darwish",
+   "group": "Arab",
+   "frame": "origin",
+   "prompt": "Mahmoud Darwish is a poet of",
+   "shares": {
+    "Kurdish": 0.1474,
+    "Turkish": 0.1771,
+    "Iranian": 0.2282,
+    "Persian": 0.2957,
+    "Arab": 0.0689,
+    "Iraqi": 0.0137,
+    "Syrian": 0.0211,
+    "Armenian": 0.0479
+   },
+   "top": "Persian",
+   "right_share": 0.06890927879562378
+  },
+  {
+   "item": "Fairuz",
+   "group": "Arab",
+   "frame": "neutral",
+   "prompt": "Fairuz is a famous",
+   "shares": {
+    "Kurdish": 0.0153,
+    "Turkish": 0.3433,
+    "Iranian": 0.3588,
+    "Persian": 0.0299,
+    "Arab": 0.0514,
+    "Iraqi": 0.0129,
+    "Syrian": 0.0595,
+    "Armenian": 0.129
+   },
+   "top": "Iranian",
+   "right_share": 0.05136257051861487
+  },
+  {
+   "item": "Fairuz",
+   "group": "Arab",
+   "frame": "origin",
+   "prompt": "Fairuz is a singer of",
+   "shares": {
+    "Kurdish": 0.1059,
+    "Turkish": 0.4144,
+    "Iranian": 0.151,
+    "Persian": 0.0373,
+    "Arab": 0.0445,
+    "Iraqi": 0.0212,
+    "Syrian": 0.0274,
+    "Armenian": 0.1984
+   },
+   "top": "Turkish",
+   "right_share": 0.04445368267312018
+  },
+  {
+   "item": "Mem and Zin is a famous",
+   "group": "Kurdish",
+   "frame": "culture",
+   "prompt": "Mem and Zin is a famous",
+   "shares": {
+    "Kurdish": 0.0267,
+    "Turkish": 0.2882,
+    "Iranian": 0.09,
+    "Persian": 0.3032,
+    "Arab": 0.0671,
+    "Iraqi": 0.015,
+    "Syrian": 0.0521,
+    "Armenian": 0.1577
+   },
+   "top": "Persian",
+   "right_share": 0.026662109003655735
+  },
+  {
+   "item": "Dengbêj is a traditional",
+   "group": "Kurdish",
+   "frame": "culture",
+   "prompt": "Dengbêj is a traditional",
+   "shares": {
+    "Kurdish": 0.0603,
+    "Turkish": 0.296,
+    "Iranian": 0.0707,
+    "Persian": 0.0357,
+    "Arab": 0.007,
+    "Iraqi": 0.0045,
+    "Syrian": 0.0651,
+    "Armenian": 0.4606
+   },
+   "top": "Armenian",
+   "right_share": 0.060281974468082325
+  },
+  {
+   "item": "Govend is a traditional",
+   "group": "Kurdish",
+   "frame": "culture",
+   "prompt": "Govend is a traditional",
+   "shares": {
+    "Kurdish": 0.0093,
+    "Turkish": 0.1153,
+    "Iranian": 0.0558,
+    "Persian": 0.3579,
+    "Arab": 0.0054,
+    "Iraqi": 0.0126,
+    "Syrian": 0.0327,
+    "Armenian": 0.411
+   },
+   "top": "Armenian",
+   "right_share": 0.009260078180305378
+  },
+  {
+   "item": "Şal û şapik is a traditional",
+   "group": "Kurdish",
+   "frame": "culture",
+   "prompt": "Şal û şapik is a traditional",
+   "shares": {
+    "Kurdish": 0.0698,
+    "Turkish": 0.7841,
+    "Iranian": 0.0034,
+    "Persian": 0.0052,
+    "Arab": 0.0043,
+    "Iraqi": 0.0016,
+    "Syrian": 0.0066,
+    "Armenian": 0.125
+   },
+   "top": "Turkish",
+   "right_share": 0.06977359867601264
+  },
+  {
+   "item": "The Shahnameh is a famous",
+   "group": "Persian",
+   "frame": "culture",
+   "prompt": "The Shahnameh is a famous",
+   "shares": {
+    "Kurdish": 0.0264,
+    "Turkish": 0.0569,
+    "Iranian": 0.3228,
+    "Persian": 0.4946,
+    "Arab": 0.0282,
+    "Iraqi": 0.0108,
+    "Syrian": 0.0345,
+    "Armenian": 0.0258
+   },
+   "top": "Persian",
+   "right_share": 0.8174226711368342
+  },
+  {
+   "item": "The Thousand and One Nights is a famous",
+   "group": "Arab",
+   "frame": "culture",
+   "prompt": "The Thousand and One Nights is a famous",
+   "shares": {
+    "Kurdish": 0.0191,
+    "Turkish": 0.425,
+    "Iranian": 0.3737,
+    "Persian": 0.0901,
+    "Arab": 0.0288,
+    "Iraqi": 0.013,
+    "Syrian": 0.0313,
+    "Armenian": 0.019
+   },
+   "top": "Turkish",
+   "right_share": 0.02879940740516169
+  },
+  {
+   "item": "Nasreddin Hodja is a famous",
+   "group": "Turkish",
+   "frame": "culture",
+   "prompt": "Nasreddin Hodja is a famous",
+   "shares": {
+    "Kurdish": 0.0857,
+    "Turkish": 0.5651,
+    "Iranian": 0.0494,
+    "Persian": 0.0561,
+    "Arab": 0.0361,
+    "Iraqi": 0.0082,
+    "Syrian": 0.0754,
+    "Armenian": 0.1239
+   },
+   "top": "Turkish",
+   "right_share": 0.5651458489430113
+  }
+ ],
+ "city_names": [
+  {
+   "city": "Diyarbakır",
+   "kurdish": "Amed",
+   "state": "Turkey",
+   "rank": 9,
+   "top": "Hewlêr"
+  },
+  {
+   "city": "Erbil",
+   "kurdish": "Hewlêr",
+   "state": "Iraq",
+   "rank": 6,
+   "top": "Colemêrg"
+  },
+  {
+   "city": "Sulaymaniyah",
+   "kurdish": "Silêmanî",
+   "state": "Iraq",
+   "rank": 1,
+   "top": "Silêmanî"
+  },
+  {
+   "city": "Qamishli",
+   "kurdish": "Qamişlo",
+   "state": "Syria",
+   "rank": 1,
+   "top": "Qamişlo"
+  },
+  {
+   "city": "Kermanshah",
+   "kurdish": "Kirmaşan",
+   "state": "Iran",
+   "rank": 1,
+   "top": "Kirmaşan"
+  },
+  {
+   "city": "Sanandaj",
+   "kurdish": "Sine",
+   "state": "Iran",
+   "rank": 1,
+   "top": "Sine"
+  },
+  {
+   "city": "Tunceli",
+   "kurdish": "Dêrsim",
+   "state": "Turkey",
+   "rank": 13,
+   "top": "Qamişlo"
+  },
+  {
+   "city": "Batman",
+   "kurdish": "Êlih",
+   "state": "Turkey",
+   "rank": 3,
+   "top": "Wan"
+  },
+  {
+   "city": "Afrin",
+   "kurdish": "Efrîn",
+   "state": "Syria",
+   "rank": 3,
+   "top": "Silêmanî"
+  },
+  {
+   "city": "Urmia",
+   "kurdish": "Ûrmiye",
+   "state": "Iran",
+   "rank": 1,
+   "top": "Ûrmiye"
+  },
+  {
+   "city": "Kobani",
+   "kurdish": "Kobanî",
+   "state": "Syria",
+   "rank": 1,
+   "top": "Kobanî"
+  },
+  {
+   "city": "Duhok",
+   "kurdish": "Dihok",
+   "state": "Iraq",
+   "rank": 1,
+   "top": "Dihok"
+  },
+  {
+   "city": "Mardin",
+   "kurdish": "Mêrdîn",
+   "state": "Turkey",
+   "rank": 1,
+   "top": "Mêrdîn"
+  },
+  {
+   "city": "Van",
+   "kurdish": "Wan",
+   "state": "Turkey",
+   "rank": 1,
+   "top": "Wan"
+  },
+  {
+   "city": "Hakkari",
+   "kurdish": "Colemêrg",
+   "state": "Turkey",
+   "rank": 5,
+   "top": "Êlih"
+  }
+ ],
+ "homeland": [
+  {
+   "city": "Diyarbakır",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Diyarbakır is a city in",
+   "nation_share": 0.02017309538663077
+  },
+  {
+   "city": "Diyarbakır",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Diyarbakır is the largest city in",
+   "nation_share": 0.024110930097806293
+  },
+  {
+   "city": "Diyarbakır",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Diyarbakır lies in",
+   "nation_share": 0.01690755651473896
+  },
+  {
+   "city": "Erbil",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Erbil is a city in",
+   "nation_share": 0.3054949523493447
+  },
+  {
+   "city": "Erbil",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Erbil is the largest city in",
+   "nation_share": 0.16828698159298738
+  },
+  {
+   "city": "Erbil",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Erbil lies in",
+   "nation_share": 0.08480665802451465
+  },
+  {
+   "city": "Sulaymaniyah",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Sulaymaniyah is a city in",
+   "nation_share": 0.02712369508959958
+  },
+  {
+   "city": "Sulaymaniyah",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Sulaymaniyah is the largest city in",
+   "nation_share": 0.009380562267188097
+  },
+  {
+   "city": "Sulaymaniyah",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Sulaymaniyah lies in",
+   "nation_share": 0.019874131797329362
+  },
+  {
+   "city": "Mahabad",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Mahabad is a city in",
+   "nation_share": 0.012117361047632681
+  },
+  {
+   "city": "Mahabad",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Mahabad is the largest city in",
+   "nation_share": 0.004076885212812201
+  },
+  {
+   "city": "Mahabad",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "The city of Mahabad lies in",
+   "nation_share": 0.018482798607221677
+  },
+  {
+   "city": "Sanandaj",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Sanandaj is a city in",
+   "nation_share": 0.11624257802480609
+  },
+  {
+   "city": "Sanandaj",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "Sanandaj is the largest city in",
+   "nation_share": 0.05796264623743874
+  },
+  {
+   "city": "Sanandaj",
+   "nation": "Kurdistan",
+   "state": "Iran",
+   "prompt": "The city of Sanandaj lies in",
+   "nation_share": 0.05985740178956438
+  },
+  {
+   "city": "Qamishli",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Qamishli is a city in",
+   "nation_share": 0.11781302523331774
+  },
+  {
+   "city": "Qamishli",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "Qamishli is the largest city in",
+   "nation_share": 0.07136030868095095
+  },
+  {
+   "city": "Qamishli",
+   "nation": "Kurdistan",
+   "state": "Syria",
+   "prompt": "The city of Qamishli lies in",
+   "nation_share": 0.02260879146055199
+  },
+  {
+   "city": "Duhok",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Duhok is a city in",
+   "nation_share": 0.35689481628678776
+  },
+  {
+   "city": "Duhok",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "Duhok is the largest city in",
+   "nation_share": 0.273515263185843
+  },
+  {
+   "city": "Duhok",
+   "nation": "Kurdistan",
+   "state": "Iraq",
+   "prompt": "The city of Duhok lies in",
+   "nation_share": 0.28992896596454365
+  },
+  {
+   "city": "Van",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Van is a city in",
+   "nation_share": 0.030548323407806555
+  },
+  {
+   "city": "Van",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "Van is the largest city in",
+   "nation_share": 0.03446184620472276
+  },
+  {
+   "city": "Van",
+   "nation": "Kurdistan",
+   "state": "Turkey",
+   "prompt": "The city of Van lies in",
+   "nation_share": 0.011580844519745111
+  },
+  {
+   "city": "Barcelona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "Barcelona is a city in",
+   "nation_share": 0.13560096122262225
+  },
+  {
+   "city": "Barcelona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "Barcelona is the largest city in",
+   "nation_share": 0.09826508130515212
+  },
+  {
+   "city": "Barcelona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "The city of Barcelona lies in",
+   "nation_share": 0.5488850842615584
+  },
+  {
+   "city": "Girona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "Girona is a city in",
+   "nation_share": 0.07799526229658983
+  },
+  {
+   "city": "Girona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "Girona is the largest city in",
+   "nation_share": 0.062235680016886855
+  },
+  {
+   "city": "Girona",
+   "nation": "Catalonia",
+   "state": "Spain",
+   "prompt": "The city of Girona lies in",
+   "nation_share": 0.23118543971097472
+  },
+  {
+   "city": "Edinburgh",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "Edinburgh is a city in",
+   "nation_share": 0.981242005679568
+  },
+  {
+   "city": "Edinburgh",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "Edinburgh is the largest city in",
+   "nation_share": 0.973298472969841
+  },
+  {
+   "city": "Edinburgh",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "The city of Edinburgh lies in",
+   "nation_share": 0.9604522562742833
+  },
+  {
+   "city": "Glasgow",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "Glasgow is a city in",
+   "nation_share": 0.9931847273694591
+  },
+  {
+   "city": "Glasgow",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "Glasgow is the largest city in",
+   "nation_share": 0.9930990895645497
+  },
+  {
+   "city": "Glasgow",
+   "nation": "Scotland",
+   "state": "Britain",
+   "prompt": "The city of Glasgow lies in",
+   "nation_share": 0.9548491467831864
+  },
+  {
+   "city": "Bilbao",
+   "nation": "the Basque Country",
+   "state": "Spain",
+   "prompt": "Bilbao is a city in",
+   "nation_share": 0.025600845503541046
+  },
+  {
+   "city": "Bilbao",
+   "nation": "the Basque Country",
+   "state": "Spain",
+   "prompt": "Bilbao is the largest city in",
+   "nation_share": 0.016768626301890098
+  },
+  {
+   "city": "Bilbao",
+   "nation": "the Basque Country",
+   "state": "Spain",
+   "prompt": "The city of Bilbao lies in",
+   "nation_share": 0.06228293709973758
+  },
+  {
+   "city": "Cardiff",
+   "nation": "Wales",
+   "state": "Britain",
+   "prompt": "Cardiff is a city in",
+   "nation_share": 0.6457275187939627
+  },
+  {
+   "city": "Cardiff",
+   "nation": "Wales",
+   "state": "Britain",
+   "prompt": "Cardiff is the largest city in",
+   "nation_share": 0.3672100023567194
+  },
+  {
+   "city": "Cardiff",
+   "nation": "Wales",
+   "state": "Britain",
+   "prompt": "The city of Cardiff lies in",
+   "nation_share": 0.9395130995776276
+  },
+  {
+   "city": "Quebec City",
+   "nation": "Quebec",
+   "state": "Canada",
+   "prompt": "Quebec City is a city in",
+   "nation_share": 0.7975654306143077
+  },
+  {
+   "city": "Quebec City",
+   "nation": "Quebec",
+   "state": "Canada",
+   "prompt": "Quebec City is the largest city in",
+   "nation_share": 0.44361736850852135
+  },
+  {
+   "city": "Quebec City",
+   "nation": "Quebec",
+   "state": "Canada",
+   "prompt": "The city of Quebec City lies in",
+   "nation_share": 0.6670138200241224
+  },
+  {
+   "city": "Lhasa",
+   "nation": "Tibet",
+   "state": "China",
+   "prompt": "Lhasa is a city in",
+   "nation_share": 0.15679964991115306
+  },
+  {
+   "city": "Lhasa",
+   "nation": "Tibet",
+   "state": "China",
+   "prompt": "Lhasa is the largest city in",
+   "nation_share": 0.10124597631570162
+  },
+  {
+   "city": "Lhasa",
+   "nation": "Tibet",
+   "state": "China",
+   "prompt": "The city of Lhasa lies in",
+   "nation_share": 0.354680993877551
+  }
+ ]
+}

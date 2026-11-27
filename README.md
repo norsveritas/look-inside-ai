@@ -42,6 +42,32 @@ GPT-2 is from 2019, so I ran the same war-bias tests on four newer small models:
 
 👉 **Full story: [REPORT_MODERN_MODELS.md](REPORT_MODERN_MODELS.md).**
 
+## Experiment 4: which language does an AI "think in" when it writes Kurdish?
+
+AI models are known to quietly "think in English" in their middle layers. Kurdish has no state and is surrounded by Turkish, Persian and Arabic, so I asked whether Kurdish gets swallowed by its neighbours inside the AI. I tested Gemma 3 (Google) and Qwen3 (Alibaba) on 60 everyday words in Kurmanji (Latin letters), Badini (Arabic letters) and Sorani.
+
+- **Inside, Kurdish is treated like any other language.** Gemma thinks in English and Qwen thinks in Chinese, for every language, Kurdish included.
+- **Writing Kurdish breaks at the very last step.** The best model understands the meaning for 9 out of 10 words, but writes the right Kurdish word for fewer than 1 in 10 (Turkish, Persian, Arabic: 84–88%).
+- **There, the neighbours move in.** Asked for Kurmanji, it wrote Turkish words (*el, baş, kan, gece*). Asked for Badini or Sorani, it wrote Persian ones (*gav, dost, kitab*). In the last layer, the Persian word usually beats the correct Badini or Sorani word.
+- **The alphabet matters.** The same Badini words are read about half as well in Arabic letters as in Latin letters.
+
+![Experiment 4 chart](charts/latent_language/meaning_vs_word.png)
+
+👉 **Full story: [REPORT_LATENT_LANGUAGE.md](REPORT_LATENT_LANGUAGE.md).**
+
+## Experiment 6: the "token tax" on Kurdish
+
+AI models read text in pieces called tokens, and they charge, remember and write per token. I counted how many tokens the same 1,004 professionally translated sentences cost in 9 AI tokenizers (GPT-4o, Llama 3, Gemma 3, Qwen3, DeepSeek-V3, Mistral and others).
+
+- **Kurdish costs 2–3 times as much as English** (Kurmanji 2.1×, Sorani 3.2×), while Turkish, Persian and Arabic cost only 1.5–1.7×.
+- **Same alphabet, double the price:** Sorani costs about twice as many tokens as Persian.
+- **Badini in Arabic letters costs about 1.5 times as much as the same text in Latin letters.**
+- **It can be fixed:** a tokenizer built for 200 languages (NLLB) treats Kurdish almost as well as Turkish and Persian.
+
+![Experiment 6 chart](charts/token_tax/token_tax.png)
+
+👉 **Full story: [REPORT_TOKEN_TAX.md](REPORT_TOKEN_TAX.md).**
+
 👉 **For the full story of experiment 1 in simple English, read [REPORT.md](REPORT.md).** It covers what was done, the charts, the funniest examples, the honest limits and ideas for the next experiment.
 
 ## What's in this project
@@ -49,6 +75,8 @@ GPT-2 is from 2019, so I ran the same war-bias tests on four newer small models:
 - `REPORT.md`: experiment 1 report, written for non-programmers
 - `REPORT_WAR_BIAS.md`: experiment 2 report (the war bias)
 - `REPORT_MODERN_MODELS.md`: experiment 3 report (old vs modern models)
+- `REPORT_LATENT_LANGUAGE.md`: experiment 4 report (which language the AI thinks in)
+- `REPORT_TOKEN_TAX.md`: experiment 6 report (the token tax on Kurdish)
 - `charts/`: pictures of the results
 - `results/`: all the numbers, plus every text the AI wrote during the tests
 - `experiment/`: the Python code (sentences, analysis, steering, removal, charts)
@@ -68,10 +96,14 @@ python war_bias.py               # experiment 2: war bias (~15 minutes)
 python war_bias_charts.py        # experiment 2 charts
 python modern_models.py all      # experiment 3: 5 models (~70 minutes, downloads several GB)
 python modern_models_charts.py   # experiment 3 charts
+python latent_language.py all    # experiment 4: 3 models (~1.5 hours, downloads ~20 GB)
+python latent_language_charts.py # experiment 4 charts
+python token_tax.py               # experiment 6: token tax (a few minutes)
+python token_tax_charts.py        # experiment 6 charts
 ```
 
 You need an internet connection the first time, so the models can be downloaded from Hugging Face.
 
 ## A note on how this was made
 
-The idea, the questions and the direction of this experiment are mine (Nashat). The code, the charts and the first draft of the report were written by **Claude Code** (an AI coding assistant from Anthropic), working under my direction. The Kurmanji example sentences were also written by the AI, so a native speaker may find small mistakes in them.
+The idea, the questions and the direction of this experiment are mine (Nashat). The code, the charts and the first draft of the report were written by **Claude Code** (an AI coding assistant from Anthropic), working under my direction. The Kurmanji example sentences and the first draft of the Kurdish word list of experiment 4 were also written by the AI. The Badini words of experiment 4 were then checked and corrected by a native speaker; the Sorani words have not been checked, so a native speaker may find small mistakes in them.

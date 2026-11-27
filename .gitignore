@@ -2,3 +2,5 @@
 __pycache__/
 *.pyc
 results/*log.txt
+results/*/*log.txt
+results/token_tax/sib200/

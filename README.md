@@ -80,6 +80,18 @@ AI models read text in pieces called tokens, and they charge, remember and write
 
 👉 **Full story: [REPORT_TOKEN_TAX.md](REPORT_TOKEN_TAX.md).**
 
+## Experiment 7: does the AI give Kurdish people and places their Kurdish name?
+
+I measured which words AI models (GPT-2, Gemma 3, Qwen3) prefer when describing famous Kurds, Kurdish culture and Kurdish cities.
+
+- **The AI knows the Kurdish names.** The best model knows that Diyarbakır is *Amed*, Erbil is *Hewlêr* and Sanandaj is *Sine* (13 of 15 cities).
+- **But "Kurdistan" depends on the state.** "Diyarbakır is a city in ___": Kurdistan gets only 2–4%, Turkey the rest. For Kurdish cities in Iraq and Iran, where "Kurdistan" is an official name, it is 27–77%. Catalonia, Tibet and Scotland get 55–100%.
+- **Famous Kurds are described by their state.** Şivan Perwer and Sherko Bekas become "Turkish", Ahmad Khani "Iranian", Saladin "Arab". Only 10–30% of famous Kurds are called Kurdish; Turkish, Persian and Arab figures are named correctly 89–100% of the time.
+
+![Experiment 7 chart](charts/whose_is_it/homeland.png)
+
+👉 **Full story: [REPORT_WHOSE_IS_IT.md](REPORT_WHOSE_IS_IT.md).**
+
 👉 **For the full story of experiment 1 in simple English, read [REPORT.md](REPORT.md).** It covers what was done, the charts, the funniest examples, the honest limits and ideas for the next experiment.
 
 ## What's in this project
@@ -90,6 +102,7 @@ AI models read text in pieces called tokens, and they charge, remember and write
 - `REPORT_LATENT_LANGUAGE.md`: experiment 4 report (which language the AI thinks in)
 - `REPORT_HIDDEN_KNOWLEDGE.md`: experiment 5 report (does the AI secretly know the Kurdish word?)
 - `REPORT_TOKEN_TAX.md`: experiment 6 report (the token tax on Kurdish)
+- `REPORT_WHOSE_IS_IT.md`: experiment 7 report (Kurdish names for Kurdish people and places)
 - `charts/`: pictures of the results
 - `results/`: all the numbers, plus every text the AI wrote during the tests
 - `experiment/`: the Python code (sentences, analysis, steering, removal, charts)
@@ -115,6 +128,8 @@ python hidden_knowledge.py gemma3-4b qwen3-4b gemma3-1b  # experiment 5 (several
 python hidden_knowledge_charts.py # experiment 5 charts
 python token_tax.py               # experiment 6: token tax (a few minutes)
 python token_tax_charts.py        # experiment 6 charts
+python whose_is_it.py gpt2 gemma3-1b gemma3-4b qwen3-4b  # experiment 7 (~5 minutes)
+python whose_is_it_charts.py      # experiment 7 charts
 ```
 
 You need an internet connection the first time, so the models can be downloaded from Hugging Face.

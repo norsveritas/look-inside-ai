@@ -35,6 +35,9 @@ MODELS = {  # Gemma 3 is loaded from an exact, ungated copy of Google's weights 
     "gemma3-4b": dict(hf="unsloth/gemma-3-4b-pt", label="Gemma 3 4B (Google, 2025)", dtype=torch.bfloat16),
     "qwen3-4b": dict(hf="Qwen/Qwen3-4B-Base", label="Qwen3 4B (Alibaba, 2025)", dtype=torch.bfloat16),
     "gemma3-1b": dict(hf="unsloth/gemma-3-1b-pt", label="Gemma 3 1B (Google, 2025)"),
+    # too big for this computer's 16 GB of memory: part of the model stays on disk and is read when needed
+    "gemma3-12b": dict(hf="unsloth/gemma-3-12b-pt", label="Gemma 3 12B (Google, 2025)", dtype=torch.bfloat16,
+                       offload="10GiB"),
 }
 TARGETS = ["kmr", "kmr_ar", "ckb", "tr", "fa", "ar"]
 KURDISH = ["kmr", "kmr_ar", "ckb"]
@@ -50,9 +53,14 @@ EXAMPLES, TESTS = ROWS[:N_EXAMPLES * 2], ROWS[N_EXAMPLES * 2:]
 
 
 class Lens:
-    def __init__(self, hf, dtype=torch.float32):
+    def __init__(self, hf, dtype=torch.float32, offload=None):
         self.tok = AutoTokenizer.from_pretrained(hf)
-        self.m = AutoModelForCausalLM.from_pretrained(hf, dtype=dtype).eval()
+        if offload:  # keep `offload` worth of weights in memory, read the rest from disk at each step
+            self.m = AutoModelForCausalLM.from_pretrained(
+                hf, dtype=dtype, device_map="auto", max_memory={"cpu": offload},
+                offload_folder=os.path.join(OUT, "_offload")).eval()
+        else:
+            self.m = AutoModelForCausalLM.from_pretrained(hf, dtype=dtype).eval()
         cfg = getattr(self.m.config, "text_config", self.m.config)  # Gemma 3 keeps text settings apart
         self.n_layers = cfg.num_hidden_layers
         self.softcap = getattr(cfg, "final_logit_softcapping", None)
@@ -109,15 +117,22 @@ def run(key):
     cfg = MODELS[key]
     t0 = time.time()
     print(f"\n=== {cfg['label']} ===", flush=True)
-    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32))
+    lens = Lens(cfg["hf"], cfg.get("dtype", torch.float32), cfg.get("offload"))
     sets = {(r["en"], c): set().union(*[lens.token_set(f) for f in r[c].split("/")]) for r in ROWS for c in COLUMNS}
     rng = random.Random(0)
     example_sets = [rng.sample(EXAMPLES, N_EXAMPLES) for _ in range(N_PROMPT_SETS)]
 
-    result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, tasks={})
-    samples = []
+    # progress is saved after every task, so a restarted run skips what is already done
+    prog_path = os.path.join(OUT, f"{key}_progress.json")
+    result = dict(model=key, label=cfg["label"], n_layers=lens.n_layers, tasks={}, samples={})
+    if os.path.exists(prog_path):
+        with open(prog_path) as f:
+            result = json.load(f)
     for task in TASKS:
         for target in TARGETS:
+            if f"{task}:{target}" in result["tasks"]:
+                continue
+            samples = []
             src, dst = ("fr", target) if task == "write" else (target, "fr")
             measured = [l for l in OTHERS if l != target] + [target]  # same 7 languages in both tasks
             kept, skipped = [], []
@@ -156,14 +171,19 @@ def run(key):
                 src=src, dst=dst, n_words=len(kept), words=kept, skipped=skipped,
                 mean={l: v.tolist() for l, v in m.items()}, correct=correct, output_language=out_lang,
                 per_word=per_word)
+            result["samples"][f"{task}:{target}"] = samples
+            with open(prog_path, "w") as f:
+                json.dump(result, f, ensure_ascii=False)
             lo, hi = int(.4 * lens.n_layers), int(.8 * lens.n_layers)
             print(f"{task:>5} {src:>6}->{dst:<6} words={len(kept):2d} correct={correct:2d}  mid/last: "
                   + "  ".join(f"{l}:{m[l][lo:hi].mean():.2f}/{m[l][-1]:.2f}" for l in m), flush=True)
 
+    samples = [s for v in result.pop("samples").values() for s in v]
     with open(os.path.join(OUT, f"{key}.json"), "w") as f:
         json.dump(result, f, indent=1, ensure_ascii=False)
     with open(os.path.join(OUT, f"{key}_samples.txt"), "w") as f:
         f.write("\n".join(samples))
+    os.remove(prog_path)
     print(f"done in {time.time() - t0:.0f}s", flush=True)
 
 

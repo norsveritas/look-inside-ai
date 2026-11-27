@@ -4,3 +4,4 @@ __pycache__/
 results/*log.txt
 results/*/*log.txt
 results/token_tax/sib200/
+results/*/_offload/
